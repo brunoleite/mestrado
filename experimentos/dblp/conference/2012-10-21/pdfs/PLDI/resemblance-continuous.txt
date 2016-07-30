@@ -1,0 +1,3 @@
+#Coluna 1 - Periodo
+#Coluna 2 - Resemblance Link
+#Coluna 3 - Resemblance Author

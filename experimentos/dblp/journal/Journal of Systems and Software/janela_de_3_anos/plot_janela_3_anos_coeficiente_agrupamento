@@ -1,0 +1,19 @@
+set terminal postscript eps color enhanced "Helvetica" 15
+set encoding iso_8859_1
+set output 'journal_of_systems_and_software_dados_janela_3_anos_coeficiente_agrupamento.eps'
+set title 'Dados com janela de 3 anos - Coeficiente Agrupamento - 1979-2012'
+set grid
+set key left
+#set key spacing 2
+set ylabel "Average Clustering"
+set yrange [0:1]
+#set ytics 5
+#set xtics 1
+#set xrange [1976:2011]
+#set xtics 3
+#set xtics 1976,3,2011
+#set xtics("Tempo de processamento" 0,"Tempo de execução" 1)
+set xlabel "Periodo"
+#set xtics rotate by -90 
+set xtics border in scale 1,0.5 nomirror rotate by -25 offset character 0, 0, 0
+plot "janela_3_anos_journal_of_systems_and_software.txt" using 4:xticlabels(1) t"Coeficiente de Agrupamento" with linespoints lt 1 lw 2 ps 1 pt 4 lc rgb "red"

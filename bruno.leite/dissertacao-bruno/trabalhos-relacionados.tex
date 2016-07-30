@@ -1,0 +1,162 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Trabalhos Relacionados}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \redcomment{Revisar tradução e texto. Adicionar mais trabalhos e detalhar melhor alguns.}
+
+Recentemente, esforços tem sido feitos com o intuito de analisar a estrutura das comunidades e a evolução de suas redes.
+Particularmente, \cite{Kumar2006} analisaram duas grandes redes através do tempo, Flickr\footnote{http://www.flickr.com/} e Yahoo! 360, para encontrar uma 
+segmentação dessas redes em indivíduos isolados, componentes intermediários, que também são comunidades isoladas, e o maior 
+componente conectado. Nesse trabalho, os autores identificaram que alguns componentes possuem um centro constituído 
+de nodos de maior grau com muitos nodos de menor grau conectados a eles e que foram caracterizados 
+estrelas, isto é, componentes que são formados rapidamente, mas não são absorvidos pelo maior componente conectado.
+Assim, eles propuseram um modelo de crescimento capaz de gerar redes com características similares às das redes estudadas.
+Este modelo se baseia em três tipos de nodo: passivos, recrutadores e agregadores. Usuários passivos se juntam à rede pela
+curiosidade ou pela insistência de amigos, mas nunca se comprometem efetivamente em atividades da rede. Recrutadores estão
+interessados em transformar comunidades \textit{offline} em comunidades \textit{online} e recrutar seus amigos a participarem 
+da rede. Por fim, os agregadores são participantes que contribuem ativamente para o crescimento da rede e frequentemente se conectam a outros 
+membros semelhantes.
+
+\cite{Ducheneaut2007} extraíram e caracterizaram explicitamente, comunidades criadas a partir de cinco servidores do 
+\textit{World of Warcraft}, um jogo multijogador massivo. O estudo é centralizado em grupos de jogadores 
+formados para realizar atividades em conjunto, denominados guildas. Tais grupos apresentam dificuldades 
+consideráveis de administração e muitos não sobrevivem ao longo do tempo, sendo os líderes membros importantes para a 
+longevidades das guildas. Os autores apresentaram algumas propriedades demográficas sobre esses grupos, 
+tais como, distribuição do tamanho das guildas, interação de membros e não membros de guildas em eventos 
+do jogo, e tamanho das guildas ao longo do tempo. Em seguida, mostraram o impacto das guildas na estrutura da 
+rede utilizando métricas clássicas de redes complexas como centralidade e densidade. Eles sugeriram ainda
+um painel para monitorar o tamanho, número de subgrupos e densidade das guildas, além de uma visualização da topologia 
+da rede.
+
+Complementarmente ao estudo de \cite{Ducheneaut2007}, \cite{Patil2012} analisaram e modelaram fatos que levam usuários a deixar 
+ou entrar em guildas do jogo \textit{World of Warcraft}. Nesse trabalho os autores propõem um modelo capaz de predizer se e 
+quando um jogador irá deixar a comunidade e também qual o impacto dessa saída. Este modelo é baseado em 
+várias características, tais como, níveis dos jogadores e das guildas, atividades do jogo e características sociais. Estas 
+características sociais estão ligadas a um jogador podendo ser o seu número de amigos, o número de amigos que já deixaram a comunidade, 
+e a percentagem de membros na comunidade que interagem com o jogador em questão, bem como a frequência. O modelo construído se mostrou
+efetivo em predizer quando os usuários deixarão suas comunidades e quando essas comunidades irão se desfazer na rede.
+
+\cite{Viswanath2009} estudaram dois tipos de rede formados a partir de dados do Facebook\footnote{http://www.facebook.com}. A primeira rede foi construída utilizando 
+os laços de amizade entre os usuários e a segunda utilizando as interações entre os usuários, e.g., postagens em mural e seus 
+comentários. Eles constataram que muitos usuários aceitam pedidos de amizade por cortesia, de modo que a rede baseada
+em laços de amizades apresenta um crescimento surreal. A rede construída a partir das interações entre os usuários possui comportamento 
+diferente. Nessa rede, os laços tendem a surgir e desaparecer rapidamente através do tempo, e a força dos laços apresenta, de forma geral, 
+uma tendência decrescente das atividades que acompanham a idade dos \textit{links} nas redes sociais. O trabalho também apresenta a métrica 
+\textit{resemblance}, utilizada para medir a sobreposição entre duas instâncias da rede, para mostrar que a rede possui um núcleo que
+persiste através do tempo. Finalmente, os autores apresentam uma análise utilizando métricas clássicas de redes complexas, mostrando
+que as propriedades estruturais das redes estudadas não apresentam grandes variações ao longo do tempo.
+
+% Recentemente, esforços tem sido feitos com o intuito de analisar a estrutura das comunidades e a evolução de suas redes. 
+% Particularmente, \cite{Kumar2006} analisaram duas grandes redes para encontrar uma segmentação dessas redes
+% em indivíduos isolados, comunidades isoladas e o maior componente conectado. Assim, eles propuseram um modelo de crescimento das
+% redes apto a gerar redes com características similares a das redes estudadas. \cite{Ducheneaut2007} extraíram e caracterizaram 
+% explicitamente, comunidades criadas a partir de \textit{World of Warcraft}, um jogo multijogador massivo.
+% Complementarmente, \cite{Patil2012} analisaram e modelaram fatos que levam usuário a deixarem ou entrarem
+% em comunidades de jogos online. \cite{Viswanath2009} estudaram a evolução das atividades entre 
+% usuário no Facebook e encontraram que alguns links em atividades na rede tendem a surgir e desaparecer rapidamente através do tempo, e
+% a força dos laços apresentam, de forma geral, uma tendência decrescente das atividades que acompanham as idades dos links nas 
+% redes sociais.
+% There has been a number of recent efforts that attempt to analyze community structure and network evolution.  Particularly, Kumar \textit{et al.}~\cite{Kumar:2006} analyzed two large networks to
+% find a segmentation of these networks into singletons, isolated communities, a giant component. Then, they propose a network growth model able to generate networks with similar
+% characteristics.  Ducheneaut \textit{et al.}~\cite{Ducheneaut:2007} extracted and characterized explicitly created communities from the World of Warcraft, a massive multiplayer game.
+% Complementarily, Patil \textit{et al.}~\cite{Patil:2012} analyzed and modeled factors that make users to leave or join on-line gaming communities.  Viswanath \textit{et
+% al.}~\cite{Viswanath:2009} studied the evolution of activity between users in Facebook and found that that links in the activity network tend to come and go rapidly over time, and
+% the strength of ties exhibits a general decreasing trend of activity as the social network link ages.
+
+Em termos de modelos para redes sociais dinâmicas, \cite{Leskovec2005} investigaram nove redes, que incluem redes de citações de 
+diferentes áreas da física, citações de patentes americanas e afiliações de pesquisadores, para mostrar 
+que essas redes densificam ao longo do tempo, com o número de arestas crescendo de forma superlinear em relação
+ao número de nodos e que o caminho mínimo médio entre os nodos geralmente diminui através do tempo. Baseado nessas observações, eles 
+desenvolveram um modelo de geração de redes que incorpora tais propriedades, chamado de \textit{Forest Fire}. Esse modelo necessita
+apenas de dois parâmetros e é capaz de capturar padrões como a lei de potência da densificação e redução do diâmetro. Mais recentemente, 
+\cite{Leskovec2008} apresentaram um estudo detalhado da evolução de redes por meio da análise de quatro grandes 
+redes sociais \textit{online}, são elas: Flickr, Delicious\footnote{http://delicious.com/}, 
+Answers\footnote{http://www.answers.com/} e LinkedIn\footnote{http://www.linkedin.com}. Eles investigaram uma grande variedade de estratégias de formação 
+de redes para mostrar que a localização das arestas desempenha um papel crítico na evolução dessas redes. Baseados nessas observações, 
+os autores desenvolveram um modelo de evolução em que novos nodos surgem na rede com uma taxa predeterminada. O modelo também 
+considera que novas arestas possuem distâncias muito curtas, normalmente formando triângulos, sendo assim, o modelo segue este padrão para 
+formação de novas arestas. Diferentemente dos esforços acima referidos, nosso trabalho foca em propriedades das comunidades e no papel que 
+os líderes dessas comunidades desempenham na topologia da rede.
+
+% Em termos de modelos para redes sociais dinâmicas, \cite{Leskovec2005} investigaram uma grande número 
+% de grafos para mostrar que grafos densificam ao longo do tempo, com o número de arestas crescendo de forma superlinear em relação
+% ao número de nodos e a distância média entre os nodos geralmente diminuem através do tempo. Baseado nessas observações, eles 
+% desenvolveram um modelo de geração de grafos que incorpora tais propriedades. Mais recentemente, \cite{Leskovec2008} 
+% apresentaram um estudo detalhado de evoluções de redes pela análise de quatro grandes redes sociais online. Eles investigaram uma grande
+% variedade de estratégias de formações de redes para mostrar que a localização das arestas desempenham um papel crítico na evolução das redes.
+% Baseado nessas observações, eles desenvolveram um modelo de evolução de redes, em que nodos alcançam uma taxa predeterminada. Diferentemente
+% dos esforços acima referidos, nosso trabalhos foca em propriedades das comunidades e no papel que os líderes das comunidades desempenham
+% na topologia da rede.
+% In terms of models for network dynamics, Leskovec \textit{et al.}~\cite{Leskovec:2005} investigated a wide range of real graphs to show that graphs densify over time, with the
+% number of edges growing super linearly in the number of nodes and that the average distance between nodes often shrinks over time. Based on these observations, they develop a graph
+% generation model that incorporates such properties.  More recently, Leskovec \textit{et al.}~\cite{Leskovec:2008} presented a detailed study of network evolution by analyzing four
+% large on-line social networks.  They investigated a wide variety of network formation strategies to show that edge locality plays a critical role in the evolution of networks. Based on
+% this observation, they developed a model of network evolution, in which nodes arrive at a pre-specified rate.  Differently from the above efforts, our work focuses on community
+% properties and the roles that community leaders play in the underlying network structure.
+
+Alguns outros trabalhos também abordaram o estudo de comunidades científicas. Particularmente, \cite{Backstrom2006} 
+estudaram comunidades na LiveJournal\footnote{http://www.livejournal.com/} e comunidades científicas extraídas 
+da DBLP. Esses dois conjuntos de dados possuem comunidades explícitas, onde 
+conferências representam comunidades na DBLP. Os autores identificaram que as tendências que levam 
+indivíduos a entrar em comunidades e comunidades a crescer rapidamente dependem sutilmente da topologia 
+da rede. Por exemplo, a tendência de um indivíduo a entrar em uma comunidade é influenciada não só pelo número 
+de amigos que ele possui dentro daquela comunidade, mas também de como esses amigos estão conectados entre si. Eles utilizaram 
+técnicas de árvore de decisão para identificar as estruturas mais significativas que afetam estas comunidades, 
+e desenvolveram uma nova metodologia capaz de mensurar a mudança de indivíduos entre comunidades 
+e também verificar como isto está relacionado com mudanças de interesse dentro das comunidades.
+
+\cite{Huang2008} usaram os dados da biblioteca digital CiteSeer\footnote{http://citeseer.ist.psu.edu} 
+para construir uma rede de coautoria em Ciência da Computação abrangendo pesquisas realizadas entre 1980 e 
+2005. Eles realizaram estudos sobre tendências de evolução das colaborações sob duas perspectivas, rede completa 
+e comunidades. Entre as suas principais observações, eles mostraram que a área de Ciência da Computação apresenta 
+padrões de colaboração mais similares à Matemática do que à Biologia. Além disso, eles também quantificaram 
+e compararam padrões de colaboração de seis comunidades dentro da área da Ciência da Computação: 
+Inteligência Artificial, Aplicações, Arquitetura, Bancos de Dados, Sistemas e Teoria. Com base nessas 
+informações, os autores propuseram um modelo de aprendizagem e predição de colaborações entre pares de autores.
+Diferente desses esforços, nesta dissertação focamos no estudo das propriedades do núcleo da comunidade, de modo que 
+nossas análises são complementares a essas.
+
+% Existem também esforços que tentaram estudar comunidades científicas. Particularmente, \cite{Backstrom2006} 
+% estudaram comunidades na LiveJournal~\footnote{http://www.livejournal.com/} e comunidades científicas extraídas da DBLP~\footnote{http://dblp.uni-trier.de/} 
+% para encontrar que a tendência dos indivíduos entrarem nas comunidades e das comunidades de crescerem rapidamente, depende sutilmente da topologia da rede. 
+% \cite{Huang2008} usaram os dados da DBLP para construir a rede do campo de Ciência da Computação cobrindo a colaboração de pesquisa de 1980 a 2005. Entre
+% as suas principais observações, eles mostraram que o campo de Ciência da Computação apresentam o padrão de colaboração mais similar para 
+% a Matemática do que para a Biologia. Diferente desses esforços, aqui nós focamos no estudo das propriedades do núcleo da comunidade, assim, 
+% nossas análises são complementares a essas.
+% There are also efforts that attempted to study scientific communities. Particularly, Backstrom \textit{et al.}\cite{Backstrom:2006} studied communities in LiveJournal and
+% scientific communities extracted from DBLP to find that the propensity of individuals to join communities and of communities to grow rapidly, depends in subtle ways on the
+% underlying network structure. Huang \textit{et al.}~\cite{Huang:2008} used DBLP data to construct a network for the Computer Science field covering research collaborations from
+% 1980 to 2005. Among their main observations, they show that the Computer Science field presents a collaboration pattern more similar to Mathematics than to Biology.  
+% Different from these efforts, here we focus on studying the properties of the community core, thus, our analyses are complementary to
+% theirs.
+
+Quando se trata de identificar núcleos de comunidades, existem várias abordagens que extraem 
+o núcleo tendo como base as propriedades topológicas da rede. \cite{Leskovec2010} compararam vários algoritmos 
+de detecção de comunidades em vários tipos de rede. Neste trabalho, uma comunidade é definida como nodos que possuem mais ligações
+entre si do que com o restante da rede. Os autores apontam que, de forma geral, os algoritmos são otimizados e 
+detectam as comunidades efetivamente. No entanto, existem classes de redes em que os algoritmos executam de 
+forma subótima. Já \cite{Chakrabarti2006} propuseram um arcabouço baseado em agrupamento hierárquico 
+aglomerativo e \textit{k-means} para realizar o agrupamento de dados através do tempo. Eles consideraram dois critérios para avaliação: 
+(i) o agrupamento ao longo do tempo não deve apresentar grandes diferenças em relação aos dados globais e 
+(ii) o agrupamento não deve mudar drasticamente de uma iteração para outra. Eles construíram uma rede 
+a partir de dados do Flickr e constaram que o arcabouço proposto atende aos dois critérios definidos. 
+\cite{Hopcroft2004} também propuseram um arcabouço baseado em 
+agrupamento hierárquico capaz de identificar comunidades na biblioteca digital CiteSeer. Além dessas comunidades,
+eles também apontaram um grupo de artigos que aparece várias vezes nos grupos identificados ao longo do 
+tempo, dos quais eles denominaram como núcleo da rede. Tais abordagens não são aplicáveis em nosso 
+contexto, já que estamos interessados no estudo das propriedades dos núcleos.
+
+% \cite{Sachan2012}
+% ~\citep{Leskovec2010,Chakrabarti2006,Hopcroft2004,Sachan2012}. Particularmente,
+% abordagens para identificar o núcleo das comunidades e a caracterização de algumas propriedades dos núcleos obtidos. 
+
+
+
+% Finalmente, quando se trata de identificar o núcleo das comunidades, existem muitas abordagens que extraem o núcleo baseado nas propriedades
+% da topologia da rede~\citep{Leskovec2010,Chakrabarti2006,Hopcroft2004,Sachan2012}. Particularmente,
+% abordagens para identificar o núcleo das comunidades e a caracterização de algumas propriedades dos núcleos obtidos. Tais abordagens
+% não e aplicável em nosso contexto, já que nós estamos interessados no estudo de propriedades dos núcleos.
+% Finally, when it comes to identifying the community core, there are many approaches that extract the core based on structural properties of the underlying
+% network~\cite{Leskovec@www2010,Chakrabarti:2006:EC:1150402.1150467,citeulike:370723,Sachan:2012}.  Particular, 
+% Seifi \textit{et al.}~\cite{Seifi:2012:CCE:2187980.2188258} combined four different
+% approaches to identify a community core and characterized some properties of the obtained cores. Such approach is not applicable to our context, as we are interested in studying
+% network properties of the community core. 

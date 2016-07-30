@@ -1,0 +1,405 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.3)  30 JUN 2015 10:18
+entering extended mode
+**C:/Users/fabri_000/Dropbox/bruno*(1).leite/cacm-v07/cacm.tex
+("C:/Users/fabri_000/Dropbox/bruno (1).leite/cacm-v07/cacm.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Users\fabri_000\Dropbox\bruno (1).leite\cacm-v07\acmlarge.cls"
+Document Class: acmlarge 2012/03/05 ACM Transactions class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+Using ACM, prodmode option: 2010/06/28 by Aptara
+\tempdimen=\dimen102
+\temptxtwd=\dimen103
+\normaltextheight=\dimen104
+\normaltextheight=\dimen105
+\blindfoliodrop=\dimen106
+\tempbox=\box26
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@secnumbookdepth=\count84
+\enumdim=\dimen107
+\c@theorem=\count85
+\c@figure=\count86
+\c@table=\count87
+\belowcaptionskip=\skip41
+\tbbox=\box27
+\tabledim=\dimen108
+\@narrowfig=\dimen109
+\@nfigbox=\box28
+\@nfcapbox=\box29
+\@abstract=\box30
+\@terms=\box31
+\@keywords=\box32
+\@firstpg=\count88
+\@lastpg=\count89
+\@totalpg=\count90
+\bibindent=\dimen110
+LaTeX Info: Redefining \cal on input line 1435.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip42
+\subfigcapskip=\skip43
+\subfigcaptopadj=\dimen113
+\subfigbottomskip=\skip44
+\subfigcapmargin=\dimen114
+\subfiglabelskip=\skip45
+\c@subfigure=\count92
+\c@lofdepth=\count93
+\c@subtable=\count94
+\c@lotdepth=\count95
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip46
+\subfig@bottom=\skip47
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+\c@AlgoLine=\count96
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
+
+
+Package relsize Warning: Failed to get list of font sizes.
+(relsize)                Falling back to old definition. on input line 81.
+
+)
+********************************************************
+Package `algorithm2e' Release 5.0 -- january 06 2013 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (cfiorio@um2.fr)
+********************************************************
+\skiptotal=\skip48
+\skiplinenumber=\skip49
+\skiprule=\skip50
+\skiphlne=\skip51
+\skiptext=\skip52
+\skiplength=\skip53
+\algomargin=\skip54
+\skipalgocfslide=\skip55
+\algowidth=\dimen115
+\inoutsize=\dimen116
+\inoutindent=\dimen117
+\interspacetitleruled=\dimen118
+\interspacealgoruled=\dimen119
+\interspacetitleboxruled=\dimen120
+\algocf@inoutbox=\box33
+\algocf@inputbox=\box34
+\AlCapSkip=\skip56
+\AlCapHSkip=\skip57
+\algoskipindent=\skip58
+\algocf@nlbox=\box35
+\algocf@hangingbox=\box36
+\algocf@untilbox=\box37
+\algocf@skipuntil=\skip59
+\algocf@capbox=\box38
+\algoheightruledefault=\skip60
+\algoheightrule=\skip61
+\algotitleheightruledefault=\skip62
+\algotitleheightrule=\skip63
+\c@algocfline=\count97
+\c@algocfproc=\count98
+\c@algocf=\count99
+\algocf@algoframe=\box39
+\algocf@algobox=\box40
+) ("C:\Users\fabri_000\Dropbox\bruno (1).leite\cacm-v07\cacm.aux"
+
+LaTeX Warning: Label `fig:rede_sac' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:rede_sac' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Try loading font information for OT1+pnc on input line 74.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pnc.fd"
+File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
+)
+\bibhang=\skip64
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count100
+\scratchdimen=\dimen121
+\scratchbox=\box41
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen122
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks16
+)
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <8> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 85.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 87.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <12> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 98.
+
+Overfull \vbox (73.96626pt too high) has occurred while \output is active []
+
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+Non-PDF special ignored!
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 98.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 98.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 98.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 98.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 98.
+ [2]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 184.
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <9> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 184.
+
+<graficos/network/sigmod.pdf, id=15, 1027.84pt x 1027.84pt>
+File: graficos/network/sigmod.pdf Graphic file (type pdf)
+
+<use graficos/network/sigmod.pdf>
+Package pdftex.def Info: graficos/network/sigmod.pdf used on input line 195.
+(pdftex.def)             Requested size: 149.04082pt x 149.04082pt.
+
+<graficos/network/stoc.pdf, id=16, 1027.84pt x 1027.84pt>
+File: graficos/network/stoc.pdf Graphic file (type pdf)
+
+<use graficos/network/stoc.pdf>
+Package pdftex.def Info: graficos/network/stoc.pdf used on input line 199.
+(pdftex.def)             Requested size: 149.04082pt x 149.04082pt.
+
+<graficos/network/chi.pdf, id=17, 1027.84pt x 1027.84pt>
+File: graficos/network/chi.pdf Graphic file (type pdf)
+
+<use graficos/network/chi.pdf>
+Package pdftex.def Info: graficos/network/chi.pdf used on input line 203.
+(pdftex.def)             Requested size: 149.04082pt x 149.04082pt.
+
+<graficos/network/siguccs.pdf, id=18, 1027.84pt x 1027.84pt>
+File: graficos/network/siguccs.pdf Graphic file (type pdf)
+
+<use graficos/network/siguccs.pdf>
+Package pdftex.def Info: graficos/network/siguccs.pdf used on input line 208.
+(pdftex.def)             Requested size: 149.04082pt x 149.04082pt.
+
+<graficos/network/sac.pdf, id=19, 1027.84pt x 1027.84pt>
+File: graficos/network/sac.pdf Graphic file (type pdf)
+
+<use graficos/network/sac.pdf>
+Package pdftex.def Info: graficos/network/sac.pdf used on input line 212.
+(pdftex.def)             Requested size: 149.04082pt x 149.04082pt.
+
+<graficos/network/sigdoc.pdf, id=20, 1027.84pt x 1027.84pt>
+File: graficos/network/sigdoc.pdf Graphic file (type pdf)
+
+<use graficos/network/sigdoc.pdf>
+Package pdftex.def Info: graficos/network/sigdoc.pdf used on input line 216.
+(pdftex.def)             Requested size: 149.04082pt x 149.04082pt.
+ [3]
+Underfull \vbox (badness 2818) has occurred while \output is active []
+
+ [4]
+<graficos/hindex/hindex_scatter_plot-eps-converted-to.pdf, id=31, 361.35pt x 25
+2.945pt>
+File: graficos/hindex/hindex_scatter_plot-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use graficos/hindex/hindex_scatter_plot-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/hindex/hindex_scatter_plot-eps-converted-to.p
+df used on input line 308.
+(pdftex.def)             Requested size: 180.67456pt x 126.47218pt.
+
+[5 <C:/Users/fabri_000/Dropbox/bruno (1).leite/cacm-v07/graficos/network/sigmod
+.pdf> <C:/Users/fabri_000/Dropbox/bruno (1).leite/cacm-v07/graficos/network/sto
+c.pdf> <C:/Users/fabri_000/Dropbox/bruno (1).leite/cacm-v07/graficos/network/ch
+i.pdf> <C:/Users/fabri_000/Dropbox/bruno (1).leite/cacm-v07/graficos/network/si
+guccs.pdf> <C:/Users/fabri_000/Dropbox/bruno (1).leite/cacm-v07/graficos/networ
+k/sac.pdf> <C:/Users/fabri_000/Dropbox/bruno (1).leite/cacm-v07/graficos/networ
+k/sigdoc.pdf>] <graficos/stonebraker.pdf, id=53, 825.92163pt x 559.39789pt>
+File: graficos/stonebraker.pdf Graphic file (type pdf)
+
+<use graficos/stonebraker.pdf>
+Package pdftex.def Info: graficos/stonebraker.pdf used on input line 323.
+(pdftex.def)             Requested size: 454.2583pt x 307.66978pt.
+ [6 <C:/Users/fabri_000/Dropbox/bruno (1).leite/cacm-v07/graficos/hindex/hindex
+_scatter_plot-eps-converted-to.pdf>]
+LaTeX Font Info:    Calculating math sizes for size <9.2> on input line 363.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.43996> not available
+(Font)              size <6> substituted on input line 363.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.59999> not available
+(Font)              size <5> substituted on input line 363.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.43996> not available
+(Font)              size <6> substituted on input line 363.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.59999> not available
+(Font)              size <5> substituted on input line 363.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.43996> not available
+(Font)              size <6> substituted on input line 363.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.59999> not available
+(Font)              size <5> substituted on input line 363.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9.2> on input line 363.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6.43996> on input line 363.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <4.59999> on input line 363.
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <6.43996> not available
+(Font)              size <6> substituted on input line 363.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <4.59999> not available
+(Font)              size <5> substituted on input line 363.
+
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <9.2> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 363.
+Missing character: There is no Ã in font pncr7t!
+Missing character: There is no ­ in font pncr7t!
+Missing character: There is no Ã in font pncb7t!
+Missing character: There is no ¶ in font pncb7t!
+[7 <C:/Users/fabri_000/Dropbox/bruno (1).leite/cacm-v07/graficos/stonebraker.pd
+f>] [8] ("C:\Users\fabri_000\Dropbox\bruno (1).leite\cacm-v07\cacm.bbl")
+[9] ("C:\Users\fabri_000\Dropbox\bruno (1).leite\cacm-v07\cacm.aux")
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.43996pt have occurred.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3291 strings out of 493921
+ 45114 string characters out of 3144865
+ 141888 words of memory out of 3000000
+ 6551 multiletter control sequences out of 15000+200000
+ 31317 words of font info for 64 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 34i,9n,24p,1707b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/urw/ncntrsbk/uncb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw
+/ncntrsbk/uncr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ncntrsb
+k/uncri8a.pfb>
+Output written on cacm.pdf (9 pages, 3852690 bytes).
+PDF statistics:
+ 117 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+

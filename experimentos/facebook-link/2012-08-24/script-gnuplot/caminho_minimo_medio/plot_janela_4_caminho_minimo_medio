@@ -1,0 +1,14 @@
+set terminal postscript eps color enhanced "Helvetica" 15
+set encoding iso_8859_1
+set output 'fb_link_dados_janela_4_caminho_minimo_medio.eps'
+set title 'Dados com Janela de 4 meses - Caminho Minimo Medio - 2006/10-2009/01'
+set grid
+set key left
+set ylabel "Caminho Minimo Medio"
+set yrange [0:9]
+set xlabel "Periodo"
+set xlabel "Periodo" offset graph 0,-0.09,0
+set rmargin 10.5
+set bmargin 8.5
+set xtics border in scale 1,0.5 nomirror rotate by -45 offset character 0, 0, 0
+plot "../../window-4.txt" using 3:xticlabels(1) t"Caminho Minimo Medio" with linespoints lt 1 lw 2 ps 1 pt 4 lc rgb "red"

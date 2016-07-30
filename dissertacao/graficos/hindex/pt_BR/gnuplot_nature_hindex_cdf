@@ -1,0 +1,15 @@
+set terminal postscript eps color enhanced "Helvetica" 30
+set encoding utf8
+set output 'nature_cdf.eps'
+#set key right bottom
+set key at 0.45,0.6 width -5.5 spacing .95 font "Helvetica,30"
+set ylabel "CDF" offset 1.5
+set xlabel "R^2" offset 1.5
+set ytics font "Helvetica, 30"
+set xtics font "Helvetica, 30"
+set decimalsign ','
+set xrange[0.00:1.00]
+set yrange[0.00:1.00]
+plot "../nature_cdf_10" using 1:2 t"10 anos" with linespoints lt 1 lw 2 ps 1 pt 3 lc rgb "orange",\
+"../nature_cdf_5" using 1:2 t"5 anos" with linespoints lt 1 lw 2 ps 1 pt 2 lc rgb "red",\
+"../nature_cdf_1" using 1:2 t"1 ano" with linespoints lt 1 lw 2 ps 1 pt 1 lc rgb "blue"

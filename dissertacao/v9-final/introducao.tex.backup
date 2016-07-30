@@ -1,0 +1,116 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Introdução}\label{introducao}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Motivação}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \redcomment{Revisar tradução e texto. Adicionar mais trabalhos e detalhar melhor alguns.}
+
+Desde os seus primórdios, a sociedade tem se organizado em comunidades, ou seja, grupos de indivíduos 
+com interesses em comum\footnote{http://www.merriam-webster.com/dictionary/community}. Particularmente, 
+a proliferação de novas tecnologias de comunicação baseadas na Internet tem facilitado a rápida 
+formação e crescimento de comunidades \textit{online}~\citep{Kleinberg2008}. Comunidades possuem uma grande 
+quantidade de características e servem a vários propósitos. Elas podem ser desde pequenos 
+grupos hermeticamente comprometidos com temas específicos, como comunidades científicas de determinadas áreas, 
+até mesmo grupos de milhões de usuários ligados por um interesse em comum, tais como comunidades 
+relacionadas a esporte ou fãs de uma celebridade.
+% Since its beginning, society has been organizing itself into communities, which are groups of individuals with common interests\footnote{http://www.merriam-webster.com/dictionary/community}.
+% Particularly, the proliferation of new communication technologies based on the Internet has facilitated the rapid formation and growth of on-line communities~\cite{Kleinberg@cacm2008}. 
+% Communities exhibit a wide range of characteristics and serve a variety of purposes, from small groups engaged in tightly niche topics such as a very specific scientific community, 
+% to millions of users linked by an interest such as a community related to a sport team or fans of a celebrity. 
+
+Geralmente, indivíduos que são socialmente conectados em comunidades tendem a compartilhar interesses comuns
+e outras similaridades. Embora existam muitos fatores que possam determinar a formação de uma comunidade
+e o seu crescimento, existem duas forças que explicam a formação de comunidades: influência 
+e homofilia. Por um lado, influência postula que indivíduos mudam para se tornarem mais similares
+a seus amigos na comunidade. Por outro lado, homofilia postula que indivíduos criam conexões 
+sociais dentro de uma comunidade justamente porque já são similares. Esforços recentes 
+têm mostrado evidências quantitativas que ambas as forças~\citep{Cha2010,Backstrom2006} e
+teorias existentes~\citep{Rogers1962,Watts2007}, modelos~\citep{Kempe2003,Kempe2005} e 
+abordagens~\citep{SaezTrumper2012,Weng2010} dependem da identificação de um grupo influente 
+de indivíduos com o poder de afetar não somente a estrutura topológica de uma comunidade, 
+mas também interferir na difusão e no fluxo de informação da comunidade.
+% Often, individuals who are socially connected in a community tend to share interests and similarities. Although, there are many factors that might determine a community formation
+% and its growth, there are two main driven forces used to explain similarity in a community formation: influence and homophily. On one hand, influence posits that individuals change
+% to become more similar to their friends in the community. On the other hand, homophily postulates that individuals create social connections within a community precisely because
+% they are already similar. Recent efforts have provided quantitative evidences of both forces~\cite{icwsm10cha,crandall.kdd08,Backstrom:2006,influence.correlation.kdd08} and
+% existing theories~\cite{Rogers.1962,accidental-influential}, models~\cite{kempe03kdd,Kempe05influentialnodes}, and
+% approaches~\cite{saez-trumper@kdd12,Weng:2010:TFT:1718487.1718520} rely on identifying a group of influential individuals with the power to affect not only the underlying network
+% structure of a community, but also to interfere on the spread and flow of information within a community. 
+
+Nesta dissertação, apresentamos uma perspectiva diferente e um estudo complementar deste problema. 
+Aqui, nos concentramos em estudar os papéis que indivíduos influentes em comunidades científicas
+desempenham na evolução das propriedades de tais comunidades. Intuitivamente, quando pesquisadores 
+importantes e com grande influência em suas áreas decidem se juntar ou deixar uma comunidade, levam com eles recursos,
+experiência e até mesmo estudantes, e possivelmente influenciam outros membros a fazerem o mesmo. Para esse 
+estudo, usamos dados da DBLP\footnote{http://www.informatik.uni-trier.de/~ley/db/} para construir 
+comunidades científicas, representadas pelas principais conferências
+dos SIGs\footnote{http://www.acm.org/sigs} (\textit{Special Interest Groups}) da ACM
+(\textit{Association for Computing Machinery}). Então, propomos uma estratégia para definir o 
+núcleo de uma dada comunidade científica, juntamente com seus líderes em um dado período de 
+tempo. Finalmente, investigamos como os aspectos do núcleo impactam a estrutura topológica da comunidade.
+
+% In this paper, we take a different perspective and study a complementary problem. Here, we focus on studying the roles that influential individuals from a scientific community play
+% on evolving properties of such communities. Intuitively, when prolific research leaders decide to join or leave a community, they take with them resources,
+% experience and students, and possibly influence other members to do the same. For this study, we use data from DBLP to construct scientific communities, represented by the 
+% main ACM SIG conferences. Then, we propose a strategy to infer the community core, the leaders of a given scientific community in a given period of time. 
+% Finally, we investigate how aspects of the core impact on the community underlying structure. 
+
+O estudo do núcleo de comunidades científicas pode ser visto de duas perspectivas diferentes. A 
+primeira é a sociológica, vindo da necessidade de compreender como partes da sociedade evoluem, 
+bem como responder a perguntas de longa data relacionadas com a interação entre os diferentes 
+tipos de participante. Em contrapartida, de uma perspectiva tecnológica, compreender estes 
+aspectos é crítico para muitas aplicações relacionadas a predição de \textit{links}~\citep{Getoor2005}. Tal estudo, entretanto, 
+tem sido difícil devido à caracterização de alguns conceitos, como conexões humanas e uma definição apropriada 
+de liderança, sendo difícil até mesmo de se reproduzir em grande escala dentro de um laboratório de pesquisa.
+% The study of the core of scientific communities is of interest from two different perspectives.  The first is sociological, coming from the necessity to understand how
+% segments of society evolve as well as to answer longstanding  questions related to the interaction among different types of participant. On the other hand, from a technological perspective,
+% understanding these aspects is critical for several applications related to link prediction. Such a study, however, has been difficult as essential components like human connections 
+% and a proper definition of leadership is hard to be reproduced at a large scale within the confines of a research laboratory.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{trabalhos-relacionados}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Contribuições}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+A seguir listamos as principais contribuições desta dissertação:
+
+\begin{itemize}
+ \item Definição de uma métrica, chamada \textit{CoScore}, que captura tanto a prolificidade quanto o 
+       envolvimento de um pesquisador em uma comunidade científica. Desta forma, nossa métrica é capaz 
+       de quantificar a importância de um determinado pesquisador em uma dada comunidade científica \citep{Alves2013}.
+ \item Descrição de uma estratégia capaz de estimar o índice~h de um pesquisador ao longo do tempo. Nossa 
+       estratégia mantém correlação fortemente positiva com o Google Citations\footnote{http://scholar.google.com/citations}, 
+       uma ferramenta largamente utilizada atualmente pela comunidade.
+ \item Definição do conceito de núcleo de uma comunidade a partir da métrica proposta \citep{Alves2013}.
+ \item Caracterização de mais de vinte comunidades científicas e uma discussão de como a métrica \textit{CoScore} afeta 
+       as propriedades topológicas das redes ao longo do tempo \citep{Alves2013}.
+ \item Provemos uma visualização das comunidades estudadas, de modo que é possível observar 
+\end{itemize}
+
+
+% Dentre nossas principais observações, nossos resultados mostram que membros do núcleo de uma comunidade trabalham como pontes que conectam grupos menores de pesquisas, bem como aumentam o grau 
+% médio da topologia da rede, mas diminuem a assortatividade geral da rede. Mais importante, nós notamos que variações nos membros do núcleo das comunidades são fortemente correlacionadas
+% com variações destas métricas.
+% Among our main observations, our results show that members of the community core work as bridges that connect smaller clustered research groups as well as increase the average
+% degree of the community underlying network, but decrease the overall network assortativeness. More important, we note that variations on the members of the community core tend to be strongly correlated
+% with variations on these metrics.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Organização da Dissertação}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+O restante desta dissertação está organizado da seguinte forma. No Capítulo~\ref{redes-complexas} apresentamos uma visão geral sobre redes complexas e suas características, 
+bem como as principais definições e métricas utilizadas ao longo da dissertação. No Capítulo~\ref{comunidades} descrevemos nossa abordagem e o conjunto de dados 
+utilizado para construir as comunidades científicas, bem como nossa estratégia para computar o núcleo das comunidades. No Capítulo~\ref{analise-nucleo-comunidades} 
+investigamos os papéis que esses conjuntos de pesquisadores exercem dentro de suas comunidades. Finalmente, no Capítulo~\ref{conclusao} apresentamos nossas conclusões e 
+algumas direções para trabalhos futuros.
+% The rest of this paper is organized as follows. Section 2 surveys related work. Section 3 describes our strategy and the dataset used to construct the 
+% scientific communities.  Section 4 describes our strategy to compute a community core and Section 5 investigates the
+% role that these sets of researchers play within their communities.  Finally, Section 6 presents our conclusions and provides directions for future work. 
+

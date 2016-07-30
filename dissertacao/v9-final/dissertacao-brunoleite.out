@@ -1,0 +1,40 @@
+\BOOKMARK [0][-]{chapter*.1}{Agradecimentos}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{Resumo}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{Abstract}{}% 3
+\BOOKMARK [0][-]{section*.4}{Lista de Figuras}{}% 4
+\BOOKMARK [0][-]{section*.5}{Lista de Tabelas}{}% 5
+\BOOKMARK [0][-]{chapter.1}{1 Introdu\347\343o}{}% 6
+\BOOKMARK [1][-]{section.1.1}{1.1 Motiva\347\343o}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.2}{1.2 Trabalhos Relacionados}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.3}{1.3 Contribui\347\365es}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.4}{1.4 Organiza\347\343o da Disserta\347\343o}{chapter.1}% 10
+\BOOKMARK [0][-]{chapter.2}{2 Redes Complexas}{}% 11
+\BOOKMARK [1][-]{section.2.1}{2.1 Introdu\347\343o}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.2}{2.2 Defini\347\365es e Caracter\355sticas}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.3}{2.3 M\351tricas}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Grau dos Nodos}{section.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 Coeficiente de Agrupamento}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.3}{2.3.3 Componentes}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.4}{2.3.4 Caminho M\355nimo M\351dio e Di\342metro}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.5}{2.3.5 Betweenness}{section.2.3}% 19
+\BOOKMARK [2][-]{subsection.2.3.6}{2.3.6 Assortatividade}{section.2.3}% 20
+\BOOKMARK [0][-]{chapter.3}{3 Comunidades}{}% 21
+\BOOKMARK [1][-]{section.3.1}{3.1 Comunidades Cient\355ficas}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.2}{3.2 Defini\347\343o do N\372cleo das Comunidades}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Estimativa do \315ndice H dos Pesquisadores}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Defini\347\343o dos Limiares}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.3}{3.2.3 Valida\347\343o}{section.3.2}% 26
+\BOOKMARK [0][-]{chapter.4}{4 An\341lise das Comunidades}{}% 27
+\BOOKMARK [1][-]{section.4.1}{4.1 Evolu\347\343o das Comunidades}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.2}{4.2 Caracteriza\347\343o dos N\372cleos das Comunidades}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.3}{4.3 Impacto dos Membros dos N\372cleos na Estrutura Topol\363gica das Comunidades}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.4}{4.4 Visualiza\347\343o das Comunidades}{chapter.4}% 31
+\BOOKMARK [0][-]{chapter.5}{5 Conclus\365es e Trabalhos Futuros}{}% 32
+\BOOKMARK [1][-]{section.5.1}{5.1 Revis\343o do Trabalho}{chapter.5}% 33
+\BOOKMARK [1][-]{section.5.2}{5.2 Trabalhos Futuros}{chapter.5}% 34
+\BOOKMARK [0][-]{section*.26}{Refer\352ncias Bibliogr\341ficas}{}% 35
+\BOOKMARK [0][-]{appendix.A}{A M\351dia dos Valores de Resemblance}{}% 36
+\BOOKMARK [0][-]{appendix.B}{B M\351tricas de Evolu\347\343o das Comunidades Cient\355ficas}{}% 37
+\BOOKMARK [0][-]{appendix.C}{C Compara\347\343o entre Membros e N\343o Membros}{}% 38
+\BOOKMARK [0][-]{appendix.D}{D Evolu\347\343o do CoScore}{}% 39
+\BOOKMARK [0][-]{appendix.E}{E Visualiza\347\343o das Comunidades Cient\355ficas}{}% 40

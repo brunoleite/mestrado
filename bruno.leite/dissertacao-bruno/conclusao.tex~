@@ -1,0 +1,93 @@
+\chapter{Conclusões e Trabalhos Futuros}\label{conclusao}
+
+\section{Revisão do Trabalho}
+
+Nesta dissertação apresentamos a caracterização de várias comunidades científicas presentes na DBLP, 
+uma biblioteca digital da área de Ciência da Computação da qual extraímos e construímos 22 redes 
+de colaboração científica. Em seguida, realizamos uma investigação profunda sobre os papéis que os membros 
+dessas comunidades desempenham na formação e evolução topológica dessas redes.
+
+Trabalhos anteriores estudam comunidades inteiras e são baseados em abordagens algorítmicas, 
+tais como agrupamento hierárquico e \textit{k-means}, que buscam identificar grupos de nodos mais agrupados entre si 
+do que ao restante da rede ou nodos que possuem alguma característica topológica. Diferentemente, focamos aqui em identificar os 
+principais membros de uma comunidade que chamamos de núcleo da comunidade. Para determinar este núcleo, primeiramente 
+definimos uma nova métrica chamada de \textit{CoScore}, derivada do índice~h. Como nossas análises são 
+focadas na evolução temporal dessas comunidades, realizamos um estudo para estimar o índice~h de um dado pesquisador ao 
+longo do tempo. Utilizamos dados coletados pelo projeto SHINE e comparamos várias estratégias de evolução para este 
+índice, demonstrando que a estratégia final escolhida possui forte correlação positiva com os respectivos valores 
+do Google Citations, uma ferramenta largamente utilizada pela comunidade 
+científica para estimar o índice~h de um pesquisador. Assim, nossa métrica é capaz de capturar 
+tanto a prolificidade de um pesquisador, quanto o seu envolvimento em uma comunidade ao longo do tempo. 
+
+Após quantificar a importância de cada membro de uma comunidade, definimos dois importantes limiares 
+para nosso estudo, o tamanho do núcleo da comunidade e o tamanho da janela temporal, sendo estes 
+10\% e 3 anos, respectivamente. Nossos resultados indicam que membros dos núcleos são 
+pesquisadores que contribuem ativamente com publicações para suas comunidades e possuem posição de 
+destaque nelas. Desta forma, mostramos que vários desses membros foram premiados por suas contribuições 
+à sua comunidade, incluindo até mesmo alguns que receberam o ACM \textit{A.M. Turing Award}.
+
+Nossas análises mostraram, ainda, que o coeficiente de agrupamento dos membros do núcleo tende, de forma geral, a ser 
+menor do que os dos demais membros da rede. No entanto, o valor da métrica \textit{betweenness} dos membros 
+do núcleo tende a ser consideravelmente maior do que a dos não membros, indicando 
+que membros dos núcleos atuam como pontes que interligam pequenos grupos de pesquisa. Além disso, 
+observamos que os membros dos núcleos tendem a aumentar o grau médio, diâmetro, caminho mínimo médio e o 
+tamanho do maior componente conectado da rede, e diminuir a assortatividade e o coeficiente de agrupamento.
+Mais importante, observamos que as variações observadas nos conjuntos de membros dos núcleos das comunidades estão fortemente correlacionadas 
+com as variações nas propriedades topológicas da rede. 
+
+Finalmente, fornecemos uma representação visual dessas comunidades que reforça nossas análises e observações. 
+Nossos resultados também destacam a importância de se estudar a relevância dos membros dos núcleos das comunidades e esperamos 
+que nossas observações possam inspirar futuros modelos de formação de comunidade.
+
+
+% Neste trabalho apresentamos uma investigação profunda dos papéis que os membros do núcleo das 
+% comunidades científicas desempenham na formação e evolução da estrutura da rede de coautoria. Nosso esforço 
+% se baseia em estudos anteriores existentes, uma vez que se concentra no núcleo de comunidades, em vez de 
+% analisar os aspectos evolutivos de comunidades inteiras. Para isso, definimos um núcleo para as comunidades 
+% baseado em uma nova métrica, ou seja, \textit{CoScore}, uma métrica derivada do índice~h que captura 
+% tanto, a prolificidade, quanto o envolvimento de pesquisadores em uma comunidade. Nossas análises sugerem que membros 
+% do núcleo da comunidade atuam como pontes que conectam pequenos grupos de pesquisa. Além disso, observamos que 
+% os membros do núcleo das comunidades tendem a aumentar o grau médio da rede e diminuir a assortatividade. 
+% Mais importante, observamos que as variações nos membros do núcleo da comunidade estão fortemente correlacionadas 
+% com as variações nas propriedades de rede. Nosso estudo também destaca a importância de estudar os membros 
+% do núcleo da comunidade e esperamos que nossas observações possam inspirar futuros modelos de formação da comunidade.
+
+\section{Trabalhos Futuros}
+
+A partir dos resultados do nosso estudo algumas oportunidades de trabalhos futuros foram identificadas e são listadas a seguir:
+
+\begin{itemize}
+  \item \textbf{Aplicação do estudo em outros contextos.} Nossas análises do núcleo das comunidades são aplicáveis a outros 
+		contextos, como jogos multijogador massivo, OSNs e repositórios de outras 
+		naturezas, como filmes e livros.
+  \item \textbf{Utilização de outras métricas de prolificidade.} Existem outras métricas capazes de medir a 
+		prolificidade de um pesquisador além do índice~h que poderiam também serem utilizadas no cálculo do 
+		\textit{CoScore}, como o índice~g \citep{Egghe2006}.
+  \item \textbf{Avaliação do \textit{CoScore} em outros contextos.} Nossa métrica quantifica a importância dos 
+	        membros das comunidades. Desta forma, também poderíamos utilizá-la em outros contextos, e.g., para predição 
+	        de \textit{links} e em sistemas de recomendação.
+  \item \textbf{Geração de modelos de formação de comunidades.} O \textit{CoScore} pode ser combinado a outras
+	        métricas para mapear o comportamento de como nodos e arestas surgem na rede, possibilitando a 
+	        geração de modelos de formação de comunidades, conforme resultados prévios apresentados por \cite{Leskovec2005, Leskovec2008}.
+  \item \textbf{Aplicação da abordagem proposta para o estudo de \textit{clusters}.} Vários trabalhos na literatura utilizam
+	        abordagens algorítmicas para identificação de \textit{clusters} e de nodos importantes na topologia da rede. No entanto, 
+	        essas abordagens possuem um custo computacional considerável. Assim sendo, seria interessante aplicar a nossa abordagem 
+	        em estudos semelhantes.
+  \item \textbf{Análise do impacto da migração de pesquisadores entre comunidades.} A migração dos membros do núcleo de uma comunidade
+		pode ser utilizada para prever o sucesso ou declínio dessa comunidade. Sendo assim, nossa métrica poderia ser aplicada
+		em estudos que visem caracterizar a migração de membros de um comunidade ou até insparar modelos capazes de predizer tais migrações.
+\end{itemize}
+
+
+% Como trabalho futuro, gostaríamos de estender e aplicar nossa análise do núcleo da comunidade para 
+% outros contextos, como jogos multijogador massivo, redes sociais online e repositórios de outras naturezas, como filmes e livros.
+
+% In this work we provide a deep investigation of the roles that members of the core of scientific communities play in the coauthorship network structure formation and evolution.
+% Our effort builds upon previous existent studies as it focuses on the core community instead of analyzing the evolutionary aspects of entire communities.  To do that, we defined a
+% community core based on a new metric, namely \etxtit{core score}, an h-index derived metric that captures both, the prolificness and the involvement of researchers in a community. Our analysis
+% suggests that the members of the core community work as bridges that connect smaller clustered research groups. Additionally, we noted that the members of the core community tend to
+% increase the average degree of the network and decrease the assortativeness. More important, we noted that variations on the members of the community core are strongly correlated
+% with variations on network properties.  Our study also highlights the importance to study the members of the community core and we hope that our observations might inspire future
+% community formation models.
+% 
+% As future work, we would like to extend and apply our analysis of the community core to other contexts such as massive multiplayer games and on-line social networks.

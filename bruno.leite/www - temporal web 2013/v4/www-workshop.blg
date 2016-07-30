@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.4)
+The top-level auxiliary file: www-workshop.aux
+The style file: abbrv.bst
+Database file #1: short-references.bib
+Warning--empty publisher in Rogers.1962
+You've used 27 entries,
+            2118 wiz_defined-function locations,
+            631 strings with 7868 characters,
+and the built_in function-call counts, 8726 in all, are:
+= -- 733
+> -- 538
+< -- 0
++ -- 213
+- -- 184
+* -- 577
+:= -- 1494
+add.period$ -- 81
+call.type$ -- 27
+change.case$ -- 172
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 360
+empty$ -- 740
+format.name$ -- 184
+if$ -- 1804
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 28
+newline$ -- 138
+num.names$ -- 54
+pop$ -- 252
+preamble$ -- 1
+purify$ -- 146
+quote$ -- 0
+skip$ -- 191
+stack$ -- 0
+substring$ -- 236
+swap$ -- 48
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 106
+warning$ -- 1
+while$ -- 58
+width$ -- 29
+write$ -- 276
+(There was 1 warning)

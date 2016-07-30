@@ -1,0 +1,148 @@
+% INFORMAÇÃO SOBRE A VERSÃO DESSE DOCUMENTO
+% VERSÃO DA CLASSE ppgccufmg 1.44 (de 2011-04-25) - http://vilarneto.com/ppgccufmg
+% VERSÃO ORIGINAL: http://www.dcc.ufmg.br/pos/alunos/modelodisstese.php
+% VERSÃO COMENTADA e EXEMPLIFICADA: http://www.dcc.ufmg.br/~mirella @ janeiro/2012
+
+\documentclass[msc]{ppgccufmg}  % [phd] se for doutorado
+                                % [phd,project] para proposta de tese 
+                                % [msc] se for mestrado
+
+\usepackage[brazil]{babel}      % se o documento for em português, OU
+%\usepackage[english]{babel}    % se o documento for em inglês
+\usepackage[utf8]{inputenc}   % Dá suporte para caracteres especiais como acentos e cedilha
+\usepackage[T1]{fontenc}        % Lê a codificação de fonte T1 (font encoding default é 0T1).
+\usepackage{type1ec}
+\usepackage{graphicx}           % define o comando \includegraphics para a inclusão de figuras
+\usepackage[a4paper,
+  portuguese,
+  bookmarks=true,
+  bookmarksnumbered=true,
+  linktocpage,
+  colorlinks,
+  citecolor=black,
+  urlcolor=black,
+  linkcolor=black,
+  filecolor=black,
+  ]{hyperref}
+\usepackage[square]{natbib}    % permite citações naturalmente
+                               % integradas ao texto
+\usepackage{multirow}					 % permite fazer tabelas com múltiplas linhas
+\usepackage{amstext}
+
+% \makeatletter
+% \let\c@lofdepth\relax
+% \let\c@lotdepth\relax
+% \makeatother
+\usepackage[caption=false]{subfig}
+% \usepackage{subfig}
+% \usepackage{float}
+\usepackage[compatibility=false]{caption}
+\usepackage{amsmath}
+\usepackage{morefloats}
+
+% \hyphenation{re-qui-si-to, com-ple-xi-da-de} % para separar corretamente
+\hyphenation{a-na-li-san-do
+	     a-pre-sen-ta-mos
+	     a-pro-pri-a-da
+	     de-fi-ni-mos
+	     di-fe-ren-te
+	     ca-rac-te-ri-za-dos
+	     co-la-bo-ra-ção
+	     co-la-bo-ra-ções
+	     com-ple-xi-da-de
+	     con-fe-rên-cia
+	     con-fe-rên-cias
+	     cons-tru-ir
+	     con-si-de-ra-vel-men-te
+	     fi-gu-ras
+	     ge-ra-ção
+	     hi-e-rár-qui-co
+	     i-te-ra-ção
+	     in-te-res-sa-dos
+	     mí-ni-mo
+	     mo-de-lo
+	     mo-de-la-gem
+	     pro-ble-ma
+	     per-cen-ta-gem
+	     pu-bli-ca-ção
+	     pu-bli-ca-ções
+	     pu-bli-ca-ram
+	     re-a-li-za-das
+	     re-a-li-za-mos
+	     re-pre-sen-ta-das
+	     re-qui-si-to 
+	     res-pon-sá-veis
+	     se-me-lhan-tes
+	     si-mi-la-res
+	     sig-metrics
+	     so-ci-ais
+	     su-per-li-ne-ar
+	     va-lo-res
+	     va-ria-mos
+	     } % para separar corretamente    
+
+\usepackage[usenames,dvipsnames]{xcolor}  % para poder usar os nomes das cores
+%cria um novo comando para comentários em vermelho no meio do texto
+\newcommand{\redcomment}[1]{\textcolor{red}{\textbf{\textit{#1}}}} %M
+
+
+\begin{document}
+
+% O comando a seguir, \ppgccufmg, provê todas as informações relevantes para a
+% classe ppgccufmg. Por favor, consulte a documentação para a descrição de
+% cada chave.
+
+% Um exemplo para documentos em portuguÊs é apresentado a seguir:
+\ppgccufmg{
+  title={Um Estudo sobre a Evolução Temporal de Comunidades Científicas},
+  authorrev={Leite Alves, Bruno},
+  cutter={A474e}, % INFORMAÇÃO QUE VAI NA FICHA CATALOGRÁFICA
+  cdu={519.6*62(043)},  % Define o identificador CDU do documento, fornecido pela Secretaria do Curso.
+  university={Universidade Federal de Minas Gerais - Departamento de Ciência da Computação},
+  course={Ciência da Computação},
+  address={Belo Horizonte},
+  date={2013-08}, % ANO-MÊS  DA DEFESA
+%   keywords={Comunidades Científicas, Núcleos de Comunidades, Evolução de Comunidades}, %Define as palavras-chave que deverão constar na Ficha Catalográfica,
+  keywords={Computação - Teses, Redes de Relações Sociais - Teses, Instituições e Sociedades Científicas – Teses, Teoria dos Grafos - Teses, Redes Complexas - Teses}, %Define as palavras-chave que deverão constar na Ficha Catalográfica,
+  postkeywords={Orientador, Coorientador, Título},
+%   separadas por vírgulas.
+  advisor={Alberto Henrique Frade Laender},
+  coadvisor={Fabrício Benevenuto de Souza},
+%  approval={img/approvalsheet.eps},
+  abstract=[brazil]{Resumo}{resumo}, %resumo.tex
+  abstract=[english]{Abstract}{abstract}, %abstract.tex
+%   abstract=[brazil]{Resumo Estendido}{resumoest}, %resumoest.tex
+  dedication={dedicatoria},
+  ack={agradecimentos},
+%  ack=[Acknowledgments]{ack},
+%   epigraphtext={\redcomment{Uma jornada de mil milhas começa com um único passo.}}{Lao-Tzu},
+  epigraphtext={De tudo, ficaram três coisas: a certeza de que ele estava sempre começando, a certeza de que era preciso continuar e a certeza de que seria interrompido antes de terminar. Fazer da interrupção um caminho novo. Fazer da queda um passo de dança, do medo uma escada, do sono uma ponte, da procura um encontro.}{Fernando Sabino},
+  approval={folha_aprovacao.eps},
+ }
+ %OUTRAS SUGESTÕES DE EPIGRAPH:
+  %{Escolhe um trabalho de que gostes \\e não terás que trabalhar nem um dia na tua vida.}{Confúcio}
+  %{O único modo de escapar da corrupção causada pelo sucesso é continuar trabalhando.}{Albert Einstein},
+  %{Que ninguém se engane, só se consegue a simplicidade através de muito trabalho.}{Clarice Lispector},
+  %{Um sonho sonhado sozinho é um sonho. Um sonho sonhado junto é realidade.}{Raul Seixas},
+  %{Para o trabalho que gostamos levantamo-nos cedo e fazemo-lo com alegria.}{William Shakespeare},
+  %{Pensar é o trabalho mais difícil que existe. Talvez por isso tão poucos se dediquem a ele.}{Henry Ford},
+  %{O prazer no trabalho aperfeiçoa a obra.}{Aristóteles},
+  %{O caminho batido não leva a novas pastagens}{Indira Ghandi},
+  %{Uma jornada de mil milhas começa com um único passo.}{Lao-Tzu},
+  %{É sempre o aventuroso que consegue grandes coisas}{Montesquieu},
+%  De tudo, ficaram três coisas: a certeza de que ele estava sempre começando, a certeza de que era preciso continuar e a certeza de que seria interrompido antes de terminar. Fazer da interrupção um caminho novo. Fazer da queda um passo de dança, do medo uma escada, do sono uma ponte, da procura um encontro. {Fernando Sabino}
+
+% VOCÊ PODE DIVIDIR O SEU TEXTO EM VÁRIOS ARQUIVOS, por exemplo, um para cada seção principal do seu trabalho: introducao.tex, relacionados.tex, metodologia.tex, experimentos.tex, conclusao.tex
+\input{introducao}
+\input{redes-complexas}
+\input{comunidades}
+\input{analise-nucleo-comunidades}
+\input{conclusao}
+% Aqui vem a parte da bibliografia: use o comando \ufmgbibliography indicando
+% apenas o nome do arquivo .bib (sem a extensão).
+\ppgccbibliography{referencias} % ARQUIVO CONTENDO A BIBLIOGRAFIA
+% \bibliography{referencias}
+\input{apendice} % ARQUIVO CONTENDO OS APÊNDICES : OPCIONAL
+% \input{anexo} % ARQUIVO CONTENDO OS ANEXOS: OPCIONAL
+
+\end{document}

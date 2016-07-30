@@ -1,0 +1,612 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.29)  21 MAR 2016 10:41
+entering extended mode
+**C:/Users/fabri_000/Dropbox/bruno*(1).leite/sigmod-records-v04/sigmod-records.
+tex
+
+("C:/Users/fabri_000/Dropbox/bruno (1).leite/sigmod-records-v04/sigmod-records.
+tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+
+("C:\Users\fabri_000\Dropbox\bruno (1).leite\sigmod-records-v04\sig-alternate-1
+0pt.cls" ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count79
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+\epsfxsize=\dimen104
+\epsfysize=\dimen105
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip41
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen106
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen107
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count80
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count81
+\leftroot@=\count82
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count83
+\DOTSCASE@=\count84
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count85
+\c@MaxMatrixCols=\count86
+\dotsspace@=\muskip10
+\c@parentequation=\count87
+\dspbrk@lvl=\count88
+\tag@help=\toks17
+\row@=\count89
+\column@=\count90
+\maxfields@=\count91
+\andhelp@=\toks18
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks19
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+Document Class 'sig-alternate' <3rd January '07>. Hacked by Anja Feldmann
+Based in part upon document Style `acmconf' <22 May 89>. Hacked 4/91 by
+shivers@cs.cmu.edu, 4/93 by theobald@cs.mcgill.ca
+Excerpts were taken from (Journal Style) 'esub2acm.cls'.
+****** Bugs/comments/suggestions/technicalities to Gerry Murray -- murray@hq.ac
+m.org ******
+Questions on the style, SIGS policies, etc. to Adrienne Griscti griscti@acm.org
+
+\footheight=\dimen115
+\@maxsep=\dimen116
+\@dblmaxsep=\dimen117
+\aucount=\count92
+\originalaucount=\count93
+\auwidth=\dimen118
+\auskip=\dimen119
+\auskipcount=\count94
+\auskip=\dimen120
+\allauboxes=\dimen121
+\addauthors=\toks21
+\addauflag=\count95
+\subtitletext=\toks22
+\savesection=\count96
+\sectioncntr=\count97
+\c@figure=\count98
+\c@table=\count99
+\titleboxnotes=\toks23
+\titleboxnoteflag=\count100
+
+LaTeX Warning: You have requested document class `sig-alternate-10pt',
+               but the document class provides `sig-alternate'.
+
+Document Class: sig-alternate 2007/03/01 - V1.9 - based on acmproc.cls V1.3 <No
+v. 30 '99>
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+\@acmtitlebox=\box28
+\titlenotecount=\count101
+\tntoks=\toks24
+\tntokstwo=\toks25
+\tntoksthree=\toks26
+\tntoksfour=\toks27
+\tntoksfive=\toks28
+\catcount=\count102
+\copyrightnotice=\toks29
+\conf=\toks30
+\confinfo=\toks31
+\c@part=\count103
+\c@section=\count104
+\c@subsection=\count105
+\c@subsubsection=\count106
+\c@paragraph=\count107
+
+Using 'Abbrev' bibliography style
+\bibindent=\dimen122
+\colcntr=\count108
+\savebox=\box29
+\copyrtyr=\toks32
+\acmcopyr=\toks33
+\boilerplate=\toks34
+\copyrightetc=\toks35
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count109
+\Gm@cntv=\count110
+\c@Gm@tempcnt=\count111
+\Gm@bindingoffset=\dimen123
+\Gm@wd@mp=\dimen124
+\Gm@odd@mp=\dimen125
+\Gm@even@mp=\dimen126
+\Gm@layoutwidth=\dimen127
+\Gm@layoutheight=\dimen128
+\Gm@layouthoffset=\dimen129
+\Gm@layoutvoffset=\dimen130
+\Gm@dimlist=\toks36
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 373.
+Package: cite 2010/09/10  v 5.3
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\endnotes\endnotes.sty"
+\c@endnote=\count112
+\endnotesep=\dimen131
+\@enotes=\write3
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip44
+\f@ncyO@elh=\skip45
+\f@ncyO@erh=\skip46
+\f@ncyO@olh=\skip47
+\f@ncyO@orh=\skip48
+\f@ncyO@elf=\skip49
+\f@ncyO@erf=\skip50
+\f@ncyO@olf=\skip51
+\f@ncyO@orf=\skip52
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count113
+\rotFPtop=\skip53
+\rotFPbot=\skip54
+\rot@float@box=\box30
+\rot@mess@toks=\toks37
+)
+("C:\Users\fabri_000\Dropbox\bruno (1).leite\sigmod-records-v04\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip55
+\subfigcapskip=\skip56
+\subfigcaptopadj=\dimen132
+\subfigbottomskip=\skip57
+\subfigcapmargin=\dimen133
+\subfiglabelskip=\skip58
+\c@subfigure=\count114
+\c@lofdepth=\count115
+\c@subtable=\count116
+\c@lotdepth=\count117
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip59
+\subfig@bottom=\skip60
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count118
+\mult@box=\box31
+\multicol@leftmargin=\dimen134
+\c@unbalance=\count119
+\c@collectmore=\count120
+\doublecol@number=\count121
+\multicoltolerance=\count122
+\multicolpretolerance=\count123
+\full@width=\dimen135
+\page@free=\dimen136
+\premulticols=\dimen137
+\postmulticols=\dimen138
+\multicolsep=\skip61
+\multicolbaselineskip=\skip62
+\partial@page=\box32
+\last@line=\box33
+\mult@rightbox=\box34
+\mult@grightbox=\box35
+\mult@gfirstbox=\box36
+\mult@firstbox=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\c@columnbadness=\count124
+\c@finalcolumnbadness=\count125
+\last@try=\dimen139
+\multicolovershoot=\dimen140
+\multicolundershoot=\dimen141
+\mult@nat@firstbox=\box55
+\colbreak@box=\box56
+\multicol@sort@counter=\count126
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\epsf\epsf.sty"
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read1
+\epsfframemargin=\dimen142
+\epsfframethickness=\dimen143
+\epsfrsize=\dimen144
+\epsftmp=\dimen145
+\epsftsize=\dimen146
+\epsfxsize=\dimen147
+\epsfysize=\dimen148
+\pspoints=\dimen149
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psfrag\psfrag.sty"
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count127
+\pfg@scount=\count128
+\pfg@temp=\write4
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count129
+\float@exts=\toks38
+\float@box=\box57
+\@float@everytoks=\toks39
+\@floatcapt=\box58
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+("C:\Users\fabri_000\Dropbox\bruno (1).leite\sigmod-records-v04\sigmod-records.
+aux"
+
+LaTeX Warning: Label `fig:rede_sac' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:rede_sac' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count130
+\scratchdimen=\dimen150
+\scratchbox=\box59
+\nofMPsegments=\count131
+\nofMParguments=\count132
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count133
+\MPscratchDim=\dimen151
+\MPnumerator=\count134
+\makeMPintoPDFobject=\count135
+\everyMPtoPDFconversion=\toks41
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=11.0pt
+* \columnsep=24.0pt
+* \skip\footins=8.1pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 50.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 50.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 50.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+Underfull \vbox (badness 1043) has occurred while \output is active []
+
+ [1
+Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
+Overfull \hbox (7.40079pt too wide) in paragraph at lines 118--119
+\OT1/cmr/m/n/10 of au-thors, year of pub-li-ca-tion, and pub-li-ca-tion venue,
+ []
+
+
+Overfull \hbox (12.37292pt too wide) in paragraph at lines 132--133
+\OT1/cmr/m/n/10 nected com-po-nent of its re-spec-tive coau-thor-ship graph.
+ []
+
+
+Overfull \hbox (2.59499pt too wide) in paragraph at lines 132--133
+\OT1/cmr/m/n/10 ences have suc-cess-fully put to-gether their re-searchers
+ []
+
+[2] <graficos/network/sigmod.pdf, id=19, 1027.84pt x 1027.84pt>
+File: graficos/network/sigmod.pdf Graphic file (type pdf)
+
+<use graficos/network/sigmod.pdf>
+Package pdftex.def Info: graficos/network/sigmod.pdf used on input line 177.
+(pdftex.def)             Requested size: 138.75241pt x 138.75241pt.
+
+<graficos/network/stoc.pdf, id=20, 1027.84pt x 1027.84pt>
+File: graficos/network/stoc.pdf Graphic file (type pdf)
+
+<use graficos/network/stoc.pdf>
+Package pdftex.def Info: graficos/network/stoc.pdf used on input line 181.
+(pdftex.def)             Requested size: 138.75241pt x 138.75241pt.
+
+<graficos/network/chi.pdf, id=21, 1027.84pt x 1027.84pt>
+File: graficos/network/chi.pdf Graphic file (type pdf)
+
+<use graficos/network/chi.pdf>
+Package pdftex.def Info: graficos/network/chi.pdf used on input line 185.
+(pdftex.def)             Requested size: 138.75241pt x 138.75241pt.
+
+<graficos/network/siguccs.pdf, id=22, 1027.84pt x 1027.84pt>
+File: graficos/network/siguccs.pdf Graphic file (type pdf)
+
+<use graficos/network/siguccs.pdf>
+Package pdftex.def Info: graficos/network/siguccs.pdf used on input line 189.
+(pdftex.def)             Requested size: 138.75241pt x 138.75241pt.
+
+<graficos/network/sac.pdf, id=23, 1027.84pt x 1027.84pt>
+File: graficos/network/sac.pdf Graphic file (type pdf)
+
+<use graficos/network/sac.pdf>
+Package pdftex.def Info: graficos/network/sac.pdf used on input line 193.
+(pdftex.def)             Requested size: 138.75241pt x 138.75241pt.
+
+<graficos/network/sigdoc.pdf, id=24, 1027.84pt x 1027.84pt>
+File: graficos/network/sigdoc.pdf Graphic file (type pdf)
+
+<use graficos/network/sigdoc.pdf>
+Package pdftex.def Info: graficos/network/sigdoc.pdf used on input line 197.
+(pdftex.def)             Requested size: 138.75241pt x 138.75241pt.
+ [3]
+<graficos/hindex/hindex_scatter_plot-eps-converted-to.pdf, id=31, 361.35pt x 25
+2.945pt>
+File: graficos/hindex/hindex_scatter_plot-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use graficos/hindex/hindex_scatter_plot-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/hindex/hindex_scatter_plot-eps-converted-to.p
+df used on input line 241.
+(pdftex.def)             Requested size: 162.60599pt x 113.82419pt.
+
+[4 <C:/Users/fabri_000/Dropbox/bruno (1).leite/sigmod-records-v04/graficos/netw
+ork/sigmod.pdf> <C:/Users/fabri_000/Dropbox/bruno (1).leite/sigmod-records-v04/
+graficos/network/stoc.pdf> <C:/Users/fabri_000/Dropbox/bruno (1).leite/sigmod-r
+ecords-v04/graficos/network/chi.pdf> <C:/Users/fabri_000/Dropbox/bruno (1).leit
+e/sigmod-records-v04/graficos/network/siguccs.pdf> <C:/Users/fabri_000/Dropbox/
+bruno (1).leite/sigmod-records-v04/graficos/network/sac.pdf> <C:/Users/fabri_00
+0/Dropbox/bruno (1).leite/sigmod-records-v04/graficos/network/sigdoc.pdf> <C:/U
+sers/fabri_000/Dropbox/bruno (1).leite/sigmod-records-v04/graficos/hindex/hinde
+x_scatter_plot-eps-converted-to.pdf>]
+Overfull \hbox (1.17842pt too wide) in paragraph at lines 248--250
+[]\OT1/cmr/m/n/10 In com-par-i-son with the h-index we es-ti-mated from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
+[][]$\OT1/cmtt/m/n/9 http : / / amturing . acm . org / stonebraker _ 1172121 .
+ []
+
+
+Overfull \hbox (4.27567pt too wide) in paragraph at lines 254--255
+\OT1/cmr/m/n/10 vel-oped an in-ter-ac-tive tool[] that al-lows one to browse
+ []
+
+
+Overfull \hbox (2.80344pt too wide) in paragraph at lines 254--255
+\OT1/cmr/m/n/10 bracker, the win-ner of the 2014 A.M. Tur-ing Award[],
+ []
+
+<graficos/stonebraker.pdf, id=59, 825.92163pt x 559.39789pt>
+File: graficos/stonebraker.pdf Graphic file (type pdf)
+
+<use graficos/stonebraker.pdf>
+Package pdftex.def Info: graficos/stonebraker.pdf used on input line 259.
+(pdftex.def)             Requested size: 231.25647pt x 156.63034pt.
+
+Overfull \hbox (8.37897pt too wide) in paragraph at lines 259--260
+ [][] 
+ []
+
+Missing character: There is no Ã in font cmr7!
+Missing character: There is no ­ in font cmr7!
+Missing character: There is no Ã in font cmbx7!
+Missing character: There is no ¶ in font cmbx7!
+
+Overfull \hbox (5.5117pt too wide) in paragraph at lines 343--344
+\OT1/cmr/m/n/10 pre-sent-ing a struc-ture with sev-eral dis-con-nected com-
+ []
+
+[5 <C:/Users/fabri_000/Dropbox/bruno (1).leite/sigmod-records-v04/graficos/ston
+ebraker.pdf>]
+Overfull \hbox (3.51187pt too wide) in paragraph at lines 348--351
+\OT1/cmr/m/n/10 6), and by the au-thors' in-di-vid-ual grants from CNPq,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+[7
+
+]
+("C:\Users\fabri_000\Dropbox\bruno (1).leite\sigmod-records-v04\sigmod-records.
+aux")
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3668 strings out of 493921
+ 48646 string characters out of 3144864
+ 134419 words of memory out of 3000000
+ 6867 multiletter control sequences out of 15000+200000
+ 43011 words of font info for 64 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 41i,11n,43p,1857b,311s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/he
+lvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb
+8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
+Output written on sigmod-records.pdf (7 pages, 3936738 bytes).
+PDF statistics:
+ 127 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+

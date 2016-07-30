@@ -1,0 +1,239 @@
+
+@inproceedings{fourdegrees_facebook,
+  author    = {Lars Backstrom and Paolo Boldi and Marco Rosa and Johan Ugander and Sebastiano Vigna},
+  title     = {Four Degrees of Separation},
+  booktitle = {Proc. of ACM Web Science},
+  year      = {2012}
+}
+
+@inproceedings{mislove-2007-socialnetworks,
+  author = {Alan Mislove and Massimiliano Marcon and Krishna P. Gummadi and Peter Druschel and Bobby Bhattacharjee},
+  title = {{Measurement and Analysis of Online Social Networks}},
+  booktitle = {Proc. of IMC},
+  year = {2007}
+}
+
+
+
+@article{Newman2003,
+  author = {M. Newman and J. Park},
+  title =  {Why Social Networks are Different from Other Types of Networks},
+  journal = {Phys. Rev. E},
+    volume={68},
+  year = {2003}
+}
+
+@article{accidental-influential,
+  author = {D.J. Watts and P.S. Dodds},
+  title = {Influentials, Networks, and Public Opinion Formation},
+  journal = {Journal of Consumer Research},
+    volume = {34},
+    number = {4},
+    pages = {441-458},
+  year = {2007} 
+} 
+
+@article{Hirsch:2005,
+  author = {Hirsch, J. E.}, 
+  title = {An index to quantify an individual's scientific research output},
+  journal = {Proc. of PNAS},
+    volume = {102}, 
+    number = {46}, 
+    pages = {16569-16572}, 
+  year = {2005}
+}
+
+@article{Ley:2009,
+  author = {Ley, Michael},
+  title = {DBLP: some lessons learned},
+  journal = {VLDB},
+    volume = {2},
+    number = {2},
+    pages = {1493-1500},
+  year = {2009}
+} 
+
+@article{Xu:2010,
+  author = {Xu, Xiao-Ke and Zhang, Jie and Small, Michael},
+  title = {Rich-club connectivity dominates assortativity and transitivity of complex networks},
+  journal = {Phys. Rev. E},
+    volume = {82},
+    pages = {046117},
+  year = {2010}
+}
+
+@article{Willinger:2010,
+  author = {Willinger, Walter and Rejaie, Reza and Torkjazi, Mojtaba and Valafar, Masoud and Maggioni, Mauro},
+  title = {Research on online social networks: time to face the real challenges},
+  journal = {SIGMETRICS Perform. Eval. Rev.},
+    volume = {37},
+    number = {3},
+    pages = {49-54},
+  year = {2010}
+}
+
+@book{Rogers.1962,
+  title = {Diffusion of Innovations},
+  author = {Everett M. Rogers},
+  year = {1962}
+}
+
+@inproceedings{Zhang:2012:CID:2187980.2188250,
+  author = {Zhang, Guo and Jacob, Elin K.},
+  title = {Community: issues, definitions, and operationalization on the web},
+  booktitle = {Proc. of SWCS},
+  year = {2012}
+} 
+
+@inproceedings{Seifi:2012:CCE:2187980.2188258,
+  author = {Seifi, Massoud and Guillaume, Jean-Loup},
+  title = {Community cores in evolving networks},
+  booktitle = {Proc. of WWW},
+  year = {2012}
+} 
+
+@inproceedings{Weng:2010:TFT:1718487.1718520,
+  author = {Weng, Jianshu and Lim, Ee-Peng and Jiang, Jing and He, Qi},
+  title = {TwitterRank: finding topic-sensitive influential twitterers},
+  booktitle = {Proc. of WSDM},
+  year = {2010}
+} 
+
+@inproceedings{icwsm10cha,
+  author = {Meeyoung Cha and Hamed Haddadi and Fabricio Benevenuto and Krishna P. Gummadi},
+  title = {{Measuring User Influence in Twitter: The Million Follower Fallacy}},
+  booktitle = {Proc. of ICWSM},
+  year = {2010}
+}
+
+@inproceedings{saez-trumper@kdd12,
+  author = {Diego Saez-Trumper and Giovanni Comarela and Virgílio Almeida and Ricardo Baeza-Yates and Fabrício Benevenuto},
+  title = {Finding Trendsetters in Information Networks},
+  booktitle = {Proc. of KDD},
+  year = {2012}
+}
+
+@inproceedings{kempe03kdd,
+  author = {Kempe, David and Kleinberg, Jon and Tardos, \'{E}va},
+  title = {Maximizing the spread of influence through a social network},
+  booktitle = {Proc. of KDD},
+  year = {2003}
+}
+
+@inproceedings{Kempe05influentialnodes,
+  author = {David Kempe and Jon Kleinberg and \'{E}va Tardos},
+  title = {Influential Nodes in a Diffusion Model for Social Networks},
+  booktitle = {Proc. of ICALP},
+  year = {2005}
+}   
+
+@inproceedings{crandall.kdd08,
+  author = {David Crandall and Dan Cosley and Daniel Huttenlocher and Jon Kleinberg and Siddharth Suri},
+  title = {Feedback Effects between Similarity and Social Influence in Online Communities},
+  booktitle = {Proc. of KDD},
+  year = {2008}
+}
+
+@inproceedings{LNCS69480280,
+  author = {Gl\'{\i}via A.R. Barbosa and Ismael S. Silva and Glauber Gon\c{c}alves and Raquel O. Prates and Fabr\'{\i}cio Benevenuto and Virg\'{\i}lio Almeida},
+  title = {Characterizing Interactions among Members of Deaf Communities in Orkut},
+  booktitle = {Proc. of INTERACT},
+  year = {2011}
+}
+
+@inproceedings{Viswanath:2009,
+  author = {Viswanath, Bimal and Mislove, Alan and Cha, Meeyoung and Gummadi, Krishna P.},
+  title = {On the evolution of user interaction in Facebook},
+  booktitle = {Proc. of WOSN},
+  year = {2009}
+} 
+
+@inproceedings{Kumar:2006,
+  author = {Kumar, Ravi and Novak, Jasmine and Tomkins, Andrew},
+  title = {Structure and evolution of online social networks},
+  booktitle = {Proc. of KDD},
+  year = {2006}
+} 
+
+@inproceedings{Ducheneaut:2007,
+  author = {Ducheneaut, Nicolas and Yee, Nicholas and Nickell, Eric and Moore, Robert J.},
+  title = {The life and death of online gaming communities: a look at guilds in world of warcraft},
+  booktitle = {Proc. of CHI},
+  year = {2007}
+} 
+
+@inproceedings{influence.correlation.kdd08,
+  author = {Aris Anagnostopoulos and Ravi Kumar and Mohammad Mahdian},
+  title = {Influence and Correlation in Social Networks},
+  booktitle = {Proc. of KDD},
+  year = {2008}
+}
+
+@inproceedings{Backstrom:2006,
+  author = {Backstrom, Lars and Huttenlocher, Dan and Kleinberg, Jon and Lan, Xiangyang},
+  title = {Group formation in large social networks: membership, growth, and evolution},
+  booktitle = {Proc. of KDD},
+  year = {2006}
+} 
+
+@inproceedings{Patil:2012,
+  author = {Patil, Akshay and Liu, Juan and Price, Bob and Sharara, Hossam and Brdiczka, Oliver},
+  title = {Modeling Destructive Group Dynamics in On-Line Gaming Communities.},
+  booktitle = {Proc. of ICWSM},
+  year = {2012}
+}
+
+@inproceedings{Lopes:2011,
+  author = {Giseli R. Lopes and Mirella M. Moro and Jos{\'e} Palazzo M. de Oliveira},
+  title = {Temporal Influence in Collaborators Recommendation in Social Networks},
+  booktitle = {Proc. of IADIS},
+  year = {2011}
+}
+
+@inproceedings{Sachan:2012,
+  author = {Sachan, Mrinmaya and Contractor, Danish and Faruquie, Tanveer A. and Subramaniam, L. Venkata},
+  title = {Using content and interactions for discovering communities in social networks},
+  booktitle = {Proc. of WWW},
+  year = {2012}
+} 
+
+@inproceedings{Leskovec:2005,
+  author = {Leskovec, Jure and Kleinberg, Jon and Faloutsos, Christos},
+  title = {Graphs over time: densification laws, shrinking diameters and possible explanations},
+  booktitle = {Proc. of KDD},
+  year = {2005}
+} 
+
+@inproceedings{Wu:2009,
+  author = {Wu, Bin and Zhao, Fengying and Yang, Shengqi and Suo, Lijun and Tian, Hongqiao},
+  title = {Characterizing the evolution of collaboration network},
+  booktitle = {Proc. of SWSM},
+  year = {2009}
+} 
+
+@inproceedings{Huang:2008,
+  author = {Huang, Jian and Zhuang, Ziming and Li, Jia and Giles, C. Lee},
+  title = {Collaboration over time: characterizing and modeling network evolution},
+  booktitle = {Proc. of WSDM},
+  year = {2008}
+} 
+
+@inproceedings{Garg:2009,
+  author = {Garg, Sanchit and Gupta, Trinabh and Carlsson, Niklas and Mahanti, Anirban},
+  title = {Evolution of an online social aggregation network: an empirical study},
+  booktitle = {Proc. of IMC},
+  year = {2009}
+} 
+
+@inproceedings{Leskovec:2008,
+  author = {Leskovec, Jure and Backstrom, Lars and Kumar, Ravi and Tomkins, Andrew},
+  title = {Microscopic evolution of social networks},
+  booktitle = {Proc. of KDD},
+  year = {2008}
+} 
+
+@misc{Sun:2012,
+  author = {Sun, Xiaoling and Kaur, Jasleen and Milojevi\'{c}, Sta\v{s}a and Flammini, Alessandro and Menczer, Filippo},
+  title = {Social Dynamics of Science},
+  year = {2012}
+}

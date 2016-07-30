@@ -1,0 +1,32 @@
+select p.idpublication, count(at.idauthor)
+from publication p
+inner join detail d on p.idpublication = d.publication_idpublication
+inner join author_has_detail ahd on ahd.detail_iddetail = d.iddetail
+inner join author at on at.idauthor = ahd.author_idauthor
+group by p.idpublication
+having count(at.idauthor) = 1;
+
+select distinct(p.idpublication)
+from publication p
+inner join detail d on p.idpublication = d.publication_idpublication
+inner join author_has_detail ahd on ahd.detail_iddetail = d.iddetail
+inner join author at on at.idauthor = ahd.author_idauthor
+inner join detail_has_booktitle dhb on dhb.detail_iddetail = d.iddetail
+inner join booktitle b on b.idbooktitle = dhb.booktitle_idbooktitle
+where at.idauthor = 42712
+/*and b.idbooktitle in (326,1666,1784,1881,1910,2444,3061,3688,3966,4111,4289,4481,4767,4789,4981,5121,5126,5260,5317,5479)*/;
+
+
+select at.idauthor, at.name, t.content
+from publication p
+inner join detail d on p.idpublication = d.publication_idpublication
+inner join title t on t.detail_iddetail = d.iddetail
+inner join author_has_detail ahd on ahd.detail_iddetail = d.iddetail
+inner join author at on at.idauthor = ahd.author_idauthor
+where p.idpublication = 2399069;
+
+select * 
+from author
+where name like '%Laender%'
+
+42712

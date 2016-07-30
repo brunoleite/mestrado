@@ -1,0 +1,109 @@
+\begin{thebibliography}{}
+
+\bibitem[Alves et~al. 2013]{Alves2013}
+Alves, B.~L., Benevenuto, F., and Laender, A.~H. (2013).
+\newblock {The Role of Research Leaders on the Evolution of Scientific
+  Communities}.
+\newblock In {\em Proceedings of the 22\textsuperscript{nd} International
+  Conference on World Wide Web (Companion Volume)}, pages 649--656, Rio de
+  Janeiro, Brazil.
+
+\bibitem[Backstrom et~al. 2006]{Backstrom2006}
+Backstrom, L., Huttenlocher, D., Kleinberg, J., and Lan, X. (2006).
+\newblock {Group Formation in Large Social Networks: Membership, Growth, and
+  Evolution}.
+\newblock In {\em Proceedings of the 12\textsuperscript{th} ACM SIGKDD
+  International Conference on Knowledge Discovery and Data Mining}, pages
+  44--54, Philadelphia, PA, USA.
+
+\bibitem[Cha et~al. 2010]{Cha2010}
+Cha, M., Haddadi, H., Benevenuto, F., and Gummadi, K.~P. (2010).
+\newblock {Measuring User Influence in Twitter: The Million Follower Fallacy}.
+\newblock In {\em In Proceedings of the 4\textsuperscript{th} International
+  AAAI Conference on Weblogs and Social Media}, Washington DC, USA.
+
+\bibitem[Egghe 2006]{Egghe2006}
+Egghe, L. (2006).
+\newblock {An Improvement of the H-index: The G-index}.
+\newblock {\em ISSI Newsletter}, pages 8--9.
+
+\bibitem[Getoor and Diehl 2005]{Getoor2005}
+Getoor, L. and Diehl, C.~P. (2005).
+\newblock {Link Mining: A Survey}.
+\newblock {\em ACM SIGKDD Explorations Newsletter}, 7(2):3--12.
+
+\bibitem[Hirsch 2005]{Hirsch2005}
+Hirsch, J.~E. (2005).
+\newblock {An Index to Quantify an Individual's Scientific Research Output}.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 102(46):16569--16572.
+
+\bibitem[Kempe et~al. 2003]{Kempe2003}
+Kempe, D., Kleinberg, J., and Tardos, E. (2003).
+\newblock {Maximizing the Spread of Influence through a Social Network}.
+\newblock In {\em Proceedings of the 9\textsuperscript{th} ACM SIGKDD
+  International Conference on Knowledge Discovery and Data Mining}, pages
+  137--146, Washington, D.C.
+
+\bibitem[Kempe et~al. 2005]{Kempe2005}
+Kempe, D., Kleinberg, J., and Tardos, E. (2005).
+\newblock {Influential Nodes in a Diffusion Model for Social Networks}.
+\newblock In {\em Proceedings of the 32\textsuperscript{nd} International
+  Conference on Automata, Languages and Programming}, pages 1127--1138, Lisbon,
+  Portugal.
+
+\bibitem[Kleinberg 2008]{Kleinberg2008}
+Kleinberg, J. (2008).
+\newblock {The Convergence of Social and Technological Networks}.
+\newblock {\em Communications of the ACM}, 51(11):66--72.
+
+\bibitem[Leskovec et~al. 2008]{Leskovec2008}
+Leskovec, J., Backstrom, L., Kumar, R., and Tomkins, A. (2008).
+\newblock {Microscopic Evolution of Social Networks}.
+\newblock In {\em Proceedings of the 14\textsuperscript{th} ACM SIGKDD
+  International Conference on Knowledge Discovery and Data Mining}, pages
+  462--470, Las Vegas, Nevada, USA.
+
+\bibitem[Leskovec et~al. 2005]{Leskovec2005}
+Leskovec, J., Kleinberg, J., and Faloutsos, C. (2005).
+\newblock {Graphs Over Time: Densification Laws, Shrinking Diameters and
+  Possible Explanations}.
+\newblock In {\em Proceedings of the 11\textsuperscript{th} ACM SIGKDD
+  International Conference on Knowledge Discovery in Data Mining}, pages
+  177--187, Chicago, Illinois, USA.
+
+\bibitem[Leskovec et~al. 2010]{Leskovec2010}
+Leskovec, J., Lang, K.~J., and Mahoney, M. (2010).
+\newblock {Empirical Comparison of Algorithms for Network Community Detection}.
+\newblock In {\em Proceedings of the 19\textsuperscript{th} International
+  Conference on World Wide Web}, pages 631--640, Raleigh, North Carolina, USA.
+
+\bibitem[Ley 2009]{Ley2009}
+Ley, M. (2009).
+\newblock Dblp: Some lessons learned.
+\newblock {\em Proceedings of the VLDB Endowment}, 2(2):1493--1500.
+
+\bibitem[Rogers 1962]{Rogers1962}
+Rogers, E.~M. (1962).
+\newblock {\em {Diffusion of Innovations}}.
+\newblock Free Press.
+
+\bibitem[Seifi and Guillaume 2012]{Seifi2012}
+Seifi, M. and Guillaume, J.-L. (2012).
+\newblock {Community Cores in Evolving Networks}.
+\newblock In {\em Proceedings of the 21\textsuperscript{st} International
+  Conference on World Wide Web (Companion Volume)}, pages 1173--1180, Lyon,
+  France.
+
+\bibitem[Viswanath et~al. 2009]{Viswanath2009}
+Viswanath, B., Mislove, A., Cha, M., and Gummadi, K.~P. (2009).
+\newblock {On the Evolution of User Interaction in Facebook}.
+\newblock In {\em Proceedings of the 2\textsuperscript{nd} ACM Workshop on
+  Online Social Networks}, pages 37--42, Barcelona, Spain.
+
+\bibitem[Watts and Dodds 2007]{Watts2007}
+Watts, D. and Dodds, P. (2007).
+\newblock {Influentials, Networks, and Public Opinion Formation}.
+\newblock {\em Journal of Consumer Research}, 34(4):441--458.
+
+\end{thebibliography}

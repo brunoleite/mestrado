@@ -1,0 +1,486 @@
+This is pdfeTeXk, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=latex 2012.2.1)  24 FEB 2013 10:27
+entering extended mode
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**www-workshop.tex
+(./www-workshop.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
+ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
+stonian, finnish, greek, icelandic, irish, italian, latin, magyar, norsk, polis
+h, portuges, romanian, russian, serbian, slovak, slovene, spanish, swedish, tur
+kish, ukrainian, nohyphenation, loaded.
+(./sig-alternate.cls (/usr/share/texmf/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(/usr/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+\epsfxsize=\dimen104
+\epsfysize=\dimen105
+)
+(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+))
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip41
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen106
+))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen107
+)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count79
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count80
+\leftroot@=\count81
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count82
+\DOTSCASE@=\count83
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count84
+\c@MaxMatrixCols=\count85
+\dotsspace@=\muskip10
+\c@parentequation=\count86
+\dspbrk@lvl=\count87
+\tag@help=\toks17
+\row@=\count88
+\column@=\count89
+\maxfields@=\count90
+\andhelp@=\toks18
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks19
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+Document Class 'sig-alternate' <23rd. May '12>. Modified by G.K.M. Tobin/Gerry 
+Murray
+Based in part upon document Style `acmconf' <22 May 89>. Hacked 4/91 by
+shivers@cs.cmu.edu, 4/93 by theobald@cs.mcgill.ca
+Excerpts were taken from (Journal Style) 'esub2acm.cls'.
+****** Bugs/comments/suggestions/technicalities to Gerry Murray -- murray@hq.ac
+m.org ******
+Questions on the style, SIGS policies, etc. to Adrienne Griscti griscti@acm.org
+
+\footheight=\dimen115
+\@maxsep=\dimen116
+\@dblmaxsep=\dimen117
+\aucount=\count91
+\originalaucount=\count92
+\auwidth=\dimen118
+\auskip=\dimen119
+\auskipcount=\count93
+\auskip=\dimen120
+\allauboxes=\dimen121
+\addauthors=\toks21
+\addauflag=\count94
+\subtitletext=\toks22
+\savesection=\count95
+\sectioncntr=\count96
+\c@figure=\count97
+\c@table=\count98
+\titleboxnotes=\toks23
+\titleboxnoteflag=\count99
+Document Class: sig-alternate 2012/05/23 - V2.5 - based on acmproc.cls V1.3 <No
+v. 30 '99>
+(/usr/share/texmf/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+\@acmtitlebox=\box28
+\titlenotecount=\count100
+\tntoks=\toks24
+\tntokstwo=\toks25
+\tntoksthree=\toks26
+\tntoksfour=\toks27
+\tntoksfive=\toks28
+\catcount=\count101
+\copyrightnotice=\toks29
+\conf=\toks30
+\confinfo=\toks31
+\c@part=\count102
+\c@section=\count103
+\c@subsection=\count104
+\c@subsubsection=\count105
+\c@paragraph=\count106
+
+Using 'Abbrev' bibliography style
+LaTeX Info: Redefining \cite on input line 1211.
+\bibindent=\dimen122
+\colcntr=\count107
+\saveb@x=\box29
+\copyrtyr=\toks32
+\acmcopyr=\toks33
+\boilerplate=\toks34
+\copyrightetc=\toks35
+(/usr/share/texmf/tex/latex/base/fontenc.sty
+Package: fontenc 2004/02/22 v1.99f Standard LaTeX package
+
+(/usr/share/texmf/tex/latex/base/t1enc.def
+File: t1enc.def 2004/02/22 v1.99f Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
+
+(/usr/share/texmf/tex/latex/ae/t1aer.fd
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)))
+(/usr/share/texmf/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip44
+\subfigcapskip=\skip45
+\subfigcaptopadj=\dimen123
+\subfigbottomskip=\skip46
+\subfigcapmargin=\dimen124
+\subfiglabelskip=\skip47
+\c@subfigure=\count108
+\c@lofdepth=\count109
+\c@subtable=\count110
+\c@lotdepth=\count111
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip48
+\subfig@bottom=\skip49
+)
+(/usr/share/texmf/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
+)
+(/usr/share/texmf/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/share/texmf/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 149.
+LaTeX Info: Redefining \nocite on input line 214.
+Package: cite 2003/11/04  v 4.01
+)
+(/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(/usr/share/texmf/tex/latex/graphics/color.cfg
+File: color.cfg 2005/02/03 v1.3 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 125.
+
+(/usr/share/texmf/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/share/texmf/tex/latex/ulem/ulem.sty
+\UL@box=\box30
+\UL@hyphenbox=\box31
+\UL@skip=\skip50
+\UL@hook=\toks36
+\UL@pe=\count112
+\UL@pixel=\dimen125
+\ULC@box=\box32
+Package: ulem 2000/05/26
+\ULdepth=\dimen126
+) (./www-workshop.aux)
+\openout1 = `www-workshop.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 55.
+
+(/usr/share/texmf/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+Overfull \hbox (13.36392pt too wide) in paragraph at lines 64--65
+[]\T1/aer/m/n/9 H.4 [\T1/aer/bx/n/9 Social Net-work\T1/aer/m/n/9 ]: Tem-po-ral 
+Anal-isys; J.4. [\T1/aer/bx/n/9 Computer
+ []
+
+
+Overfull \hbox (2.37401pt too wide) in paragraph at lines 64--65
+\T1/aer/bx/n/9 Ap-pli-ca-tions\T1/aer/m/n/9 ]: So-cial and be-hav-ioral sci-enc
+es Mis-cel-la-neous 
+ []
+
+(./intro.tex) (./related.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--46
+
+ []
+
+[1
+
+
+]) (./data.tex
+File: graficos/sigs_metricas_acumuladas_1_em_1_ano/assortatividade_grupo_tempor
+al_web.eps Graphic file (type eps)
+
+<graficos/sigs_metricas_acumuladas_1_em_1_ano/assortatividade_grupo_temporal_we
+b.eps>
+File: graficos/sigs_metricas_acumuladas_1_em_1_ano/caminho_minimo_medio_grupo_t
+emporal_web.eps Graphic file (type eps)
+
+<graficos/sigs_metricas_acumuladas_1_em_1_ano/caminho_minimo_medio_grupo_tempor
+al_web.eps>
+Overfull \hbox (10.80377pt too wide) in paragraph at lines 84--89
+ [][] 
+ []
+
+File: graficos/sigs_metricas_acumuladas_1_em_1_ano/coeficiente_agrupamento_grup
+o_temporal_web.eps Graphic file (type eps)
+
+<graficos/sigs_metricas_acumuladas_1_em_1_ano/coeficiente_agrupamento_grupo_tem
+poral_web.eps>
+File: graficos/sigs_metricas_acumuladas_1_em_1_ano/porcentagem_maior_componente
+_grupo_temporal_web.eps Graphic file (type eps)
+
+<graficos/sigs_metricas_acumuladas_1_em_1_ano/porcentagem_maior_componente_grup
+o_temporal_web.eps>
+Overfull \hbox (10.80377pt too wide) in paragraph at lines 93--98
+ [][][] 
+ []
+
+File: graficos/sigs_metricas_acumuladas_1_em_1_ano/grau_medio_nodos_grupo_tempo
+ral_web.eps Graphic file (type eps)
+
+<graficos/sigs_metricas_acumuladas_1_em_1_ano/grau_medio_nodos_grupo_temporal_w
+eb.eps>
+Underfull \hbox (badness 3780) in paragraph at lines 102--102
+[]\T1/aer/m/n/9 (e) Av-er-age De-gree - NAO
+ []
+
+
+Underfull \vbox (badness 1558) has occurred while \output is active []
+
+ [2]
+Underfull \vbox (badness 1112) has occurred while \output is active []
+
+)
+(./core.tex [3]
+File: graficos/hindex/hindex_scatter_plot.eps Graphic file (type eps)
+ <graficos/hindex/hindex_scatter_plot.eps>
+Overfull \hbox (9.66222pt too wide) in paragraph at lines 74--80
+[]\T1/aer/m/n/9 Intuitively, high ressam-blance vari-a-tions in-di-cate bad thr
+esh-
+ []
+
+File: graficos/window_core_size/sigmod_slide_window_top_list.eps Graphic file (
+type eps)
+<graficos/window_core_size/sigmod_slide_window_top_list.eps>
+File: graficos/window_core_size/sigdoc_slide_window_top_list.eps Graphic file (
+type eps)
+
+<graficos/window_core_size/sigdoc_slide_window_top_list.eps>
+Overfull \hbox (10.80377pt too wide) in paragraph at lines 86--91
+ [][] 
+ []
+
+
+Overfull \hbox (1.55331pt too wide) in paragraph at lines 102--109
+[]\T1/aer/m/n/9 First, we an-a-lyze the core score of two WWW 2013 keynote
+ []
+
+[4]
+File: graficos/validacao_core_community/cc_kleinberg.eps Graphic file (type eps
+)
+ <graficos/validacao_core_community/cc_kleinberg.eps>
+File: graficos/validacao_core_community/cc_luis_von_ahn.eps Graphic file (type 
+eps)
+
+<graficos/validacao_core_community/cc_luis_von_ahn.eps>
+Overfull \hbox (10.80377pt too wide) in paragraph at lines 115--120
+ [][] 
+ []
+
+
+Underfull \vbox (badness 3557) has occurred while \output is active []
+
+)
+(./analysis.tex
+File: graficos/core_over_time/metricas_tradicionais/assortatividade_slide_windo
+w_grupo_temporal_web.eps Graphic file (type eps)
+
+<graficos/core_over_time/metricas_tradicionais/assortatividade_slide_window_gru
+po_temporal_web.eps>
+File: graficos/core_over_time/metricas_tradicionais/caminho_minimo_medio_slide_
+window_grupo_temporal_web.eps Graphic file (type eps)
+
+<graficos/core_over_time/metricas_tradicionais/caminho_minimo_medio_slide_windo
+w_grupo_temporal_web.eps>
+Overfull \hbox (10.80377pt too wide) in paragraph at lines 20--25
+ [][] 
+ []
+
+File: graficos/core_over_time/metricas_tradicionais/coeficiente_agrupamento_sli
+de_window_grupo_temporal_web.eps Graphic file (type eps)
+
+<graficos/core_over_time/metricas_tradicionais/coeficiente_agrupamento_slide_wi
+ndow_grupo_temporal_web.eps>
+File: graficos/core_over_time/metricas_tradicionais/porcentagem_maior_component
+e_slide_window_grupo_temporal_web.eps Graphic file (type eps)
+
+<graficos/core_over_time/metricas_tradicionais/porcentagem_maior_componente_sli
+de_window_grupo_temporal_web.eps>
+Overfull \hbox (10.80377pt too wide) in paragraph at lines 29--34
+ [][][] 
+ []
+
+File: graficos/core_over_time/metricas_tradicionais/grau_medio_nodos_slide_wind
+ow_grupo_temporal_web.eps Graphic file (type eps)
+
+<graficos/core_over_time/metricas_tradicionais/grau_medio_nodos_slide_window_gr
+upo_temporal_web.eps>
+Overfull \hbox (5.36255pt too wide) in paragraph at lines 44--49
+\T1/aer/m/n/9 slide win-dows to un-der-stand how the core com-mu-ni-ties evolve
+.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--49
+
+ []
+
+File: graficos/core_over_time/core_community/sigir_janela_3_core_coeficiente_ag
+rupamento.eps Graphic file (type eps)
+
+<graficos/core_over_time/core_community/sigir_janela_3_core_coeficiente_agrupam
+ento.eps>
+File: graficos/core_over_time/core_community/sigir_janela_3_core_grau_medio_nod
+os.eps Graphic file (type eps)
+
+<graficos/core_over_time/core_community/sigir_janela_3_core_grau_medio_nodos.ep
+s>
+File: graficos/core_over_time/core_community/sigir_janela_3_core_maior_componen
+te_conectado.eps Graphic file (type eps)
+
+<graficos/core_over_time/core_community/sigir_janela_3_core_maior_componente_co
+nectado.eps>
+File: graficos/core_over_time/core_community/sigmod_janela_3_core_coeficiente_a
+grupamento.eps Graphic file (type eps)
+
+<graficos/core_over_time/core_community/sigmod_janela_3_core_coeficiente_agrupa
+mento.eps>
+File: graficos/core_over_time/core_community/sigmod_janela_3_core_grau_medio_no
+dos.eps Graphic file (type eps)
+
+<graficos/core_over_time/core_community/sigmod_janela_3_core_grau_medio_nodos.e
+ps>
+File: graficos/core_over_time/core_community/sigmod_janela_3_core_maior_compone
+nte_conectado.eps Graphic file (type eps)
+
+<graficos/core_over_time/core_community/sigmod_janela_3_core_maior_componente_c
+onectado.eps>
+Underfull \hbox (badness 1874) in paragraph at lines 76--76
+[]\T1/aer/m/n/9 (f) SIG-MOD - Largest con-
+ []
+
+[5]
+File: graficos/average_core_score/average_core_score_slide_window_grupo_tempora
+l_web.eps Graphic file (type eps)
+
+<graficos/average_core_score/average_core_score_slide_window_grupo_temporal_web
+.eps>) (./conclusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--17
+
+ []
+
+) (./www-workshop.bbl [6]
+
+LaTeX Warning: Text page \thepage  contains only floats.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7])
+[8
+
+] (./www-workshop.aux) ) 
+Here is how much of TeX's memory you used:
+ 2541 strings out of 94501
+ 32659 string characters out of 1176790
+ 92811 words of memory out of 1000000
+ 5615 multiletter control sequences out of 10000+50000
+ 47482 words of font info for 62 fonts, out of 500000 for 2000
+ 580 hyphenation exceptions out of 1000
+ 39i,12n,26p,474b,350s stack positions out of 1500i,500n,5000p,200000b,5000s
+
+Output written on www-workshop.dvi (8 pages, 70100 bytes).

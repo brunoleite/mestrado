@@ -1,0 +1,551 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.8.5)  13 OCT 2012 19:26
+entering extended mode
+ %&-line parsing enabled.
+**../../../output/dblp/conference/FOCS/script-gnuplot//FOCS.tex
+(../../../output/dblp/conference/FOCS/script-gnuplot//FOCS.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, portuguese, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texmf-texlive/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+(/usr/share/texmf-texlive/tex/generic/babel/portuges.ldf
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+(/usr/share/texmf-texlive/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\l@brazil = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
+)) (/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+(/usr/share/texmf-texlive/tex/latex/base/latin1.def
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+)) (/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)) (/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip43
+\subfigcapskip=\skip44
+\subfigcaptopadj=\dimen104
+\subfigbottomskip=\skip45
+\subfigcapmargin=\dimen105
+\subfiglabelskip=\skip46
+\c@subfigure=\count88
+\c@lofdepth=\count89
+\c@subtable=\count90
+\c@lotdepth=\count91
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip47
+\subfig@bottom=\skip48
+) (/usr/share/texmf-texlive/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count92
+\float@exts=\toks16
+\float@box=\box26
+\@float@everytoks=\toks17
+\@floatcapt=\box27
+) (/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks18
+) (/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
+) (/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode not detected.
+) (/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+) (/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+) (/usr/share/texmf-texlive/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen108
+\Hy@linkcounter=\count93
+\Hy@pagecounter=\count94
+(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+) (/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+) (/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+) (/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Option `bookmarks' set `true' on input line 2864.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 2864
+.
+Package hyperref Info: Option `linktocpage' set `true' on input line 2864.
+Package hyperref Info: Option `colorlinks' set `true' on input line 2864.
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing OFF on input line 2995.
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3191.
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3428.
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+) (/usr/share/texmf-texlive/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+) (/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)))
+\Fld@menulength=\count95
+\Field@Width=\dimen109
+\Fld@charsize=\dimen110
+\Field@toks=\toks19
+Package hyperref Info: Hyper figures OFF on input line 4377.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing OFF on input line 4392.
+Package hyperref Info: Link coloring ON on input line 4395.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
+(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count96
+\c@Item=\count97
+\c@Hfootnote=\count98
+)
+*hyperref using default driver hdvips*
+(/usr/share/texmf-texlive/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2009/10/09 v6.79a Hyperref driver for dvips
+(/usr/share/texmf-texlive/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2009/10/09 v6.79a Hyperref definitions for pdfmark specials
+\pdf@docset=\toks20
+\pdf@box=\box28
+\pdf@toks=\toks21
+\pdf@defaulttoks=\toks22
+\Fld@listcount=\count99
+)) (/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip49
+\bibsep=\skip50
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count100
+) (/usr/share/texmf-texlive/tex/latex/microtype/microtype.sty
+Package: microtype 2009/03/27 v2.3d Micro-typography with pdfTeX (RS)
+\MT@toks=\toks23
+\MT@count=\count101
+LaTeX Info: Redefining \lsstyle on input line 1608.
+LaTeX Info: Redefining \lslig on input line 1608.
+\MT@outer@space=\skip51
+LaTeX Info: Redefining \textls on input line 1616.
+\MT@outer@kern=\dimen111
+LaTeX Info: Redefining \textmicrotypecontext on input line 2167.
+Package microtype Info: Loading configuration file microtype.cfg.
+(/usr/share/texmf-texlive/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2009/03/27 v2.3d microtype main configuration file (RS)
+)) (/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen112
+) (/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+Package: geometry 2008/12/21 v4.2 Page Geometry
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
+\Gm@bindingoffset=\dimen113
+\Gm@wd@mp=\dimen114
+\Gm@odd@mp=\dimen115
+\Gm@even@mp=\dimen116
+\Gm@dimlist=\toks24
+)
+No file FOCS.aux.
+\openout1 = `FOCS.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 130.
+(/usr/share/texmf-texlive/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+Package hyperref Info: Link coloring ON on input line 30.
+(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count105
+)
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+\@outlinefile=\write3
+\openout3 = `FOCS.out'.
+
+\AtBeginShipoutBox=\box29
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+LaTeX Info: Redefining \microtypecontext on input line 30.
+Package microtype Info: Generating DVI output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No font expansion.
+Package microtype Info: No tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(/usr/share/texmf-texlive/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2008/02/29 v1.9a microtype config. file: Computer Modern Roman
+ (RS)
+)
+*geometry auto-detecting driver*
+*geometry detected driver: dvips*
+-------------------- Geometry parameters
+paper: class default
+landscape: --
+twocolumn: --
+twoside: --
+asymmetric: --
+h-parts: 14.45377pt, 585.38747pt, 14.45377pt
+v-parts: 14.45377pt, 766.06245pt, 14.45377pt
+hmarginratio: --
+vmarginratio: --
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: dvips
+-------------------- Page layout dimensions and switches
+\paperwidth  614.295pt
+\paperheight 794.96999pt
+\textwidth  585.38747pt
+\textheight 766.06245pt
+\oddsidemargin  -57.81622pt
+\evensidemargin -57.81622pt
+\topmargin  -94.81622pt
+\headheight 12.0pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 65.0pt
+\marginparsep   11.0pt
+\columnsep  10.0pt
+\skip\footins  9.0pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/caminho_minimo_medio/focs_dados_continuous_caminho_minimo_medio.eps Graphic
+ file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/c
+aminho_minimo_medio/focs_dados_continuous_caminho_minimo_medio.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/caminho_minimo_medio/focs_dados_janela_2_caminho_minimo_medio.eps Graphic f
+ile (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/c
+aminho_minimo_medio/focs_dados_janela_2_caminho_minimo_medio.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/caminho_minimo_medio/focs_dados_janela_3_caminho_minimo_medio.eps Graphic f
+ile (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/c
+aminho_minimo_medio/focs_dados_janela_3_caminho_minimo_medio.eps> [1
+
+]
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/caminho_minimo_medio/focs_dados_janela_4_caminho_minimo_medio.eps Graphic f
+ile (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/c
+aminho_minimo_medio/focs_dados_janela_4_caminho_minimo_medio.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/caminho_minimo_medio/focs_dados_janela_5_caminho_minimo_medio.eps Graphic f
+ile (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/c
+aminho_minimo_medio/focs_dados_janela_5_caminho_minimo_medio.eps> [2] [3]
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/coeficiente_agrupamento/focs_dados_continuous_coeficiente_agrupamento.eps G
+raphic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/c
+oeficiente_agrupamento/focs_dados_continuous_coeficiente_agrupamento.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/coeficiente_agrupamento/focs_dados_janela_2_coeficiente_agrupamento.eps Gra
+phic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/c
+oeficiente_agrupamento/focs_dados_janela_2_coeficiente_agrupamento.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/coeficiente_agrupamento/focs_dados_janela_3_coeficiente_agrupamento.eps Gra
+phic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/c
+oeficiente_agrupamento/focs_dados_janela_3_coeficiente_agrupamento.eps> [4]
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/coeficiente_agrupamento/focs_dados_janela_4_coeficiente_agrupamento.eps Gra
+phic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/c
+oeficiente_agrupamento/focs_dados_janela_4_coeficiente_agrupamento.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/coeficiente_agrupamento/focs_dados_janela_5_coeficiente_agrupamento.eps Gra
+phic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/c
+oeficiente_agrupamento/focs_dados_janela_5_coeficiente_agrupamento.eps> [5] [6]
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/diametro/focs_dados_continuous_diametro.eps Graphic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/d
+iametro/focs_dados_continuous_diametro.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/diametro/focs_dados_janela_2_diametro.eps Graphic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/d
+iametro/focs_dados_janela_2_diametro.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/diametro/focs_dados_janela_3_diametro.eps Graphic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/d
+iametro/focs_dados_janela_3_diametro.eps> [7]
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/diametro/focs_dados_janela_4_diametro.eps Graphic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/d
+iametro/focs_dados_janela_4_diametro.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/diametro/focs_dados_janela_5_diametro.eps Graphic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/d
+iametro/focs_dados_janela_5_diametro.eps> [8] [9]
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/assortatividade/focs_dados_continuous_assortatividade.eps Graphic file (typ
+e eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/a
+ssortatividade/focs_dados_continuous_assortatividade.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/assortatividade/focs_dados_janela_2_assortatividade.eps Graphic file (type 
+eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/a
+ssortatividade/focs_dados_janela_2_assortatividade.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/assortatividade/focs_dados_janela_3_assortatividade.eps Graphic file (type 
+eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/a
+ssortatividade/focs_dados_janela_3_assortatividade.eps> [10]
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/assortatividade/focs_dados_janela_4_assortatividade.eps Graphic file (type 
+eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/a
+ssortatividade/focs_dados_janela_4_assortatividade.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/assortatividade/focs_dados_janela_5_assortatividade.eps Graphic file (type 
+eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/a
+ssortatividade/focs_dados_janela_5_assortatividade.eps> [11] [12]
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/autor/focs_dados_continuous_autor.eps Graphic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/a
+utor/focs_dados_continuous_autor.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/autor/focs_dados_janela_2_autor.eps Graphic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/a
+utor/focs_dados_janela_2_autor.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/autor/focs_dados_janela_3_autor.eps Graphic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/a
+utor/focs_dados_janela_3_autor.eps> [13]
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/autor/focs_dados_janela_4_autor.eps Graphic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/a
+utor/focs_dados_janela_4_autor.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/autor/focs_dados_janela_5_autor.eps Graphic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/a
+utor/focs_dados_janela_5_autor.eps> [14] [15]
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/publicacao/focs_dados_continuous_publicacao.eps Graphic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/p
+ublicacao/focs_dados_continuous_publicacao.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/publicacao/focs_dados_janela_2_publicacao.eps Graphic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/p
+ublicacao/focs_dados_janela_2_publicacao.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/publicacao/focs_dados_janela_3_publicacao.eps Graphic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/p
+ublicacao/focs_dados_janela_3_publicacao.eps> [16]
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/publicacao/focs_dados_janela_4_publicacao.eps Graphic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/p
+ublicacao/focs_dados_janela_4_publicacao.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/publicacao/focs_dados_janela_5_publicacao.eps Graphic file (type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/p
+ublicacao/focs_dados_janela_5_publicacao.eps> [17] [18]
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/resemblance_link/focs_dados_janela_2_resemblance_link.eps Graphic file (typ
+e eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/r
+esemblance_link/focs_dados_janela_2_resemblance_link.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/resemblance_link/focs_dados_janela_3_resemblance_link.eps Graphic file (typ
+e eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/r
+esemblance_link/focs_dados_janela_3_resemblance_link.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/resemblance_link/focs_dados_janela_4_resemblance_link.eps Graphic file (typ
+e eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/r
+esemblance_link/focs_dados_janela_4_resemblance_link.eps> [19]
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/resemblance_link/focs_dados_janela_5_resemblance_link.eps Graphic file (typ
+e eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/r
+esemblance_link/focs_dados_janela_5_resemblance_link.eps> [20]
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/resemblance_author/focs_dados_janela_2_resemblance_author.eps Graphic file 
+(type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/r
+esemblance_author/focs_dados_janela_2_resemblance_author.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/resemblance_author/focs_dados_janela_3_resemblance_author.eps Graphic file 
+(type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/r
+esemblance_author/focs_dados_janela_3_resemblance_author.eps>
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/resemblance_author/focs_dados_janela_4_resemblance_author.eps Graphic file 
+(type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/r
+esemblance_author/focs_dados_janela_4_resemblance_author.eps> [21]
+File: /home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnup
+lot/resemblance_author/focs_dados_janela_5_resemblance_author.eps Graphic file 
+(type eps)
+
+</home/bruno/workspace/Dissertacao/output/dblp/conference/FOCS/script-gnuplot/r
+esemblance_author/focs_dados_janela_5_resemblance_author.eps> [22] (../../../ou
+tput/dblp/conference/FOCS/script-gnuplot//FOCS.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6793 strings out of 495042
+ 108609 string characters out of 1181921
+ 202048 words of memory out of 3000000
+ 9860 multiletter control sequences out of 15000+50000
+ 5175 words of font info for 16 fonts, out of 3000000 for 9000
+ 30 hyphenation exceptions out of 8191
+ 38i,5n,35p,387b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on ../../../output/dblp/conference/FOCS/script-gnuplot//FOCS.dvi
+ (22 pages, 36124 bytes).

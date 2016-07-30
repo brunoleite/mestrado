@@ -1,0 +1,477 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.23)  28 APR 2014 13:44
+entering extended mode
+**D:/Meus*documentos/Dropbox/bruno*(1).leite/cacm-sigs/www-workshop.tex
+("D:/Meus documentos/Dropbox/bruno (1).leite/cacm-sigs/www-workshop.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+
+("D:\Meus documentos\Dropbox\bruno (1).leite\cacm-sigs\www13-companion-accepted
+.cls" ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count79
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+\epsfxsize=\dimen104
+\epsfysize=\dimen105
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip41
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen106
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen107
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count80
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count81
+\leftroot@=\count82
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count83
+\DOTSCASE@=\count84
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count85
+\c@MaxMatrixCols=\count86
+\dotsspace@=\muskip10
+\c@parentequation=\count87
+\dspbrk@lvl=\count88
+\tag@help=\toks17
+\row@=\count89
+\column@=\count90
+\maxfields@=\count91
+\andhelp@=\toks18
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks19
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+Document Class 'www2013-accepted From www-release by ACM
+Based in part upon document Style `acmconf' <22 May 89>. Hacked 4/91 by
+shivers@cs.cmu.edu, 4/93 by theobald@cs.mcgill.ca
+Excerpts were taken from (Journal Style) 'esub2acm.cls'.
+****** Bugs/comments/suggestions/technicalities to Craig Rodkin (rodkin@hq.acm.
+org ******
+Questions on the latex formatting to: acmtexsupport@aptaracorp.com, SIGS polici
+es, etc. to Adrienne Griscti griscti@acm.org
+\footheight=\dimen115
+\@maxsep=\dimen116
+\@dblmaxsep=\dimen117
+\aucount=\count92
+\originalaucount=\count93
+\auwidth=\dimen118
+\auskip=\dimen119
+\auskipcount=\count94
+\auskip=\dimen120
+\allauboxes=\dimen121
+\addauthors=\toks21
+\addauflag=\count95
+\subtitletext=\toks22
+\savesection=\count96
+\sectioncntr=\count97
+\c@figure=\count98
+\c@table=\count99
+\titleboxnotes=\toks23
+\titleboxnoteflag=\count100
+
+LaTeX Warning: You have requested document class `www13-companion-accepted',
+               but the document class provides `www2012-accepted'.
+
+Document Class: www2012-accepted 2012/01/26 V2.0 based on sig-alt-release.cls
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+\@acmtitlebox=\box28
+\titlenotecount=\count101
+\tntoks=\toks24
+\tntokstwo=\toks25
+\tntoksthree=\toks26
+\tntoksfour=\toks27
+\tntoksfive=\toks28
+\catcount=\count102
+\copyrightnotice=\toks29
+\conf=\toks30
+\confinfo=\toks31
+\c@part=\count103
+\c@section=\count104
+\c@subsection=\count105
+\c@subsubsection=\count106
+\c@paragraph=\count107
+
+Using 'Abbrev' bibliography style
+LaTeX Info: Redefining \cite on input line 1205.
+\bibindent=\dimen122
+\colcntr=\count108
+\saveb@x=\box29
+\copyrtyr=\toks32
+\acmcopyr=\toks33
+\boilerplate=\toks34
+\copyrightetc=\toks35
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip44
+\subfigcapskip=\skip45
+\subfigcaptopadj=\dimen123
+\subfigbottomskip=\skip46
+\subfigcapmargin=\dimen124
+\subfiglabelskip=\skip47
+\c@subfigure=\count109
+\c@lofdepth=\count110
+\c@subtable=\count111
+\c@lotdepth=\count112
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip48
+\subfig@bottom=\skip49
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 373.
+Package: cite 2010/09/10  v 5.3
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+
+LaTeX Warning: Unused global option(s):
+    [letterpaper].
+
+("D:\Meus documentos\Dropbox\bruno (1).leite\cacm-sigs\www-workshop.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count113
+\scratchdimen=\dimen125
+\scratchbox=\box30
+\nofMPsegments=\count114
+\nofMParguments=\count115
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count116
+\MPscratchDim=\dimen126
+\MPnumerator=\count117
+\makeMPintoPDFobject=\count118
+\everyMPtoPDFconversion=\toks37
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 63.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 63.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 63.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+Overfull \hbox (3.56032pt too wide) in paragraph at lines 66--81
+\T1/aer/m/n/9 en-tific com-mu-ni-ties. De-spite the great in-ter-est, lit-tle i
+s known
+ []
+
+("D:\Meus documentos\Dropbox\bruno (1).leite\cacm-sigs\intro.tex"
+
+LaTeX Warning: Citation `Kleinberg@cacm2008' on page \thepage  undefined on inp
+ut line 4.
+
+
+LaTeX Warning: Citation `icwsm10cha' on page \thepage  undefined on input line 
+11.
+
+
+LaTeX Warning: Citation `crandall.kdd08' on page \thepage  undefined on input l
+ine 11.
+
+
+LaTeX Warning: Citation `Backstrom:2006' on page \thepage  undefined on input l
+ine 11.
+
+
+LaTeX Warning: Citation `influence.correlation.kdd08' on page \thepage  undefin
+ed on input line 11.
+
+
+LaTeX Warning: Citation `Rogers.1962' on page \thepage  undefined on input line
+ 12.
+
+
+LaTeX Warning: Citation `accidental-influential' on page \thepage  undefined on
+ input line 12.
+
+
+LaTeX Warning: Citation `kempe03kdd' on page \thepage  undefined on input line 
+12.
+
+
+LaTeX Warning: Citation `Kempe05influentialnodes' on page \thepage  undefined o
+n input line 12.
+
+
+LaTeX Warning: Citation `saez-trumper@kdd12' on page \thepage  undefined on inp
+ut line 13.
+
+
+LaTeX Warning: Citation `Weng:2010:TFT:1718487.1718520' on page \thepage  undef
+ined on input line 13.
+
+
+LaTeX Warning: Citation `Ley:2009' on page \thepage  undefined on input line 18
+.
+
+
+Underfull \vbox (badness 1817) has occurred while \output is active []
+
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+Non-PDF special ignored!
+
+])
+("D:\Meus documentos\Dropbox\bruno (1).leite\cacm-sigs\related.tex"
+
+LaTeX Warning: Citation `Kumar:2006' on page \thepage  undefined on input line 
+4.
+
+
+LaTeX Warning: Citation `Ducheneaut:2007' on page \thepage  undefined on input 
+line 6.
+
+
+LaTeX Warning: Citation `Patil:2012' on page \thepage  undefined on input line 
+7.
+
+
+LaTeX Warning: Citation `Viswanath:2009' on page \thepage  undefined on input l
+ine 8.
+
+
+LaTeX Warning: Citation `Leskovec:2005' on page \thepage  undefined on input li
+ne 11.
+
+
+LaTeX Warning: Citation `Leskovec:2008' on page \thepage  undefined on input li
+ne 13.
+
+
+LaTeX Warning: Citation `Backstrom:2006' on page \thepage  undefined on input l
+ine 18.
+
+
+LaTeX Warning: Citation `Huang:2008' on page \thepage  undefined on input line 
+20.
+
+
+LaTeX Warning: Citation `Leskovec@www2010' on page \thepage  undefined on input
+ line 26.
+
+
+LaTeX Warning: Citation `Chakrabarti:2006:EC:1150402.1150467' on page \thepage 
+ undefined on input line 26.
+
+
+LaTeX Warning: Citation `citeulike:370723' on page \thepage  undefined on input
+ line 26.
+
+
+LaTeX Warning: Citation `Sachan:2012' on page \thepage  undefined on input line
+ 26.
+
+
+LaTeX Warning: Citation `Seifi:2012:CCE:2187980.2188258' on page \thepage  unde
+fined on input line 27.
+
+) ("D:\Meus documentos\Dropbox\bruno (1).leite\cacm-sigs\data.tex"
+
+LaTeX Warning: Citation `Kleinberg@cacm2008' on page \thepage  undefined on inp
+ut line 5.
+
+
+LaTeX Warning: Citation `Leskovec@www2010' on page \thepage  undefined on input
+ line 5.
+
+
+LaTeX Warning: Citation `Ley:2009' on page \thepage  undefined on input line 9.
+
+
+
+LaTeX Warning: Reference `tab:sigs_conference_period' on page \thepage  undefin
+ed on input line 19.
+
+) ("D:\Meus documentos\Dropbox\bruno (1).leite\cacm-sigs\core.tex"
+
+LaTeX Warning: Citation `Seifi:2012:CCE:2187980.2188258' on page \thepage  unde
+fined on input line 4.
+
+[2]
+
+LaTeX Warning: Citation `Hirsch:2005' on page \thepage  undefined on input line
+ 9.
+
+
+LaTeX Warning: Reference `eq:core_score' on page \thepage  undefined on input l
+ine 17.
+
+
+LaTeX Warning: Reference `sub:hindex' on page \thepage  undefined on input line
+ 31.
+
+
+LaTeX Warning: Reference `sub:thresholds' on page \thepage  undefined on input 
+line 33.
+
+
+LaTeX Warning: File `graficos/hindex/hindex_scatter_plot.eps' not found on inpu
+t line 53.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ...]{graficos/hindex/hindex_scatter_plot.eps}
+                                                  
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.53 ...]{graficos/hindex/hindex_scatter_plot.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 2847 strings out of 493921
+ 35067 string characters out of 3147273
+ 109657 words of memory out of 3000000
+ 6061 multiletter control sequences out of 15000+200000
+ 57828 words of font info for 79 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 41i,11n,26p,343b,294s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

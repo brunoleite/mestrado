@@ -1,0 +1,150 @@
+\begin{thebibliography}{10}
+
+\bibitem{influence.correlation.kdd08}
+A.~Anagnostopoulos, R.~Kumar, and M.~Mahdian.
+\newblock Influence and correlation in social networks.
+\newblock In {\em Proc. of KDD}, 2008.
+
+\bibitem{fourdegrees_facebook}
+L.~Backstrom, P.~Boldi, M.~Rosa, J.~Ugander, and S.~Vigna.
+\newblock Four degrees of separation.
+\newblock In {\em Proc. of ACM Web Science}, 2012.
+
+\bibitem{Backstrom:2006}
+L.~Backstrom, D.~Huttenlocher, J.~Kleinberg, and X.~Lan.
+\newblock Group formation in large social networks: membership, growth, and
+  evolution.
+\newblock In {\em Proc. of KDD}, 2006.
+
+\bibitem{icwsm10cha}
+M.~Cha, H.~Haddadi, F.~Benevenuto, and K.~P. Gummadi.
+\newblock {Measuring User Influence in Twitter: The Million Follower Fallacy}.
+\newblock In {\em Proc. of ICWSM}, 2010.
+
+\bibitem{Chakrabarti:2006:EC:1150402.1150467}
+D.~Chakrabarti, R.~Kumar, and A.~Tomkins.
+\newblock Evolutionary clustering.
+\newblock In {\em Proc. of KDD}, 2006.
+
+\bibitem{crandall.kdd08}
+D.~Crandall, D.~Cosley, D.~Huttenlocher, J.~Kleinberg, and S.~Suri.
+\newblock Feedback effects between similarity and social influence in online
+  communities.
+\newblock In {\em Proc. of KDD}, 2008.
+
+\bibitem{Ducheneaut:2007}
+N.~Ducheneaut, N.~Yee, E.~Nickell, and R.~J. Moore.
+\newblock The life and death of online gaming communities: a look at guilds in
+  world of warcraft.
+\newblock In {\em Proc. of CHI}, 2007.
+
+\bibitem{Hirsch:2005}
+J.~E. Hirsch.
+\newblock An index to quantify an individual's scientific research output.
+\newblock {\em Proc. of PNAS}, 102(46):16569--16572, 2005.
+
+\bibitem{citeulike:370723}
+J.~Hopcroft, O.~Khan, B.~Kulis, and B.~Selman.
+\newblock Tracking evolving communities in large linked networks.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  101:5249--5253, April 2004.
+
+\bibitem{Huang:2008}
+J.~Huang, Z.~Zhuang, J.~Li, and C.~L. Giles.
+\newblock Collaboration over time: characterizing and modeling network
+  evolution.
+\newblock In {\em Proc. of WSDM}, 2008.
+
+\bibitem{Kempe05influentialnodes}
+D.~Kempe, J.~Kleinberg, and \'{E}va Tardos.
+\newblock Influential nodes in a diffusion model for social networks.
+\newblock In {\em Proc. of ICALP}, 2005.
+
+\bibitem{kempe03kdd}
+D.~Kempe, J.~Kleinberg, and E.~Tardos.
+\newblock Maximizing the spread of influence through a social network.
+\newblock In {\em Proc. of KDD}, 2003.
+
+\bibitem{Kleinberg@cacm2008}
+J.~Kleinberg.
+\newblock The convergence of social and technological networks.
+\newblock {\em Commun. ACM}, 51(11):66--72, Nov. 2008.
+
+\bibitem{Kumar:2006}
+R.~Kumar, J.~Novak, and A.~Tomkins.
+\newblock Structure and evolution of online social networks.
+\newblock In {\em Proc. of KDD}, 2006.
+
+\bibitem{Leskovec:2008}
+J.~Leskovec, L.~Backstrom, R.~Kumar, and A.~Tomkins.
+\newblock Microscopic evolution of social networks.
+\newblock In {\em Proc. of KDD}, 2008.
+
+\bibitem{Leskovec:2005}
+J.~Leskovec, J.~Kleinberg, and C.~Faloutsos.
+\newblock Graphs over time: densification laws, shrinking diameters and
+  possible explanations.
+\newblock In {\em Proc. of KDD}, 2005.
+
+\bibitem{Leskovec@www2010}
+J.~Leskovec, K.~J. Lang, and M.~Mahoney.
+\newblock Empirical comparison of algorithms for network community detection.
+\newblock In {\em Proc. of WWW}, 2010.
+
+\bibitem{Ley:2009}
+M.~Ley.
+\newblock Dblp: some lessons learned.
+\newblock {\em VLDB}, 2(2):1493--1500, 2009.
+
+\bibitem{mislove-2007-socialnetworks}
+A.~Mislove, M.~Marcon, K.~P. Gummadi, P.~Druschel, and B.~Bhattacharjee.
+\newblock {Measurement and Analysis of Online Social Networks}.
+\newblock In {\em Proc. of IMC}, 2007.
+
+\bibitem{Newman2003}
+M.~Newman and J.~Park.
+\newblock Why social networks are different from other types of networks.
+\newblock {\em Phys. Rev. E}, 68, 2003.
+
+\bibitem{Patil:2012}
+A.~Patil, J.~Liu, B.~Price, H.~Sharara, and O.~Brdiczka.
+\newblock Modeling destructive group dynamics in on-line gaming communities.
+\newblock In {\em Proc. of ICWSM}, 2012.
+
+\bibitem{Rogers.1962}
+E.~M. Rogers.
+\newblock {\em Diffusion of Innovations}.
+\newblock 1962.
+
+\bibitem{Sachan:2012}
+M.~Sachan, D.~Contractor, T.~A. Faruquie, and L.~V. Subramaniam.
+\newblock Using content and interactions for discovering communities in social
+  networks.
+\newblock In {\em Proc. of WWW}, 2012.
+
+\bibitem{saez-trumper@kdd12}
+D.~Saez-Trumper, G.~Comarela, V.~Almeida, R.~Baeza-Yates, and F.~Benevenuto.
+\newblock Finding trendsetters in information networks.
+\newblock In {\em Proc. of KDD}, 2012.
+
+\bibitem{Seifi:2012:CCE:2187980.2188258}
+M.~Seifi and J.-L. Guillaume.
+\newblock Community cores in evolving networks.
+\newblock In {\em Proc. of MSND}, 2012.
+
+\bibitem{Viswanath:2009}
+B.~Viswanath, A.~Mislove, M.~Cha, and K.~P. Gummadi.
+\newblock On the evolution of user interaction in facebook.
+\newblock In {\em Proc. of WOSN}, 2009.
+
+\bibitem{accidental-influential}
+D.~Watts and P.~Dodds.
+\newblock Influentials, networks, and public opinion formation.
+\newblock {\em Journal of Consumer Research}, 34(4):441--458, 2007.
+
+\bibitem{Weng:2010:TFT:1718487.1718520}
+J.~Weng, E.-P. Lim, J.~Jiang, and Q.~He.
+\newblock Twitterrank: finding topic-sensitive influential twitterers.
+\newblock In {\em Proc. of WSDM}, 2010.
+
+\end{thebibliography}

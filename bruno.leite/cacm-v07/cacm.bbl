@@ -1,0 +1,83 @@
+\begin{thebibliography}{}
+
+\bibitem[Alves et~al., 2013]{Alves:2013}
+Alves, B.~L., Benevenuto, F., and Laender, A. H.~F. (2013).
+\newblock {The Role of Research Leaders on the Evolution of Scientific
+  Communities}.
+\newblock In {\em Proceedings of the 22nd International Conference on World
+  Wide Web (Companion Volume)}, pages 649--656.
+
+\bibitem[Fortnow, 2009]{Fortnow:cacm2009}
+Fortnow, L. (2009).
+\newblock {Time for Computer Science to Grow Up}.
+\newblock {\em Commun. ACM}, 52(8):33--35.
+
+\bibitem[Franceschet, 2010]{Franceschet:cacm2010}
+Franceschet, M. (2010).
+\newblock {The Role of Conference Publications in CS}.
+\newblock {\em Commun. ACM}, 53(12):129--132.
+
+\bibitem[Freeman, 1977]{freeman1977set}
+Freeman, L.~C. (1977).
+\newblock A set of measures of centrality based on betweenness.
+\newblock {\em Sociometry}, pages 35--41.
+
+\bibitem[Freyne et~al., 2010]{Freyne:cacm2010}
+Freyne, J., Coyle, L., Smyth, B., and Cunningham, P. (2010).
+\newblock {Relative Status of Journal and Conference Publications in Computer
+  Science}.
+\newblock {\em Commun. ACM}, 53(11):124--132.
+
+\bibitem[Girvan and Newman, 2002]{girvan2002community}
+Girvan, M. and Newman, M.~E. (2002).
+\newblock Community structure in social and biological networks.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 99(12):7821--7826.
+
+\bibitem[Hirsch, 2005]{Hirsch:2005}
+Hirsch, J.~E. (2005).
+\newblock An index to quantify an individual's scientific research output.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 102(46):16569--16572.
+
+\bibitem[Laender et~al., 2008]{Laender:sigcse2008}
+Laender, A. H.~F., de~Lucena, C. J.~P., Maldonado, J.~C., de~Souza~e Silva, E.,
+  and Ziviani, N. (2008).
+\newblock {Assessing the Research and Education Quality of the Top Brazilian
+  Computer Science Graduate Programs}.
+\newblock {\em {SIGCSE} Bulletin}, 40(2):135--145.
+
+\bibitem[Ley, 2002]{Ley:2002}
+Ley, M. (2002).
+\newblock {The {DBLP} Computer Science Bibliography: Evolution, Research
+  Issues, Perspectives}.
+\newblock In {\em Proceedings of the 9th International Symposium on String
+  Processing and Information Retrieval}, pages 1--10.
+
+\bibitem[Ley, 2009]{Ley:2009}
+Ley, M. (2009).
+\newblock {DBLP: Some Lessons Learned}.
+\newblock {\em Proc. of VLDB Endow.}, 2(2):1493--1500.
+
+\bibitem[Patterson, 2004]{Patterson:cacm2004}
+Patterson, D.~A. (2004).
+\newblock {The Health of Research Conferences and the Dearth of Big Idea
+  Papers}.
+\newblock {\em Commun. ACM}, 47(12):23--24.
+
+\bibitem[Vardi, 2009]{Vardi:cacm2009}
+Vardi, M.~Y. (2009).
+\newblock {Conferences vs. Journals in Computing Research}.
+\newblock {\em Commun. ACM}, 52(5):5--5.
+
+\bibitem[Vardi, 2010]{Vardi:cacm2010}
+Vardi, M.~Y. (2010).
+\newblock {Revisiting the Publication Culture in Computing Research}.
+\newblock {\em Commun. ACM}, 53(3):5--5.
+
+\bibitem[Vardi, 2014]{Vardi:cacm2014}
+Vardi, M.~Y. (2014).
+\newblock {Scalable Conferences}.
+\newblock {\em Commun. ACM}, 57(1):5--5.
+
+\end{thebibliography}

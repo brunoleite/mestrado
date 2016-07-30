@@ -1,0 +1,31 @@
+
+\section{Conclusions}
+In this work we approach the study of scientific communities. We used a different approach, where the main focus was the
+study, understanding and the characterization of the core of the communities, here defined as Core Community. We defined
+a measure to identify the core communities based in two parts, the first is the h-index, a index which measures the impact 
+of the researcher in community, and the second is the number of publications in a given conference, it is measure the impact
+of the researcher inside of the community.\\
+We were able to show that many of researchers of the core community were awarded by a lifetime of innovation and leadership 
+inside that community, it was important to validate our results. We also showed the behavior of the two keynote speackers: 
+Jon Kleinberg and Luis von Ahn. It is possible to see the transition that Kleinberg did throughout his career.\\
+Our study also shows a comparative between a study using classic metrics of social networks accumulated the data and the use
+of these metrics using sliding time windows.
+In future works, we aim to refine the core score, a measure define here to identify the core score. We shoud be able to improve
+a temporal bias in its calculation, as to improve the use of the h-index over the time and not statically. We also should be 
+able to apply a same study in other social networks, as Twitter \cite{icwsm10cha, Weng:2010:TFT:1718487.1718520}, facebook 
+\cite{Viswanath:2009} and others social networks.
+
+
+-Ajustes na formula de Core Score:\\
+-Computar h-index a todo momento, considerando o tempo t em analise\\
+-Mudar a formula para considerar publicacoes feitas no passado, no entanto, colocar uma penalidade. (vida trabalho do peterson)\\
+\\
+-Realizar estudo semelhante em outra rede, tipo twitter, o h-index poderia ser alterado para um calculo de infuencia
+%
+%\section{Sugestões}
+%Uma sugestão aqui nesse ponto é medir o número de shifts de comunidades em função do tamanho da janela para escolhermos um 
+%tamanho de janela adequado, como fizemos anteriormente.\
+%De posse dessa medição do core-score, vamos poder analisar o impacto nas caracteristicas estruturais das rede quando grandes 
+%lideranças são perdidas. Será que as comunidades se renovam e mantém as propriedades ou não? 
+%
+

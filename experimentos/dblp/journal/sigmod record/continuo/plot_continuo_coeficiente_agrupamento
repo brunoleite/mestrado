@@ -1,0 +1,16 @@
+set terminal postscript eps color enhanced "Helvetica" 15
+set encoding iso_8859_1
+set output 'sigmod_record_dados_continuos_coeficiente_agrupamento.eps'
+set title 'Dados Continuos - Coeficiente de Agrupamento - 1976-2011'
+set grid
+set key left
+#set key spacing 2
+set ylabel "Average Clustering" 
+set yrange [0:1]
+#set ytics 5
+#set xtics 1
+#set xrange [1976:2011]
+#set xtics 3
+set xtics 1976,3,2011
+set xlabel "Periodo" 
+plot "sigmod_record_dados_continuos.txt" using 1:4 t"Coeficiente de Agrupamento" with linespoints lt 1 lw 2 ps 1 pt 4 lc rgb "red"

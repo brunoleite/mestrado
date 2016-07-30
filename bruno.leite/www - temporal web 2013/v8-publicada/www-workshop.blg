@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: www-workshop.aux
+The style file: abbrv.bst
+Database file #1: short-references.bib
+Warning--empty publisher in Rogers.1962
+You've used 28 entries,
+            2118 wiz_defined-function locations,
+            638 strings with 8022 characters,
+and the built_in function-call counts, 9025 in all, are:
+= -- 768
+> -- 540
+< -- 0
++ -- 215
+- -- 184
+* -- 604
+:= -- 1539
+add.period$ -- 84
+call.type$ -- 28
+change.case$ -- 175
+chr.to.int$ -- 0
+cite$ -- 29
+duplicate$ -- 371
+empty$ -- 769
+format.name$ -- 184
+if$ -- 1865
+int.to.chr$ -- 0
+int.to.str$ -- 28
+missing$ -- 29
+newline$ -- 143
+num.names$ -- 56
+pop$ -- 253
+preamble$ -- 1
+purify$ -- 148
+quote$ -- 0
+skip$ -- 198
+stack$ -- 0
+substring$ -- 274
+swap$ -- 49
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 110
+warning$ -- 1
+while$ -- 63
+width$ -- 30
+write$ -- 287
+(There was 1 warning)

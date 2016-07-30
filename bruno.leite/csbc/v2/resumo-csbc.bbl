@@ -1,0 +1,29 @@
+\begin{thebibliography}{}
+
+\bibitem[Alves et~al. 2013]{Alves2013}
+Alves, B.~L., Benevenuto, F., and Laender, A.~H. (2013).
+\newblock {The Role of Research Leaders on the Evolution of Scientific
+  Communities}.
+\newblock In {\em Proc. of WWW (Companion Volume)}, pages 649--656.
+
+\bibitem[Kleinberg 2008]{Kleinberg2008}
+Kleinberg, J. (2008).
+\newblock The convergence of social and technological networks.
+\newblock {\em Commun. ACM}, 51(11):66--72.
+
+\bibitem[Leskovec et~al. 2010]{Leskovec2010}
+Leskovec, J., Lang, K.~J., and Mahoney, M. (2010).
+\newblock Empirical comparison of algorithms for network community detection.
+\newblock In {\em Proc. of WWW}.
+
+\bibitem[Seifi and Guillaume 2012]{Seifi2012}
+Seifi, M. and Guillaume, J.-L. (2012).
+\newblock Community cores in evolving networks.
+\newblock In {\em Proc. of MSND}.
+
+\bibitem[Viswanath et~al. 2009]{Viswanath2009}
+Viswanath, B., Mislove, A., Cha, M., and Gummadi, K.~P. (2009).
+\newblock On the evolution of user interaction in facebook.
+\newblock In {\em Proc. of WOSN}.
+
+\end{thebibliography}

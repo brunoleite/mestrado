@@ -1,0 +1,201 @@
+\documentclass{article}
+\usepackage[brazil]{babel}      % se o documento for em português, OU
+%\usepackage[english]{babel}    % se o documento for em inglês
+\usepackage[latin1]{inputenc}   % Dá suporte para caracteres especiais como acentos e cedilha
+\usepackage[T1]{fontenc}        % Lê a codificação de fonte T1 (font encoding default é 0T1).
+\usepackage{subfigure}
+\usepackage{float} 
+\usepackage{graphicx}						% define o comando \includegraphics para a inclusão de figuras
+\usepackage[a4paper,
+  portuguese,
+  bookmarks=true,
+  bookmarksnumbered=true,
+  linktocpage,
+  colorlinks,
+  citecolor=black,
+  urlcolor=black,
+  linkcolor=black,
+  filecolor=black,
+  ]{hyperref}
+\usepackage[square]{natbib}    % permite citações naturalmente
+                               % integradas ao texto
+\usepackage{microtype}
+\DisableLigatures{encoding=*,family=*}
+
+\usepackage{multirow}	
+\oddsidemargin 0.0in 
+\evensidemargin 0.0in 
+\usepackage[margin=0.2in]{geometry}
+
+
+\begin{document}
+\chapter{\huge FacebookLink - Caminho Mínimo Médio}
+%Inserir imagens lado a lado
+%\begin{figure} [SigMod!!!]
+%\centering
+%\subfigure[Tempo de Execução da Aplicação Processamento de Tweets]{\mbox{\includegraphics[width=0.49\linewidth]%{img/escalabilidadeTweets}}}
+%\subfigure[Speedup da Aplicação Processamento de Tweets]{\mbox{\includegraphics[width=0.49\linewidth]{img/speedupTweets}}} \\
+%\subfigure[Tempo de Execução da Aplicação Detecção de Congestionamentos]{\mbox{\includegraphics[width=0.49\linewidth]%{img/escalabilidadeTrafego}}}
+%\subfigure[Speedup da Aplicação Detecção de Congestionamentos]{\mbox{\includegraphics[width=0.49\linewidth]%{img/speedupTrafego}}}\\
+%\subfigure[Tempo de Execução da Aplicação Produtor-Consumidor]{\mbox{\includegraphics[width=0.49\linewidth]%{img/escalabilidadeGenerica}}}
+%\subfigure[Speedup da Aplicação Produtor-Consumidor]{\mbox{\includegraphics[width=0.49\linewidth]{img/speedupGenerica}}}\\
+%\caption{Tempos de execução e speedups das aplicações de teste.}
+%\label{fig:escalabilidade}
+%\end{figure}
+
+% Inseri imagens separadas
+\begin{figure}[H]
+    \centering
+    \includegraphics{caminho_minimo_medio/fb_link_dados_continuos_caminho_minimo_medio} 
+    \caption{Evolução acumulada através dos anos - FacebookLink.}
+    \label{fig:CaminhoMinimoContinuo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{caminho_minimo_medio/fb_link_dados_janela_2_caminho_minimo_medio} 
+    \caption{Evolução utilizando janela temporal de 2 meses - FacebookLink.}
+    \label{fig:CaminhoMinimo2meses}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{caminho_minimo_medio/fb_link_dados_janela_3_caminho_minimo_medio} 
+    \caption{Evolução utilizando janela temporal de 3 meses - FacebookLink.}
+    \label{fig:CaminhoMinimo3meses}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{caminho_minimo_medio/fb_link_dados_janela_4_caminho_minimo_medio} 
+    \caption{Evolução utilizando janela temporal de 4 meses - FacebookLink.}
+    \label{fig:CaminhoMinimo4meses}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{caminho_minimo_medio/fb_link_dados_janela_5_caminho_minimo_medio} 
+    \caption{Evolução utilizando janela temporal de 5 meses - FacebookLink.}
+    \label{fig:CaminhoMinimo5meses}
+\end{figure}
+
+
+\pagebreak
+
+\chapter{\huge FacebookLink - Coeficiente de Agrupamento}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{coeficiente_agrupamento/fb_link_dados_continuos_coeficiente_agrupamento} 
+    \caption{Evolução acumulada através dos anos - FacebookLink.}
+    \label{fig:CoeficienteAgrupamentoContinuo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{coeficiente_agrupamento/fb_link_dados_janela_2_coeficiente_agrupamento} 
+    \caption{Evolução utilizando janela temporal de 2 meses - FacebookLink.}
+    \label{fig:CoeficienteAgrupamento2meses}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{coeficiente_agrupamento/fb_link_dados_janela_3_coeficiente_agrupamento} 
+    \caption{Evolução utilizando janela temporal de 3 meses - FacebookLink.}
+    \label{fig:CoeficienteAgrupamento3meses}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{coeficiente_agrupamento/fb_link_dados_janela_4_coeficiente_agrupamento} 
+    \caption{Evolução utilizando janela temporal de 4 meses - FacebookLink.}
+    \label{fig:CoeficienteAgrupamento4meses}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{coeficiente_agrupamento/fb_link_dados_janela_5_coeficiente_agrupamento} 
+    \caption{Evolução utilizando janela temporal de 5 meses - FacebookLink.}
+    \label{fig:CoeficienteAgrupamento5meses}
+\end{figure}
+
+\pagebreak
+
+\chapter{\huge FacebookLink - Diametro}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{diametro/fb_link_dados_continuos_diametro} 
+    \caption{Evolução acumulada através dos anos - FacebookLink.}
+    \label{fig:DiametroContinuo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{diametro/fb_link_dados_janela_2_diametro} 
+    \caption{Evolução utilizando janela temporal de 2 meses - FacebookLink.}
+    \label{fig:Diametro2meses}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{diametro/fb_link_dados_janela_3_diametro} 
+    \caption{Evolução utilizando janela temporal de 3 meses - FacebookLink.}
+    \label{fig:Diametro3meses}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{diametro/fb_link_dados_janela_4_diametro} 
+    \caption{Evolução utilizando janela temporal de 4 meses - FacebookLink.}
+    \label{fig:Diametro4meses}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{diametro/fb_link_dados_janela_5_diametro} 
+    \caption{Evolução utilizando janela temporal de 5 meses - FacebookLink.}
+    \label{fig:Diametro5meses}
+\end{figure}
+
+\pagebreak
+
+\chapter{\huge FacebookLink - Assortatividade}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{assortatividade/fb_link_dados_continuos_assortatividade} 
+    \caption{Evolução acumulada através dos anos - FacebookLink.}
+    \label{fig:AssortatividadeContinuo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{assortatividade/fb_link_dados_janela_2_assortatividade} 
+    \caption{Evolução utilizando janela temporal de 2 meses - FacebookLink.}
+    \label{fig:Assortatividade2meses}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{assortatividade/fb_link_dados_janela_3_assortatividade} 
+    \caption{Evolução utilizando janela temporal de 3 meses - FacebookLink.}
+    \label{fig:Assortatividade3meses}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{assortatividade/fb_link_dados_janela_4_assortatividade} 
+    \caption{Evolução utilizando janela temporal de 4 meses - FacebookLink.}
+    \label{fig:Assortatividade4meses}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{assortatividade/fb_link_dados_janela_5_assortatividade} 
+    \caption{Evolução utilizando janela temporal de 5 meses - FacebookLink.}
+    \label{fig:Assortatividade5meses}
+\end{figure}
+
+
+\end{document}

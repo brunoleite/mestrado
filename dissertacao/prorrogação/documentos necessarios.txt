@@ -1,0 +1,9 @@
+-relatório de progresso 
+	- histórico da vida acadêmica do aluno
+	- descrição da situação atual do trabalho do aluno
+	- justicativa para o adiamento
+	- plano de trabalho detalhado para a conclusão da dissertação
+		-incluir um cronograma de atividades a executar
+-documento demonstrativo do estágio atual do trabalho
+
+-parecer favorável do orientador

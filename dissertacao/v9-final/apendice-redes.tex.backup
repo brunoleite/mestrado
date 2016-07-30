@@ -1,0 +1,27 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Redes}\label{apendice:redes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[!htb]
+  \begin{center}
+  \subfloat[CCS]{%
+    \label{fig:rede_ccs_apendice}
+    \includegraphics[scale=.21]{../graficos/network/ccs.eps}
+  }%
+  \subfloat[CIKM]{%
+    \label{fig:rede_chi}
+    \includegraphics[scale=.21]{../graficos/network/cikm.eps}
+  }%
+  \\
+    \subfloat[SAC]{%
+    \label{fig:rede_sac}
+    \includegraphics[scale=.21]{../graficos/network/sac.eps}
+  }%
+  \subfloat[STOC]{%
+    \label{fig:rede_stoc}
+    \includegraphics[scale=.21]{../graficos/network/stoc.eps}
+  }%
+  \end{center}
+  \caption{\textit{Snaptshot} final das comunidades científicas}
+  \label{fig:redes}
+\end{figure}

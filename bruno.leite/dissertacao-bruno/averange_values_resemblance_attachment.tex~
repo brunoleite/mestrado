@@ -1,0 +1,18 @@
+\chapter{Primeiro Apêndice}
+Texto
+\chapter{Média dos Valores de \textit{Resemblance}}
+
+\begin{figure}[!htb]
+  \begin{center}
+    \subfigure[SIGMOD]{%
+      \label{fig:sigmod_slide_window_top_list}
+      \includegraphics[scale=.6]{graficos/window_core_size/pt_BR/acm_multimedia_arithmetic_slide_window_arithmetic_top_list.eps}
+    }%
+    \subfigure[CHI]{%
+      \label{fig:chi_slide_window_top_list}
+      \includegraphics[scale=.6]{graficos/window_core_size/pt_BR/ccs_arithmetic_slide_window_arithmetic_top_list.eps}
+    }%
+  \end{center}
+\caption{Média dos valores do \textit{resemblance}}
+\label{fig:averange_values_resemblance_attachment}
+\end{figure}

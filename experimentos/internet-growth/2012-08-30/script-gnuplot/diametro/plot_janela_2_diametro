@@ -1,0 +1,14 @@
+set terminal postscript eps color enhanced "Helvetica" 15
+set encoding iso_8859_1
+set output 'growth_internet_dados_janela_2_diametro.eps'
+set title 'Dados com Janela de 2 meses - Diametro - 2004/01-2007/07'
+set grid
+set key left
+set ylabel "Diametro"
+set yrange [0:30]
+set xlabel "Periodo"
+set xlabel "Periodo" offset graph 0,-0.09,0
+set rmargin 10.5
+set bmargin 8.5
+set xtics border in scale 1,0.5 nomirror rotate by -45 offset character 0, 0, 0
+plot "../../window-2.txt" using 2:xticlabels(1) t"Diametro" with linespoints lt 1 lw 2 ps 1 pt 4 lc rgb "red"

@@ -1,0 +1,201 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Métricas de evolução das comunidades científicas}\label{apendice:metricas_evolucao_comunidades}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Neste apêndice apresentamos as métricas das demais conferências, separadas entre três grupos. O grupo A é constituído pelas conferências
+CIKM, CHI, KDD, SAC, e SIGCOMM, o grupo B pelas conferências CSS, MICRO, MM, MOBICOM, e SIGDOC, e por fim, o grupo C pelas conferências
+HSCC, ICSE, ISCA, SIGCSE, SIGGRAPH, e SIGMETRICS.
+
+\begin{figure}[!htb]
+  \begin{center}
+  \subfloat[Assortatividade Final - Grupo A]{%
+    \label{fig:assortativity_1_in_1_apendice_grupa_a}
+    \includegraphics[scale=.6]{../graficos/sigs_metricas_acumuladas_1_em_1_ano/pt_BR/assortatividade_grupo_temporal_web_apendice_1.eps}
+  }%
+  \subfloat[Assortatividade por Janela - Grupo A]{%
+    \label{fig:assortativity_slide_window_apendice_grupa_a}
+    \includegraphics[scale=.6]{../graficos/core_over_time/metricas_tradicionais/pt_BR/assortatividade_slide_window_grupo_temporal_web_apendice_1.eps}
+  }%
+  \phantomcaption
+  \end{center}
+\end{figure}
+\begin{figure}[!htb]
+  \begin{center}
+  \ContinuedFloat
+  \subfloat[Assortatividade Final - Grupo B]{%
+    \label{fig:assortativity_1_in_1_apendice_grupa_b}
+    \includegraphics[scale=.6]{../graficos/sigs_metricas_acumuladas_1_em_1_ano/pt_BR/assortatividade_grupo_temporal_web_apendice_2.eps}
+  }%
+  \subfloat[Assortatividade por Janela - Grupo B]{%
+    \label{fig:assortativity_slide_window_apendice_grupa_b}
+    \includegraphics[scale=.6]{../graficos/core_over_time/metricas_tradicionais/pt_BR/assortatividade_slide_window_grupo_temporal_web_apendice_2.eps}
+  }%
+  \\
+  \subfloat[Assortatividade Final - Grupo C]{%
+    \label{fig:assortativity_1_in_1_apendice_grupa_c}
+    \includegraphics[scale=.6]{../graficos/sigs_metricas_acumuladas_1_em_1_ano/pt_BR/assortatividade_grupo_temporal_web_apendice_3.eps}
+  }%
+  \subfloat[Assortatividade por Janela - Grupo C]{%
+    \label{fig:assortativity_slide_window_apendice_grupa_c}
+    \includegraphics[scale=.6]{../graficos/core_over_time/metricas_tradicionais/pt_BR/assortatividade_slide_window_grupo_temporal_web_apendice_3.eps}
+  }%
+  \end{center}
+  \caption{Assortatividade das comunidades científicas}
+  \label{fig:metrics_assortativity_apendice}
+\end{figure}
+
+
+\begin{figure}[!htb]
+  \begin{center}
+  \subfloat[CMM Final - Grupo A]{%
+    \label{fig:average_shortest_1_in_1_apendice_grupa_a}
+    \includegraphics[scale=.6]{../graficos/sigs_metricas_acumuladas_1_em_1_ano/pt_BR/caminho_minimo_medio_grupo_temporal_web_apendice_1.eps}
+  }%
+  \subfloat[CMM por Janela - Grupo A]{%
+    \label{fig:average_shortest_slide_window_apendice_grupa_a}
+    \includegraphics[scale=.6]{../graficos/core_over_time/metricas_tradicionais/pt_BR/caminho_minimo_medio_slide_window_grupo_temporal_web_apendice_1.eps}
+  }%
+  \phantomcaption
+  \end{center}
+\end{figure}
+\begin{figure}[!htb]
+  \begin{center}
+  \ContinuedFloat
+  \subfloat[CMM Final - Grupo B]{%
+    \label{fig:average_shortest_1_in_1_apendice_grupa_b}
+    \includegraphics[scale=.6]{../graficos/sigs_metricas_acumuladas_1_em_1_ano/pt_BR/caminho_minimo_medio_grupo_temporal_web_apendice_2.eps}
+  }%
+  \subfloat[CMM por Janela - Grupo B]{%
+    \label{fig:average_shortest_slide_window_apendice_grupa_b}
+    \includegraphics[scale=.6]{../graficos/core_over_time/metricas_tradicionais/pt_BR/caminho_minimo_medio_slide_window_grupo_temporal_web_apendice_2.eps}
+  }%
+  \\
+  \subfloat[CMM Final - Grupo C]{%
+    \label{fig:average_shortest_1_in_1_apendice_grupa_c}
+    \includegraphics[scale=.6]{../graficos/sigs_metricas_acumuladas_1_em_1_ano/pt_BR/caminho_minimo_medio_grupo_temporal_web_apendice_3.eps}
+  }%
+  \subfloat[CMM por Janela - Grupo C]{%
+    \label{fig:average_shortest_slide_window_apendice_grupa_c}
+    \includegraphics[scale=.6]{../graficos/core_over_time/metricas_tradicionais/pt_BR/caminho_minimo_medio_slide_window_grupo_temporal_web_apendice_3.eps}
+  }%
+  \end{center}
+  \caption{Caminho Mínimo Médio das comunidades científicas}
+  \label{fig:metrics_average_shortest_apendice}
+\end{figure}
+
+
+\begin{figure}[!htb]
+  \begin{center}
+  \subfloat[CA Final - Grupo A]{%
+    \label{fig:average_shortest_1_in_1_apendice_grupa_a}
+    \includegraphics[scale=.6]{../graficos/sigs_metricas_acumuladas_1_em_1_ano/pt_BR/coeficiente_agrupamento_grupo_temporal_web_apendice_1.eps}
+  }%
+  \subfloat[CA por Janela - Grupo A]{%
+    \label{fig:average_shortest_slide_window_apendice_grupa_a}
+    \includegraphics[scale=.6]{../graficos/core_over_time/metricas_tradicionais/pt_BR/coeficiente_agrupamento_slide_window_grupo_temporal_web_apendice_1.eps}
+  }%
+  \phantomcaption
+  \end{center}
+\end{figure}
+\begin{figure}[!htb]
+  \begin{center}
+  \ContinuedFloat
+  \subfloat[CA Final - Grupo B]{%
+    \label{fig:average_shortest_1_in_1_apendice_grupa_b}
+    \includegraphics[scale=.6]{../graficos/sigs_metricas_acumuladas_1_em_1_ano/pt_BR/coeficiente_agrupamento_grupo_temporal_web_apendice_2.eps}
+  }%
+  \subfloat[CA por Janela - Grupo B]{%
+    \label{fig:average_shortest_slide_window_apendice_grupa_b}
+    \includegraphics[scale=.6]{../graficos/core_over_time/metricas_tradicionais/pt_BR/coeficiente_agrupamento_slide_window_grupo_temporal_web_apendice_2.eps}
+  }%
+  \\
+  \subfloat[CA Final - Grupo C]{%
+    \label{fig:average_shortest_1_in_1_apendice_grupa_c}
+    \includegraphics[scale=.6]{../graficos/sigs_metricas_acumuladas_1_em_1_ano/pt_BR/coeficiente_agrupamento_grupo_temporal_web_apendice_3.eps}
+  }%
+  \subfloat[CA por Janela - Grupo C]{%
+    \label{fig:average_shortest_slide_window_apendice_grupa_c}
+    \includegraphics[scale=.6]{../graficos/core_over_time/metricas_tradicionais/pt_BR/coeficiente_agrupamento_slide_window_grupo_temporal_web_apendice_3.eps}
+  }%
+  \end{center}
+  \caption{Coeficiente de Agrupamento das comunidades científicas}
+  \label{fig:metrics_average_shortest_apendice}
+\end{figure}
+
+
+\begin{figure}[!htb]
+  \begin{center}
+  \subfloat[Maior WCC Final - Grupo A]{%
+    \label{fig:average_shortest_1_in_1_apendice_grupa_a}
+    \includegraphics[scale=.6]{../graficos/sigs_metricas_acumuladas_1_em_1_ano/pt_BR/porcentagem_maior_componente_grupo_temporal_web_apendice_1.eps}
+  }%
+  \subfloat[Maior WCC por Janela - Grupo A]{%
+    \label{fig:average_shortest_slide_window_apendice_grupa_a}
+    \includegraphics[scale=.6]{../graficos/core_over_time/metricas_tradicionais/pt_BR/porcentagem_maior_componente_slide_window_grupo_temporal_web_apendice_1.eps}
+  }%
+  \phantomcaption
+  \end{center}
+\end{figure}
+\begin{figure}[!htb]
+  \begin{center}
+  \ContinuedFloat
+  \subfloat[Maior WCC Final - Grupo B]{%
+    \label{fig:average_shortest_1_in_1_apendice_grupa_b}
+    \includegraphics[scale=.6]{../graficos/sigs_metricas_acumuladas_1_em_1_ano/pt_BR/porcentagem_maior_componente_grupo_temporal_web_apendice_2.eps}
+  }%
+  \subfloat[Maior WCC por Janela - Grupo B]{%
+    \label{fig:average_shortest_slide_window_apendice_grupa_b}
+    \includegraphics[scale=.6]{../graficos/core_over_time/metricas_tradicionais/pt_BR/porcentagem_maior_componente_slide_window_grupo_temporal_web_apendice_2.eps}
+  }%
+  \\
+  \subfloat[Maior WCC Final - Grupo C]{%
+    \label{fig:average_shortest_1_in_1_apendice_grupa_c}
+    \includegraphics[scale=.6]{../graficos/sigs_metricas_acumuladas_1_em_1_ano/pt_BR/porcentagem_maior_componente_grupo_temporal_web_apendice_3.eps}
+  }%
+  \subfloat[Maior WCC por Janela - Grupo C]{%
+    \label{fig:average_shortest_slide_window_apendice_grupa_c}
+    \includegraphics[scale=.6]{../graficos/core_over_time/metricas_tradicionais/pt_BR/porcentagem_maior_componente_slide_window_grupo_temporal_web_apendice_3.eps}
+  }%
+  \end{center}
+  \caption{Maior WCC das comunidades científicas}
+  \label{fig:metrics_average_shortest_apendice}
+\end{figure}
+
+
+\begin{figure}[!htb]
+  \begin{center}
+  \subfloat[Grau Médio Final - Grupo A]{%
+    \label{fig:average_shortest_1_in_1_apendice_grupa_a}
+    \includegraphics[scale=.6]{../graficos/sigs_metricas_acumuladas_1_em_1_ano/pt_BR/grau_medio_nodos_grupo_temporal_web_apendice_1.eps}
+  }%
+  \subfloat[Grau Médio por Janela - Grupo A]{%
+    \label{fig:average_shortest_slide_window_apendice_grupa_a}
+    \includegraphics[scale=.6]{../graficos/core_over_time/metricas_tradicionais/pt_BR/grau_medio_nodos_slide_window_grupo_temporal_web_apendice_1.eps}
+  }%
+  \phantomcaption
+  \end{center}
+\end{figure}
+\begin{figure}[htb!]
+  \begin{center}
+  \ContinuedFloat
+  \subfloat[Grau Médio Final - Grupo B]{%
+    \label{fig:average_shortest_1_in_1_apendice_grupa_b}
+    \includegraphics[scale=.6]{../graficos/sigs_metricas_acumuladas_1_em_1_ano/pt_BR/grau_medio_nodos_grupo_temporal_web_apendice_2.eps}
+  }%
+  \subfloat[Grau Médio por Janela - Grupo B]{%
+    \label{fig:average_shortest_slide_window_apendice_grupa_b}
+    \includegraphics[scale=.6]{../graficos/core_over_time/metricas_tradicionais/pt_BR/grau_medio_nodos_slide_window_grupo_temporal_web_apendice_2.eps}
+  }%
+  \\
+  \subfloat[Grau Médio Final - Grupo C]{%
+    \label{fig:average_shortest_1_in_1_apendice_grupa_c}
+    \includegraphics[scale=.6]{../graficos/sigs_metricas_acumuladas_1_em_1_ano/pt_BR/grau_medio_nodos_grupo_temporal_web_apendice_3.eps}
+  }%
+  \subfloat[Grau Médio por Janela - Grupo C]{%
+    \label{fig:average_shortest_slide_window_apendice_grupa_c}
+    \includegraphics[scale=.6]{../graficos/core_over_time/metricas_tradicionais/pt_BR/grau_medio_nodos_slide_window_grupo_temporal_web_apendice_3.eps}
+  }%
+  \end{center}
+  \caption{Grau Médio das comunidades científicas}
+  \label{fig:metrics_average_shortest_apendice}
+\end{figure}

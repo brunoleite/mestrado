@@ -1,0 +1,16 @@
+set terminal postscript eps color enhanced "Helvetica" 15
+set encoding iso_8859_1
+set output 'journal_of_systems_and_software_dados_continuos_caminho_minimo_medio.eps'
+set title 'Dados Continuos - Caminho Minimo Medio - 1976-2011'
+set grid
+set key left
+#set key spacing 2
+set ylabel "Average Shortest Path Length" 
+set yrange [0:12]
+#set ytics 0,1,6
+#set xtics 1
+#set xrange [1976:2011]
+#set xtics 3
+set xtics 1979,3,2012
+set xlabel "Periodo" 
+plot "continuo-Journal of Systems and Software.txt" using 1:3 t"Caminho Minimo Medio" with linespoints lt 1 lw 2 ps 1 pt 4 lc rgb "red"

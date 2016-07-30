@@ -1,0 +1,83 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Barab{\'a}si and
+  Albert}{1999}]{barabasi1999emergence}
+Barab{\'a}si, A.-L., and Albert, R.
+\newblock 1999.
+\newblock Emergence of scaling in random networks.
+\newblock {\em Science} 286(5439):509--512.
+
+\bibitem[\protect\citeauthoryear{Eom and Jo}{2014}]{eom2014generalized}
+Eom, Y.-H., and Jo, H.-H.
+\newblock 2014.
+\newblock Generalized friendship paradox in complex networks: The case of
+  scientific collaboration.
+\newblock {\em Scientific Reports} 4.
+
+\bibitem[\protect\citeauthoryear{Feld}{1991}]{quatro}
+Feld, S.~L.
+\newblock 1991.
+\newblock Why your friends have more friends than you do.
+\newblock {\em American Journal of Sociology} 96(6):1464--1477.
+
+\bibitem[\protect\citeauthoryear{Hirsch}{2005a}]{Hirsch:2005}
+Hirsch, J.~E.
+\newblock 2005a.
+\newblock An index to quantify an individual's scientific research output.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America} 102(46):16569--16572.
+
+\bibitem[\protect\citeauthoryear{Hirsch}{2005b}]{dois}
+Hirsch, J.
+\newblock 2005b.
+\newblock An index to quantify an individuals scientific research output.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America} 102(46):16569--16572.
+
+\bibitem[\protect\citeauthoryear{Hodas, Kooti, and Lerman}{2013}]{tres}
+Hodas, N.~O.; Kooti, F.; and Lerman, K.
+\newblock 2013.
+\newblock {Friendship Paradox Redux: Your Friends Are More Interesting Than
+  You}.
+\newblock In {\em Proceedings of the International Conference on Web and Social
+  Media},  8--10.
+
+\bibitem[\protect\citeauthoryear{Huang \bgroup et al\mbox.\egroup
+  }{2008}]{seis}
+Huang, J.; Zhuang, Z.; Li, J.; and Giles, C.~L.
+\newblock 2008.
+\newblock {Collaboration Over Time: Characterizing and Modeling Network
+  Evolution}.
+\newblock In {\em Proceedings of the 2008 International Conference on Web
+  Search and Data Mining},  107--116.
+
+\bibitem[\protect\citeauthoryear{McKenna, Stanier, and
+  Lewis}{1991}]{mckenna1991factors}
+McKenna, F.~P.; Stanier, R.~A.; and Lewis, C.
+\newblock 1991.
+\newblock Factors underlying illusory self-assessment of driving skill in males
+  and females.
+\newblock {\em Accident Analysis \& Prevention} 23(1):45--52.
+
+\bibitem[\protect\citeauthoryear{Mislove \bgroup et al\mbox.\egroup
+  }{2007}]{oito}
+Mislove, A.; Marcon, M.; Gummadi, K.~P.; Druschel, P.; and Bhattacharjee, B.
+\newblock 2007.
+\newblock {Measurement and Analysis of Online Social Networks}.
+\newblock In {\em Proceedings of the 7th ACM SIGCOMM Conference on Internet
+  Measurement},  29--42.
+
+\bibitem[\protect\citeauthoryear{Page \bgroup et al\mbox.\egroup
+  }{1999}]{page1999pagerank}
+Page, L.; Brin, S.; Motwani, R.; and Winograd, T.
+\newblock 1999.
+\newblock {The PageRank Citation Ranking: Bringing Order to the Web}.
+\newblock Technical report, Stanford InfoLab.
+
+\bibitem[\protect\citeauthoryear{Watts}{2004}]{onze}
+Watts, D.~J.
+\newblock 2004.
+\newblock The new science of networks.
+\newblock {\em Annual Review of Sociology} 30:243--270.
+
+\end{thebibliography}

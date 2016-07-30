@@ -1,0 +1,24 @@
+select conference, concat(num_editions, '&', round(num_autores/num_editions,2), '&', round(num_publicacoes/num_editions,2), '&', round(num_autores/num_publicacoes,2))
+ from (
+select b.booktitle as conference, count(p.idpublication) as num_publicacoes, 
+(select count(idauthor)
+from booktitle bk
+inner join detail_has_booktitle dhb on bk.idbooktitle = dhb.booktitle_idbooktitle
+inner join detail di on di.iddetail = dhb.detail_iddetail
+inner join author_has_detail adi on di.iddetail = adi.detail_iddetail
+inner join author ai on ai.idauthor = adi.author_idauthor
+where bk.idbooktitle = b.idbooktitle
+) as num_autores,
+(select count(distinct(year))
+from booktitle bk
+inner join detail_has_booktitle dhb on bk.idbooktitle = dhb.booktitle_idbooktitle
+inner join detail di on di.iddetail = dhb.detail_iddetail
+inner join date_ym dym on di.iddetail = dym.detail_iddetail
+where bk.idbooktitle = b.idbooktitle) as num_editions
+from publication p
+inner join detail d on d.publication_idpublication = p.idpublication
+inner join detail_has_booktitle dk on dk.detail_iddetail = d.iddetail
+inner join booktitle b on dk.booktitle_idbooktitle = b.idbooktitle
+where b.idbooktitle in (select c.idconference from dblp_grafo_hindex.conference c)
+group by b.booktitle
+order by b.booktitle) as a;

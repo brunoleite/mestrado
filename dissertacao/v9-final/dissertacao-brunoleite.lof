@@ -1,0 +1,235 @@
+\select@language {brazil}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Exemplo de coeficiente de agrupamento\relax }}{12}{figure.caption.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Antes de novas arestas se formarem}}}{12}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Depois de novas arestas se formarem}}}{12}{subfigure.1.2}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Um grafo com tr\IeC {\^e}s componentes conectados\relax }}{13}{figure.caption.8}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Correla\IeC {\c c}\IeC {\~a}o entre o \IeC {\'\i }ndice h estimado e o Google Citations\relax }}{21}{figure.caption.10}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do \IeC {\'\i }ndice~h\relax }}{22}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Valores gerados utilizando o m\IeC {\'e}todo proposto por \cite {Acuna2012}}}}{22}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Valores gerados utilizando as tr\IeC {\^e}s estrat\IeC {\'e}gias}}}{22}{subfigure.2.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces M\IeC {\'e}dia dos valores de \textit {resemblance}\relax }}{23}{figure.caption.12}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {SIGMOD}}}{23}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CHI}}}{23}{subfigure.3.2}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {CoScore} de dois palestrantes convidados da WWW 2013\relax }}{24}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Jon Kleinberg}}}{24}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Luis von Ahn}}}{24}{subfigure.4.2}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Maior CFC das comunidades cient\IeC {\'\i }ficas\relax }}{28}{figure.caption.16}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Maior CFC final}}}{28}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Maior CFC por janela}}}{28}{subfigure.1.2}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Caminho m\IeC {\'\i }nimo m\IeC {\'e}dio das comunidades cient\IeC {\'\i }ficas\relax }}{28}{figure.caption.17}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CMM final}}}{28}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CMM por janela}}}{28}{subfigure.2.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Coeficiente de agrupamento das comunidades cient\IeC {\'\i }ficas\relax }}{29}{figure.caption.18}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CC final}}}{29}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CC por janela}}}{29}{subfigure.3.2}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Assortatividade das comunidades cient\IeC {\'\i }ficas\relax }}{29}{figure.caption.19}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Assortatividade final}}}{29}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Assortatividade por janela}}}{29}{subfigure.4.2}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Grau m\IeC {\'e}dio das comunidades cient\IeC {\'\i }ficas\relax }}{30}{figure.caption.20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Grau m\IeC {\'e}dio final}}}{30}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio por janela}}}{30}{subfigure.5.2}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Propriedades da comunidade SIGMOD para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{31}{figure.caption.21}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{31}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{31}{subfigure.6.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{31}{subfigure.6.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{31}{subfigure.6.4}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \textit {CoScore} m\IeC {\'e}dio das comunidades cient\IeC {\'\i }ficas\relax }}{32}{figure.caption.22}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Inst\IeC {\^a}ncia final das comunidades cient\IeC {\'\i }ficas\relax }}{35}{figure.caption.24}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {SIGMOD}}}{35}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CHI}}}{35}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {SAC}}}{35}{subfigure.8.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {STOC}}}{35}{subfigure.8.4}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CCS}}}{45}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CIKM}}}{45}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {DAC}}}{45}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {HSCC}}}{45}{subfigure.1.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ICSE}}}{46}{subfigure.1.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ISCA}}}{46}{subfigure.1.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {KDD}}}{46}{subfigure.1.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {MICRO}}}{46}{subfigure.1.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {MM}}}{46}{subfigure.1.9}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {MOBICOM}}}{46}{subfigure.1.10}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {PODC}}}{47}{subfigure.0.11}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {POPL}}}{47}{subfigure.0.12}
+\contentsline {subfigure}{\numberline {(m)}{\ignorespaces {SAC}}}{47}{subfigure.0.13}
+\contentsline {subfigure}{\numberline {(n)}{\ignorespaces {SIGCOMM}}}{47}{subfigure.0.14}
+\contentsline {subfigure}{\numberline {(o)}{\ignorespaces {SIGCSE}}}{47}{subfigure.0.15}
+\contentsline {subfigure}{\numberline {(p)}{\ignorespaces {SIGDOC}}}{47}{subfigure.0.16}
+\contentsline {figure}{\numberline {A.-1}{\ignorespaces M\IeC {\'e}dia dos valores de \textit {resemblance}\relax }}{48}{figure.caption.30}
+\contentsline {subfigure}{\numberline {(q)}{\ignorespaces {SIGGRAPH}}}{48}{subfigure.-1.17}
+\contentsline {subfigure}{\numberline {(r)}{\ignorespaces {SIGIR}}}{48}{subfigure.-1.18}
+\contentsline {subfigure}{\numberline {(s)}{\ignorespaces {SIGMETRICS}}}{48}{subfigure.-1.19}
+\contentsline {subfigure}{\numberline {(t)}{\ignorespaces {STOC}}}{48}{subfigure.-1.20}
+\addvspace {10pt}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Assortatividade final - Grupo A}}}{49}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Assortatividade por janela - Grupo A}}}{49}{subfigure.1.2}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Assortatividade das comunidades cient\IeC {\'\i }ficas\relax }}{50}{figure.caption.32}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Assortatividade final - Grupo B}}}{50}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Assortatividade por janela - Grupo B}}}{50}{subfigure.1.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Assortatividade final - Grupo C}}}{50}{subfigure.1.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Assortatividade por janela - Grupo C}}}{50}{subfigure.1.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CMM final - Grupo A}}}{50}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CMM por janela - Grupo A}}}{50}{subfigure.2.2}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Caminho m\IeC {\'\i }nimo m\IeC {\'e}dio das comunidades cient\IeC {\'\i }ficas\relax }}{51}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CMM final - Grupo B}}}{51}{subfigure.2.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {CMM por janela - Grupo B}}}{51}{subfigure.2.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {CMM final - Grupo C}}}{51}{subfigure.2.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {CMM por janela - Grupo C}}}{51}{subfigure.2.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CA final - Grupo A}}}{51}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CA por janela - Grupo A}}}{51}{subfigure.3.2}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Coeficiente de agrupamento das comunidades cient\IeC {\'\i }ficas\relax }}{52}{figure.caption.36}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CA final - Grupo B}}}{52}{subfigure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {CA por janela - Grupo B}}}{52}{subfigure.3.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {CA final - Grupo C}}}{52}{subfigure.3.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {CA por janela - Grupo C}}}{52}{subfigure.3.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Maior CFC final - Grupo A}}}{52}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Maior CFC por janela - Grupo A}}}{52}{subfigure.4.2}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Maior CFC das comunidades cient\IeC {\'\i }ficas\relax }}{53}{figure.caption.38}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC final - Grupo B}}}{53}{subfigure.4.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Maior CFC por janela - Grupo B}}}{53}{subfigure.4.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Maior CFC final - Grupo C}}}{53}{subfigure.4.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Maior CFC por janela - Grupo C}}}{53}{subfigure.4.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Grau m\IeC {\'e}dio final - Grupo A}}}{53}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio por janela - Grupo A}}}{53}{subfigure.5.2}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Grau m\IeC {\'e}dio das comunidades cient\IeC {\'\i }ficas\relax }}{54}{figure.caption.40}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Grau m\IeC {\'e}dio final - Grupo B}}}{54}{subfigure.5.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Grau m\IeC {\'e}dio por janela - Grupo B}}}{54}{subfigure.5.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Grau m\IeC {\'e}dio final - Grupo C}}}{54}{subfigure.5.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Grau m\IeC {\'e}dio por janela - Grupo C}}}{54}{subfigure.5.6}
+\addvspace {10pt}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{55}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{55}{subfigure.1.2}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Propriedades da comunidade CCS para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{56}{figure.caption.42}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{56}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{56}{subfigure.1.4}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Propriedades da comunidade CHI para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{56}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{56}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{56}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{56}{subfigure.2.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{56}{subfigure.2.4}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Propriedades da comunidade CIKM para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{57}{figure.caption.44}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{57}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{57}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{57}{subfigure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{57}{subfigure.3.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{57}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{57}{subfigure.4.2}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Propriedades da comunidade DAC para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{58}{figure.caption.46}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{58}{subfigure.4.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{58}{subfigure.4.4}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Propriedades da comunidade HSCC para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{58}{figure.caption.47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{58}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{58}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{58}{subfigure.5.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{58}{subfigure.5.4}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Propriedades da comunidade ICSE para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{59}{figure.caption.48}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{59}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{59}{subfigure.6.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{59}{subfigure.6.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{59}{subfigure.6.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{59}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{59}{subfigure.7.2}
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Propriedades da comunidade ISCA para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{60}{figure.caption.50}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{60}{subfigure.7.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{60}{subfigure.7.4}
+\contentsline {figure}{\numberline {C.8}{\ignorespaces Propriedades da comunidade KDD para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{60}{figure.caption.51}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{60}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{60}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{60}{subfigure.8.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{60}{subfigure.8.4}
+\contentsline {figure}{\numberline {C.9}{\ignorespaces Propriedades da comunidade MICRO para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{61}{figure.caption.52}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{61}{subfigure.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{61}{subfigure.9.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{61}{subfigure.9.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{61}{subfigure.9.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{61}{subfigure.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{61}{subfigure.10.2}
+\contentsline {figure}{\numberline {C.10}{\ignorespaces Propriedades da comunidade MM para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{62}{figure.caption.54}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{62}{subfigure.10.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{62}{subfigure.10.4}
+\contentsline {figure}{\numberline {C.11}{\ignorespaces Propriedades da comunidade MOBICOM para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{62}{figure.caption.55}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{62}{subfigure.11.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{62}{subfigure.11.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{62}{subfigure.11.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{62}{subfigure.11.4}
+\contentsline {figure}{\numberline {C.12}{\ignorespaces Propriedades da comunidade PODC para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{63}{figure.caption.56}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{63}{subfigure.12.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{63}{subfigure.12.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{63}{subfigure.12.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{63}{subfigure.12.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{63}{subfigure.13.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{63}{subfigure.13.2}
+\contentsline {figure}{\numberline {C.13}{\ignorespaces Propriedades da comunidade POPL para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{64}{figure.caption.58}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{64}{subfigure.13.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{64}{subfigure.13.4}
+\contentsline {figure}{\numberline {C.14}{\ignorespaces Propriedades da comunidade SAC para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{64}{figure.caption.59}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{64}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{64}{subfigure.14.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{64}{subfigure.14.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{64}{subfigure.14.4}
+\contentsline {figure}{\numberline {C.15}{\ignorespaces Propriedades da comunidade SIGCOMM para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{65}{figure.caption.60}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{65}{subfigure.15.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{65}{subfigure.15.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{65}{subfigure.15.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{65}{subfigure.15.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{65}{subfigure.16.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{65}{subfigure.16.2}
+\contentsline {figure}{\numberline {C.16}{\ignorespaces Propriedades da comunidade SIGCSE para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{66}{figure.caption.62}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{66}{subfigure.16.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{66}{subfigure.16.4}
+\contentsline {figure}{\numberline {C.17}{\ignorespaces Propriedades da comunidade SIGDOC para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{66}{figure.caption.63}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{66}{subfigure.17.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{66}{subfigure.17.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{66}{subfigure.17.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{66}{subfigure.17.4}
+\contentsline {figure}{\numberline {C.18}{\ignorespaces Propriedades da comunidade SIGGRAPH para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{67}{figure.caption.64}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{67}{subfigure.18.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{67}{subfigure.18.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{67}{subfigure.18.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{67}{subfigure.18.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{67}{subfigure.19.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{67}{subfigure.19.2}
+\contentsline {figure}{\numberline {C.19}{\ignorespaces Propriedades da comunidade SIGIR para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{68}{figure.caption.66}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{68}{subfigure.19.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{68}{subfigure.19.4}
+\contentsline {figure}{\numberline {C.20}{\ignorespaces Propriedades da comunidade SIGMETRICS para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{68}{figure.caption.67}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{68}{subfigure.20.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{68}{subfigure.20.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{68}{subfigure.20.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{68}{subfigure.20.4}
+\contentsline {figure}{\numberline {C.21}{\ignorespaces Propriedades da comunidade STOC para os membros e n\IeC {\~a}o membros do n\IeC {\'u}cleo\relax }}{69}{figure.caption.68}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Coeficiente de agrupamento}}}{69}{subfigure.21.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grau m\IeC {\'e}dio}}}{69}{subfigure.21.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Maior CFC}}}{69}{subfigure.21.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\textit {Betweenness} m\IeC {\'e}dio}}}{69}{subfigure.21.4}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces \textit {CoScore} m\IeC {\'e}dio das comunidades cient\IeC {\'\i }ficas\relax }}{71}{figure.caption.69}
+\addvspace {10pt}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CCS}}}{73}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CIKM}}}{73}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {DAC}}}{74}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {HSCC}}}{74}{subfigure.1.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ICSE}}}{74}{subfigure.1.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {ISCA}}}{74}{subfigure.1.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {KDD}}}{75}{subfigure.1.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {MICRO}}}{75}{subfigure.1.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {MM}}}{75}{subfigure.1.9}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {MOBICOM}}}{75}{subfigure.1.10}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {PODC}}}{76}{subfigure.1.11}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {POPL}}}{76}{subfigure.1.12}
+\contentsline {subfigure}{\numberline {(m)}{\ignorespaces {SIGCOMM}}}{76}{subfigure.1.13}
+\contentsline {subfigure}{\numberline {(n)}{\ignorespaces {SIGCSE}}}{76}{subfigure.1.14}
+\contentsline {figure}{\numberline {E.1}{\ignorespaces Inst\IeC {\^a}ncia final das comunidades cient\IeC {\'\i }ficas\relax }}{77}{figure.caption.74}
+\contentsline {subfigure}{\numberline {(o)}{\ignorespaces {SIGDOC}}}{77}{subfigure.1.15}
+\contentsline {subfigure}{\numberline {(p)}{\ignorespaces {SIGGRAPH}}}{77}{subfigure.1.16}
+\contentsline {subfigure}{\numberline {(q)}{\ignorespaces {SIGIR}}}{77}{subfigure.1.17}
+\contentsline {subfigure}{\numberline {(r)}{\ignorespaces {SIGMETRICS}}}{77}{subfigure.1.18}

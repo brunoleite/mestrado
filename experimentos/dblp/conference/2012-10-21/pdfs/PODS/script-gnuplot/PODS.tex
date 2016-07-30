@@ -1,0 +1,329 @@
+\documentclass{article}
+\usepackage[brazil]{babel}      % se o documento for em português, OU
+%\usepackage[english]{babel}    % se o documento for em inglês
+\usepackage[latin1]{inputenc}   % Dá suporte para caracteres especiais como acentos e cedilha
+\usepackage[T1]{fontenc}        % Lê a codificação de fonte T1 (font encoding default é 0T1).
+\usepackage{subfigure}
+\usepackage{float} 
+\usepackage{graphicx}						% define o comando \includegraphics para a inclusão de figuras
+\usepackage[a4paper,
+  portuguese,
+  bookmarks=true,
+  bookmarksnumbered=true,
+  linktocpage,
+  colorlinks,
+  citecolor=black,
+  urlcolor=black,
+  linkcolor=black,
+  filecolor=black,
+  ]{hyperref}
+\usepackage[square]{natbib}    % permite citações naturalmente
+                               % integradas ao texto
+\usepackage{microtype}
+\DisableLigatures{encoding=*,family=*}
+
+\usepackage{multirow}	
+\oddsidemargin 0.0in 
+\evensidemargin 0.0in 
+\usepackage[margin=0.2in]{geometry}
+
+\begin{document}
+\chapter{\huge PODS - Caminho Mínimo Médio}
+
+% Inseri imagens separadas
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/caminho_minimo_medio/pods_dados_continuous_caminho_minimo_medio} 
+    \caption{Evolução acumulada através dos anos - PODS.}
+    \label{fig:CaminhoMinimoContinuo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/caminho_minimo_medio/pods_dados_janela_2_caminho_minimo_medio} 
+    \caption{Evolução utilizando janela temporal de 2 anos - PODS.}
+    \label{fig:CaminhoMinimo2anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/caminho_minimo_medio/pods_dados_janela_3_caminho_minimo_medio} 
+    \caption{Evolução utilizando janela temporal de 3 anos - PODS.}
+    \label{fig:CaminhoMinimo3anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/caminho_minimo_medio/pods_dados_janela_4_caminho_minimo_medio} 
+    \caption{Evolução utilizando janela temporal de 4 anos - PODS.}
+    \label{fig:CaminhoMinimo4anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/caminho_minimo_medio/pods_dados_janela_5_caminho_minimo_medio} 
+    \caption{Evolução utilizando janela temporal de 5 anos - PODS.}
+    \label{fig:CaminhoMinimo5anos}
+\end{figure}
+
+
+\pagebreak
+
+\chapter{\huge PODS - Coeficiente de Agrupamento}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/coeficiente_agrupamento/pods_dados_continuous_coeficiente_agrupamento} 
+    \caption{Evolução acumulada através dos anos - PODS.}
+    \label{fig:CoeficienteAgrupamentoContinuo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/coeficiente_agrupamento/pods_dados_janela_2_coeficiente_agrupamento} 
+    \caption{Evolução utilizando janela temporal de 2 anos - PODS.}
+    \label{fig:CoeficienteAgrupamento2anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/coeficiente_agrupamento/pods_dados_janela_3_coeficiente_agrupamento} 
+    \caption{Evolução utilizando janela temporal de 3 anos - PODS.}
+    \label{fig:CoeficienteAgrupamento3anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/coeficiente_agrupamento/pods_dados_janela_4_coeficiente_agrupamento} 
+    \caption{Evolução utilizando janela temporal de 4 anos - PODS.}
+    \label{fig:CoeficienteAgrupamento4anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/coeficiente_agrupamento/pods_dados_janela_5_coeficiente_agrupamento} 
+    \caption{Evolução utilizando janela temporal de 5 anos - PODS.}
+    \label{fig:CoeficienteAgrupamento5anos}
+\end{figure}
+
+\pagebreak
+
+\chapter{\huge PODS - Diametro}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/diametro/pods_dados_continuous_diametro} 
+    \caption{Evolução acumulada através dos anos - PODS.}
+    \label{fig:DiametroContinuo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/diametro/pods_dados_janela_2_diametro} 
+    \caption{Evolução utilizando janela temporal de 2 anos - PODS.}
+    \label{fig:Diametro2anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/diametro/pods_dados_janela_3_diametro} 
+    \caption{Evolução utilizando janela temporal de 3 anos - PODS.}
+    \label{fig:Diametro3anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/diametro/pods_dados_janela_4_diametro} 
+    \caption{Evolução utilizando janela temporal de 4 anos - PODS.}
+    \label{fig:Diametro4anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/diametro/pods_dados_janela_5_diametro} 
+    \caption{Evolução utilizando janela temporal de 5 anos - PODS.}
+    \label{fig:Diametro5anos}
+\end{figure}
+
+\pagebreak
+
+\chapter{\huge PODS - Assortatividade}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/assortatividade/pods_dados_continuous_assortatividade} 
+    \caption{Evolução acumulada através dos anos - PODS.}
+    \label{fig:AssortatividadeContinuo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/assortatividade/pods_dados_janela_2_assortatividade} 
+    \caption{Evolução utilizando janela temporal de 2 anos - PODS.}
+    \label{fig:Assortatividade2anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/assortatividade/pods_dados_janela_3_assortatividade} 
+    \caption{Evolução utilizando janela temporal de 3 anos - PODS.}
+    \label{fig:Assortatividade3anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/assortatividade/pods_dados_janela_4_assortatividade} 
+    \caption{Evolução utilizando janela temporal de 4 anos - PODS.}
+    \label{fig:Assortatividade4anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/assortatividade/pods_dados_janela_5_assortatividade} 
+    \caption{Evolução utilizando janela temporal de 5 anos - PODS.}
+    \label{fig:Assortatividade5anos}
+\end{figure}
+
+\pagebreak
+
+\chapter{\huge PODS - Autor}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/autor/pods_dados_continuous_autor} 
+    \caption{Evolução acumulada através dos anos - PODS.}
+    \label{fig:AutorContinuo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/autor/pods_dados_janela_2_autor} 
+    \caption{Evolução utilizando janela temporal de 2 anos - PODS.}
+    \label{fig:Autor2anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/autor/pods_dados_janela_3_autor} 
+    \caption{Evolução utilizando janela temporal de 3 anos - PODS.}
+    \label{fig:Autor3anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/autor/pods_dados_janela_4_autor} 
+    \caption{Evolução utilizando janela temporal de 4 anos - PODS.}
+    \label{fig:Autor4anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/autor/pods_dados_janela_5_autor} 
+    \caption{Evolução utilizando janela temporal de 5 anos - PODS.}
+    \label{fig:Autor5anos}
+\end{figure}
+
+\pagebreak
+
+\chapter{\huge PODS - Publicacação}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/publicacao/pods_dados_continuous_publicacao} 
+    \caption{Evolução acumulada através dos anos - PODS.}
+    \label{fig:PublicacaoContinuo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/publicacao/pods_dados_janela_2_publicacao} 
+    \caption{Evolução utilizando janela temporal de 2 anos - PODS.}
+    \label{fig:Publicacao2anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/publicacao/pods_dados_janela_3_publicacao} 
+    \caption{Evolução utilizando janela temporal de 3 anos - PODS.}
+    \label{fig:Publicacao3anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/publicacao/pods_dados_janela_4_publicacao} 
+    \caption{Evolução utilizando janela temporal de 4 anos - PODS.}
+    \label{fig:Publicacao4anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/publicacao/pods_dados_janela_5_publicacao} 
+    \caption{Evolução utilizando janela temporal de 5 anos - PODS.}
+    \label{fig:Publicacao5anos}
+\end{figure}
+
+\pagebreak
+
+\chapter{\huge PODS - Resemblance Link}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/resemblance_link/pods_dados_janela_2_resemblance_link} 
+    \caption{Evolução utilizando janela temporal de 2 anos - PODS.}
+    \label{fig:ResemblanceLink2anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/resemblance_link/pods_dados_janela_3_resemblance_link} 
+    \caption{Evolução utilizando janela temporal de 3 anos - PODS.}
+    \label{fig:ResemblanceLink3anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/resemblance_link/pods_dados_janela_4_resemblance_link} 
+    \caption{Evolução utilizando janela temporal de 4 anos - PODS.}
+    \label{fig:ResemblanceLink4anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/resemblance_link/pods_dados_janela_5_resemblance_link} 
+    \caption{Evolução utilizando janela temporal de 5 anos - PODS.}
+    \label{fig:ResemblanceLink5anos}
+\end{figure}
+
+\pagebreak
+
+\chapter{\huge PODS - Resemblance Author}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/resemblance_author/pods_dados_janela_2_resemblance_author} 
+    \caption{Evolução utilizando janela temporal de 2 anos - PODS.}
+    \label{fig:ResemblanceAuthor2anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/resemblance_author/pods_dados_janela_3_resemblance_author} 
+    \caption{Evolução utilizando janela temporal de 3 anos - PODS.}
+    \label{fig:ResemblanceAuthor3anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/resemblance_author/pods_dados_janela_4_resemblance_author} 
+    \caption{Evolução utilizando janela temporal de 4 anos - PODS.}
+    \label{fig:ResemblanceAuthor4anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/PODS/script-gnuplot/resemblance_author/pods_dados_janela_5_resemblance_author} 
+    \caption{Evolução utilizando janela temporal de 5 anos - PODS.}
+    \label{fig:ResemblanceAuthor5anos}
+\end{figure}
+
+\end{document}

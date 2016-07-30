@@ -1,0 +1,403 @@
+\begin{thebibliography}{}
+
+\bibitem[Acuna et~al.\@, 2012]{Acuna2012}
+\ppgccbibauthordoformat {Acuna, D.~E.\ppgccbibauthorsep {} Allesina,
+  S.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Kording, K.~P.}
+  (\ppgccyeardoformat {2012}).
+\newblock \ppgccbibtitledoformat {{Future impact: Predicting scientific
+  success}}.
+\newblock \ppgccbibjournaldoformat {Nature}, \ppgccvolumedoformat
+  {489}({\ppgccnumberdoformat {7415}}):\ppgccpagedoformat
+  {201}--\ppgccpagedoformat {202}.
+
+\bibitem[Ahn et~al.\@, 2007]{Ahn2007}
+\ppgccbibauthordoformat {Ahn, Y.-Y.\ppgccbibauthorsep {} Han,
+  S.\ppgccbibauthorsep {} Kwak, H.\ppgccbibauthorsep {} Moon,
+  S.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Jeong, H.}
+  (\ppgccyeardoformat {2007}).
+\newblock \ppgccbibtitledoformat {{Analysis of Topological Characteristics of
+  Huge Online Social Networking Services}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  16\textsuperscript{th} International Conference on World Wide Web},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {835}--\ppgccpagedoformat {844},
+  Banff, Alberta, Canada.
+
+\bibitem[Alves et~al.\@, 2013]{Alves2013}
+\ppgccbibauthordoformat {Alves, B.~L.\ppgccbibauthorsep {} Benevenuto,
+  F.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Laender, A.~H.}
+  (\ppgccyeardoformat {2013}).
+\newblock \ppgccbibtitledoformat {{The Role of Research Leaders on the
+  Evolution of Scientific Communities}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  22\textsuperscript{nd} International Conference on World Wide Web (Companion
+  Volume)}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {649}--\ppgccpagedoformat {656}, Rio de Janeiro, Brazil.
+
+\bibitem[Backstrom et~al.\@, 2012]{Backstrom2012}
+\ppgccbibauthordoformat {Backstrom, L.\ppgccbibauthorsep {} Boldi,
+  P.\ppgccbibauthorsep {} Rosa, M.\ppgccbibauthorsep {} Ugander,
+  J.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Vigna, S.}
+  (\ppgccyeardoformat {2012}).
+\newblock \ppgccbibtitledoformat {{Four Degrees of Separation}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  3\textsuperscript{rd} Annual ACM Web Science Conference},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {33}--\ppgccpagedoformat {42},
+  Evanston, Illinois.
+
+\bibitem[Backstrom et~al.\@, 2006]{Backstrom2006}
+\ppgccbibauthordoformat {Backstrom, L.\ppgccbibauthorsep {} Huttenlocher,
+  D.\ppgccbibauthorsep {} Kleinberg, J.\ppgccbibauthorlastsep {}
+  \ppgccbibauthorand {} Lan, X.} (\ppgccyeardoformat {2006}).
+\newblock \ppgccbibtitledoformat {{Group Formation in Large Social Networks:
+  Membership, Growth, and Evolution}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  12\textsuperscript{th} ACM SIGKDD International Conference on Knowledge
+  Discovery and Data Mining}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {44}--\ppgccpagedoformat {54}, Philadelphia, PA, USA.
+
+\bibitem[Barab\'{a}si \ppgccciteauthorand {} Albert, 1999]{Barabasi1999}
+\ppgccbibauthordoformat {Barab\'{a}si, A.-L. \ppgccbibauthorand {} Albert, R.}
+  (\ppgccyeardoformat {1999}).
+\newblock \ppgccbibtitledoformat {{Emergence of Scaling in Random Networks}}.
+\newblock \ppgccbibjournaldoformat {Science}, \ppgccvolumedoformat
+  {286}({\ppgccnumberdoformat {5439}}):\ppgccpagedoformat
+  {509}--\ppgccpagedoformat {512}.
+
+\bibitem[Benevenuto et~al.\@, 2012]{Benevenuto2012}
+\ppgccbibauthordoformat {Benevenuto, F.\ppgccbibauthorsep {} Almeida,
+  J.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Silva, A.}
+  (\ppgccyeardoformat {2012}).
+\newblock \ppgccbibtitledoformat {{Coleta e Análise de Grandes Bases de Dados
+  de Redes Sociais Online}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Jornada de
+  Atualizações em Informática 2012}.
+
+\bibitem[Boccaletti et~al.\@, 2006]{Boccaletti2006}
+\ppgccbibauthordoformat {Boccaletti, S.\ppgccbibauthorsep {} Latora,
+  V.\ppgccbibauthorsep {} Moreno, Y.\ppgccbibauthorsep {} Chavez,
+  M.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Hwang, D.}
+  (\ppgccyeardoformat {2006}).
+\newblock \ppgccbibtitledoformat {{Complex Networks: Structure and Dynamics}}.
+\newblock \ppgccbibjournaldoformat {Physics Reports}, \ppgccvolumedoformat
+  {424}({\ppgccnumberdoformat {4-5}}):\ppgccpagedoformat
+  {175}--\ppgccpagedoformat {308}.
+
+\bibitem[Braitenberg \ppgccciteauthorand {} Sch{\"u}z, 1998]{Braitenberg1998}
+\ppgccbibauthordoformat {Braitenberg, V. \ppgccbibauthorand {} Sch{\"u}z, A.}
+  (\ppgccyeardoformat {1998}).
+\newblock \ppgccbibbtitledoformat {{Cortex: Statistics and Geometry of Neuronal
+  Connectivity}}.
+\newblock Springer.
+
+\bibitem[Broder et~al.\@, 2000]{Broder2000}
+\ppgccbibauthordoformat {Broder, A.\ppgccbibauthorsep {} Kumar,
+  R.\ppgccbibauthorsep {} Maghoul, F.\ppgccbibauthorsep {} Raghavan,
+  P.\ppgccbibauthorsep {} Rajagopalan, S.\ppgccbibauthorsep {} Stata,
+  R.\ppgccbibauthorsep {} Tomkins, A.\ppgccbibauthorlastsep {}
+  \ppgccbibauthorand {} Wiener, J.} (\ppgccyeardoformat {2000}).
+\newblock \ppgccbibtitledoformat {{Graph Structure in the Web}}.
+\newblock \ppgccbibjournaldoformat {Computer Networks}, \ppgccvolumedoformat
+  {33}({\ppgccnumberdoformat {1-6}}):\ppgccpagedoformat
+  {309}--\ppgccpagedoformat {320}.
+
+\bibitem[Cha et~al.\@, 2010]{Cha2010}
+\ppgccbibauthordoformat {Cha, M.\ppgccbibauthorsep {} Haddadi,
+  H.\ppgccbibauthorsep {} Benevenuto, F.\ppgccbibauthorlastsep {}
+  \ppgccbibauthorand {} Gummadi, K.~P.} (\ppgccyeardoformat {2010}).
+\newblock \ppgccbibtitledoformat {{Measuring User Influence in Twitter: The
+  Million Follower Fallacy}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {In Proceedings of
+  the 4\textsuperscript{th} International AAAI Conference on Weblogs and Social
+  Media}, Washington DC, USA.
+
+\bibitem[Chakrabarti et~al.\@, 2006]{Chakrabarti2006}
+\ppgccbibauthordoformat {Chakrabarti, D.\ppgccbibauthorsep {} Kumar,
+  R.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Tomkins, A.}
+  (\ppgccyeardoformat {2006}).
+\newblock \ppgccbibtitledoformat {{Evolutionary Clustering}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  12\textsuperscript{th} ACM SIGKDD International Conference on Knowledge
+  Discovery and Data Mining}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {554}--\ppgccpagedoformat {560}, Philadelphia, PA, USA.
+
+\bibitem[Ducheneaut et~al.\@, 2007]{Ducheneaut2007}
+\ppgccbibauthordoformat {Ducheneaut, N.\ppgccbibauthorsep {} Yee,
+  N.\ppgccbibauthorsep {} Nickell, E.\ppgccbibauthorlastsep {}
+  \ppgccbibauthorand {} Moore, R.~J.} (\ppgccyeardoformat {2007}).
+\newblock \ppgccbibtitledoformat {{The Life and Death of Online Gaming
+  Communities: A Look at Guilds in World of Warcraft}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  SIGCHI Conference on Human Factors in Computing Systems},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {839}--\ppgccpagedoformat {848},
+  San Jose, California, USA.
+
+\bibitem[Dunbar, 1992]{Dunbar1992}
+\ppgccbibauthordoformat {Dunbar, R. I.~M.} (\ppgccyeardoformat {1992}).
+\newblock \ppgccbibtitledoformat {{Neocortex Size as a Constraint on Group Size
+  in Primates}}.
+\newblock \ppgccbibjournaldoformat {Journal of Human Evolution},
+  \ppgccvolumedoformat {22}({\ppgccnumberdoformat {6}}):\ppgccpagedoformat
+  {469}--\ppgccpagedoformat {493}.
+
+\bibitem[Easley \ppgccciteauthorand {} Kleinberg, 2010]{Easley2010}
+\ppgccbibauthordoformat {Easley, D. \ppgccbibauthorand {} Kleinberg, J.}
+  (\ppgccyeardoformat {2010}).
+\newblock \ppgccbibbtitledoformat {{Networks, Crowds, and Markets: Reasoning
+  About a Highly Connected World}}.
+\newblock Cambridge University Press.
+
+\bibitem[Ebel et~al.\@, 2002]{Ebel2002}
+\ppgccbibauthordoformat {Ebel, H.\ppgccbibauthorsep {} Mielsch,
+  L.-I.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Bornholdt, S.}
+  (\ppgccyeardoformat {2002}).
+\newblock \ppgccbibtitledoformat {{Scale-free topology of e-mail networks}}.
+\newblock \ppgccbibjournaldoformat {Physical Review E}, \ppgccvolumedoformat
+  {66}({\ppgccnumberdoformat {3}}).
+
+\bibitem[Egghe, 2006]{Egghe2006}
+\ppgccbibauthordoformat {Egghe, L.} (\ppgccyeardoformat {2006}).
+\newblock \ppgccbibtitledoformat {{An Improvement of the H-index: The
+  G-index}}.
+\newblock \ppgccbibjournaldoformat {ISSI Newsletter}, \ppgccbibpagesstring {}
+  \ppgccpagedoformat {8}--\ppgccpagedoformat {9}.
+
+\bibitem[Euler, 1956]{Euler1956}
+\ppgccbibauthordoformat {Euler, L.} (\ppgccyeardoformat {1956}).
+\newblock \ppgccbibbtitledoformat {{The Seven Bridges of Konigsberg}}.
+\newblock Wm. Benton.
+
+\bibitem[Faloutsos et~al.\@, 1999]{Faloutsos1999}
+\ppgccbibauthordoformat {Faloutsos, M.\ppgccbibauthorsep {} Faloutsos,
+  P.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Faloutsos, C.}
+  (\ppgccyeardoformat {1999}).
+\newblock \ppgccbibtitledoformat {{On Power-Law Relationships of the Internet
+  Topology}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  Conference on Applications, Technologies, Architectures, and Protocols for
+  Computer Communication}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {251}--\ppgccpagedoformat {262}, Cambridge, Massachusetts, USA.
+
+\bibitem[Figueiredo, 2011]{Figueiredo2011}
+\ppgccbibauthordoformat {Figueiredo, D.~R.} (\ppgccyeardoformat {2011}).
+\newblock \ppgccbibtitledoformat {{Introdução a Redes Complexas}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Jornada de
+  Atualizações em Informática 2011}, \ppgccbibchapterstring {}~7,
+  \ppgccbibpagesstring {} \ppgccpagedoformat {303}--\ppgccpagedoformat {358}.
+
+\bibitem[Getoor \ppgccciteauthorand {} Diehl, 2005]{Getoor2005}
+\ppgccbibauthordoformat {Getoor, L. \ppgccbibauthorand {} Diehl, C.~P.}
+  (\ppgccyeardoformat {2005}).
+\newblock \ppgccbibtitledoformat {{Link Mining: A Survey}}.
+\newblock \ppgccbibjournaldoformat {ACM SIGKDD Explorations Newsletter},
+  \ppgccvolumedoformat {7}({\ppgccnumberdoformat {2}}):\ppgccpagedoformat
+  {3}--\ppgccpagedoformat {12}.
+
+\bibitem[Gon\c{c}alves et~al.\@, 2011]{Goncalves2011}
+\ppgccbibauthordoformat {Gon\c{c}alves, B.\ppgccbibauthorsep {} Perra,
+  N.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Vespignani, A.}
+  (\ppgccyeardoformat {2011}).
+\newblock \ppgccbibtitledoformat {{Modeling Users' Activity on Twitter
+  Networks: Validation of Dunbar's Number}}.
+\newblock \ppgccbibjournaldoformat {PLoS ONE}, \ppgccvolumedoformat
+  {6}({\ppgccnumberdoformat {8}}).
+
+\bibitem[Hirsch, 2005]{Hirsch2005}
+\ppgccbibauthordoformat {Hirsch, J.~E.} (\ppgccyeardoformat {2005}).
+\newblock \ppgccbibtitledoformat {{An Index to Quantify an Individual's
+  Scientific Research Output}}.
+\newblock \ppgccbibjournaldoformat {Proceedings of the National Academy of
+  Sciences of the United States of America}, \ppgccvolumedoformat
+  {102}({\ppgccnumberdoformat {46}}):\ppgccpagedoformat
+  {16569}--\ppgccpagedoformat {16572}.
+
+\bibitem[Hopcroft et~al.\@, 2004]{Hopcroft2004}
+\ppgccbibauthordoformat {Hopcroft, J.\ppgccbibauthorsep {} Khan,
+  O.\ppgccbibauthorsep {} Kulis, B.\ppgccbibauthorlastsep {} \ppgccbibauthorand
+  {} Selman, B.} (\ppgccyeardoformat {2004}).
+\newblock \ppgccbibtitledoformat {{Tracking Evolving Communities in Large
+  Linked Networks}}.
+\newblock \ppgccbibjournaldoformat {Proceedings of the National Academy of
+  Sciences}, \ppgccvolumedoformat {101}:\ppgccpagedoformat
+  {5249}--\ppgccpagedoformat {5253}.
+
+\bibitem[Huang et~al.\@, 2008]{Huang2008}
+\ppgccbibauthordoformat {Huang, J.\ppgccbibauthorsep {} Zhuang,
+  Z.\ppgccbibauthorsep {} Li, J.\ppgccbibauthorlastsep {} \ppgccbibauthorand {}
+  Giles, C.~L.} (\ppgccyeardoformat {2008}).
+\newblock \ppgccbibtitledoformat {{Collaboration Over Time: Characterizing and
+  Modeling Network Evolution}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  2008 International Conference on Web Search and Data Mining},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {107}--\ppgccpagedoformat {116},
+  Palo Alto, California, USA.
+
+\bibitem[Kempe et~al.\@, 2003]{Kempe2003}
+\ppgccbibauthordoformat {Kempe, D.\ppgccbibauthorsep {} Kleinberg,
+  J.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Tardos, E.}
+  (\ppgccyeardoformat {2003}).
+\newblock \ppgccbibtitledoformat {{Maximizing the Spread of Influence through a
+  Social Network}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  9\textsuperscript{th} ACM SIGKDD International Conference on Knowledge
+  Discovery and Data Mining}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {137}--\ppgccpagedoformat {146}, Washington, D.C.
+
+\bibitem[Kempe et~al.\@, 2005]{Kempe2005}
+\ppgccbibauthordoformat {Kempe, D.\ppgccbibauthorsep {} Kleinberg,
+  J.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Tardos, E.}
+  (\ppgccyeardoformat {2005}).
+\newblock \ppgccbibtitledoformat {{Influential Nodes in a Diffusion Model for
+  Social Networks}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  32\textsuperscript{nd} International Conference on Automata, Languages and
+  Programming}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {1127}--\ppgccpagedoformat {1138}, Lisbon, Portugal.
+
+\bibitem[Kleinberg, 2008]{Kleinberg2008}
+\ppgccbibauthordoformat {Kleinberg, J.} (\ppgccyeardoformat {2008}).
+\newblock \ppgccbibtitledoformat {{The Convergence of Social and Technological
+  Networks}}.
+\newblock \ppgccbibjournaldoformat {Communications of the ACM},
+  \ppgccvolumedoformat {51}({\ppgccnumberdoformat {11}}):\ppgccpagedoformat
+  {66}--\ppgccpagedoformat {72}.
+
+\bibitem[Kumar et~al.\@, 2006]{Kumar2006}
+\ppgccbibauthordoformat {Kumar, R.\ppgccbibauthorsep {} Novak,
+  J.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Tomkins, A.}
+  (\ppgccyeardoformat {2006}).
+\newblock \ppgccbibtitledoformat {{Structure and Evolution of Online Social
+  Networks}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  12\textsuperscript{th} ACM SIGKDD International Conference on Knowledge
+  Discovery and Data Mining}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {611}--\ppgccpagedoformat {617}, Philadelphia, PA, USA.
+
+\bibitem[Laender et~al.\@, 2008]{Laender2008}
+\ppgccbibauthordoformat {Laender, A. H.~F.\ppgccbibauthorsep {} de~Lucena, C.
+  J.~P.\ppgccbibauthorsep {} Maldonado, J.~C.\ppgccbibauthorsep {} de~Souza~e
+  Silva, E.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Ziviani, N.}
+  (\ppgccyeardoformat {2008}).
+\newblock \ppgccbibtitledoformat {{Assessing the Research and Education Quality
+  of the Top Brazilian Computer Science Graduate Programs}}.
+\newblock \ppgccbibjournaldoformat {SIGCSE Bull.}, \ppgccvolumedoformat
+  {40}({\ppgccnumberdoformat {2}}):\ppgccpagedoformat {135}--\ppgccpagedoformat
+  {145}.
+
+\bibitem[Leskovec et~al.\@, 2008]{Leskovec2008}
+\ppgccbibauthordoformat {Leskovec, J.\ppgccbibauthorsep {} Backstrom,
+  L.\ppgccbibauthorsep {} Kumar, R.\ppgccbibauthorlastsep {} \ppgccbibauthorand
+  {} Tomkins, A.} (\ppgccyeardoformat {2008}).
+\newblock \ppgccbibtitledoformat {{Microscopic Evolution of Social Networks}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  14\textsuperscript{th} ACM SIGKDD International Conference on Knowledge
+  Discovery and Data Mining}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {462}--\ppgccpagedoformat {470}, Las Vegas, Nevada, USA.
+
+\bibitem[Leskovec et~al.\@, 2005]{Leskovec2005}
+\ppgccbibauthordoformat {Leskovec, J.\ppgccbibauthorsep {} Kleinberg,
+  J.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Faloutsos, C.}
+  (\ppgccyeardoformat {2005}).
+\newblock \ppgccbibtitledoformat {{Graphs Over Time: Densification Laws,
+  Shrinking Diameters and Possible Explanations}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  11\textsuperscript{th} ACM SIGKDD International Conference on Knowledge
+  Discovery in Data Mining}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {177}--\ppgccpagedoformat {187}, Chicago, Illinois, USA.
+
+\bibitem[Leskovec et~al.\@, 2010]{Leskovec2010}
+\ppgccbibauthordoformat {Leskovec, J.\ppgccbibauthorsep {} Lang,
+  K.~J.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Mahoney, M.}
+  (\ppgccyeardoformat {2010}).
+\newblock \ppgccbibtitledoformat {{Empirical Comparison of Algorithms for
+  Network Community Detection}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  19\textsuperscript{th} International Conference on World Wide Web},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {631}--\ppgccpagedoformat {640},
+  Raleigh, North Carolina, USA.
+
+\bibitem[Ley, 2009]{Ley2009}
+\ppgccbibauthordoformat {Ley, M.} (\ppgccyeardoformat {2009}).
+\newblock \ppgccbibtitledoformat {Dblp: Some lessons learned}.
+\newblock \ppgccbibjournaldoformat {Proceedings of the VLDB Endowment},
+  \ppgccvolumedoformat {2}({\ppgccnumberdoformat {2}}):\ppgccpagedoformat
+  {1493}--\ppgccpagedoformat {1500}.
+
+\bibitem[Mislove et~al.\@, 2007]{Mislove2007}
+\ppgccbibauthordoformat {Mislove, A.\ppgccbibauthorsep {} Marcon,
+  M.\ppgccbibauthorsep {} Gummadi, K.~P.\ppgccbibauthorsep {} Druschel,
+  P.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Bhattacharjee, B.}
+  (\ppgccyeardoformat {2007}).
+\newblock \ppgccbibtitledoformat {{Measurement and Analysis of Online Social
+  Networks}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  7\textsuperscript{th} ACM SIGCOMM Conference on Internet Measurement},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {29}--\ppgccpagedoformat {42}, San
+  Diego, California, USA.
+
+\bibitem[Moreno, 1978]{Moreno19531978}
+\ppgccbibauthordoformat {Moreno, J.~L.} (\ppgccyeardoformat {1953,1978}).
+\newblock \ppgccbibbtitledoformat {{Who Shall Survive? Foundations of
+  Sociometry, Group Psychotherapy and Sociodrama.}}
+\newblock Beacon House.
+
+\bibitem[Newman \ppgccciteauthorand {} Park, 2003]{Newman2003}
+\ppgccbibauthordoformat {Newman, M. \ppgccbibauthorand {} Park, J.}
+  (\ppgccyeardoformat {2003}).
+\newblock \ppgccbibtitledoformat {{Why Social Networks are Different from Other
+  Types of Networks}}.
+\newblock \ppgccbibjournaldoformat {Physical Review E}, \ppgccvolumedoformat
+  {68}.
+
+\bibitem[Newman, 2003]{Newman2003a}
+\ppgccbibauthordoformat {Newman, M. E.~J.} (\ppgccyeardoformat {2003}).
+\newblock \ppgccbibtitledoformat {{The Structure and Function of Complex
+  Networks}}.
+\newblock \ppgccbibjournaldoformat {SIAM Review}, \ppgccvolumedoformat
+  {45}:\ppgccpagedoformat {167}--\ppgccpagedoformat {256}.
+
+\bibitem[Patil et~al.\@, 2012]{Patil2012}
+\ppgccbibauthordoformat {Patil, A.\ppgccbibauthorsep {} Liu,
+  J.\ppgccbibauthorsep {} Price, B.\ppgccbibauthorsep {} Sharara,
+  H.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Brdiczka, O.}
+  (\ppgccyeardoformat {2012}).
+\newblock \ppgccbibtitledoformat {{Modeling Destructive Group Dynamics in
+  On-Line Gaming Communities}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  6\textsuperscript{th} International AAAI Conference on Weblogs and Social
+  Media}.
+
+\bibitem[Rogers, 1962]{Rogers1962}
+\ppgccbibauthordoformat {Rogers, E.~M.} (\ppgccyeardoformat {1962}).
+\newblock \ppgccbibbtitledoformat {{Diffusion of Innovations}}.
+\newblock Free Press.
+
+\bibitem[Seifi \ppgccciteauthorand {} Guillaume, 2012]{Seifi2012}
+\ppgccbibauthordoformat {Seifi, M. \ppgccbibauthorand {} Guillaume, J.-L.}
+  (\ppgccyeardoformat {2012}).
+\newblock \ppgccbibtitledoformat {{Community Cores in Evolving Networks}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  21\textsuperscript{st} International Conference on World Wide Web (Companion
+  Volume)}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {1173}--\ppgccpagedoformat {1180}, Lyon, France.
+
+\bibitem[Viswanath et~al.\@, 2009]{Viswanath2009}
+\ppgccbibauthordoformat {Viswanath, B.\ppgccbibauthorsep {} Mislove,
+  A.\ppgccbibauthorsep {} Cha, M.\ppgccbibauthorlastsep {} \ppgccbibauthorand
+  {} Gummadi, K.~P.} (\ppgccyeardoformat {2009}).
+\newblock \ppgccbibtitledoformat {{On the Evolution of User Interaction in
+  Facebook}}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  2\textsuperscript{nd} ACM Workshop on Online Social Networks},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {37}--\ppgccpagedoformat {42},
+  Barcelona, Spain.
+
+\bibitem[Watts \ppgccciteauthorand {} Dodds, 2007]{Watts2007}
+\ppgccbibauthordoformat {Watts, D. \ppgccbibauthorand {} Dodds, P.}
+  (\ppgccyeardoformat {2007}).
+\newblock \ppgccbibtitledoformat {{Influentials, Networks, and Public Opinion
+  Formation}}.
+\newblock \ppgccbibjournaldoformat {Journal of Consumer Research},
+  \ppgccvolumedoformat {34}({\ppgccnumberdoformat {4}}):\ppgccpagedoformat
+  {441}--\ppgccpagedoformat {458}.
+
+\end{thebibliography}

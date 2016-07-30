@@ -1,0 +1,1001 @@
+journal;num_autores
+CoRR;98124
+"IEICE Transactions";41911
+"Nucleic Acids Research";28655
+Bioinformatics;26833
+"Discrete Mathematics";20135
+"BMC Bioinformatics";20010
+"IEEE Transactions on Information Theory";19806
+"IEEE Transactions on Signal Processing";19793
+"Applied Mathematics and Computation";19397
+"Expert Syst. Appl.";18932
+"Theor. Comput. Sci.";18928
+"European Journal of Operational Research";17908
+"Commun. ACM";16650
+"Pattern Recognition";14558
+"IEEE T. Instrumentation and Measurement";13980
+"IEEE T. Geoscience and Remote Sensing";13676
+"Microelectronics Reliability";13650
+"IEEE Trans. Computers";13407
+Automatica;13286
+"IACR Cryptology ePrint Archive";12972
+"Inf. Process. Lett.";12249
+"IEEE Trans. on CAD of Integrated Circuits and Systems";12015
+Neurocomputing;11995
+"Electr. Notes Theor. Comput. Sci.";11871
+"Journal of Computational Chemistry";11682
+"Inf. Sci.";11678
+"IEEE Transactions on Communications";11587
+"IEEE Transactions on Wireless Communications";11480
+"Computer Communications";11350
+NeuroImage;11264
+"Pattern Recognition Letters";10701
+"IEEE Transactions on Image Processing";10408
+"Discrete Applied Mathematics";10307
+"IEEE Trans. Pattern Anal. Mach. Intell.";10280
+"Computer Networks";9904
+"IEEE Journal on Selected Areas in Communications";9758
+"IEEE Communications Letters";9701
+"Signal Processing";9447
+"IEEE Trans. Med. Imaging";9330
+"Computers & OR";9116
+"IEEE Computer";8958
+"PLoS Computational Biology";8834
+"Computers & Mathematics with Applications";8291
+"Microelectronics Journal";8082
+"EURASIP J. Adv. Sig. Proc.";8080
+"Journal of Systems and Software";7771
+"Journal of Chemical Information and Computer Sciences";7718
+"J. Parallel Distrib. Comput.";7190
+"I. J. Bifurcation and Chaos";7180
+"IEEE Trans. Software Eng.";7066
+"IEEE Trans. VLSI Syst.";7047
+"IEEE Trans. Parallel Distrib. Syst.";6924
+"IEEE Trans. Circuits Syst. Video Techn.";6803
+"IBM Journal of Research and Development";6686
+"IEEE Trans. on Circuits and Systems";6503
+"Comput. Graph. Forum";6503
+"Computational Statistics & Data Analysis";6461
+"Mathematical and Computer Modelling";6448
+"SIAM J. Comput.";6447
+"Neural Networks";6372
+"Appl. Math. Lett.";6231
+"IEEE Trans. Knowl. Data Eng.";6224
+"Computer Physics Communications";6211
+"J. Cognitive Neuroscience";6097
+"Computers & Graphics";6005
+"Image Vision Comput.";5991
+"Comput. J.";5990
+"Fuzzy Sets and Systems";5960
+"J. Comb. Theory; Ser. A";5953
+"Softw.; Pract. Exper.";5893
+"ACM Trans. Graph.";5849
+"Parallel Computing";5795
+"Computer-Aided Design";5743
+"IEEE Transactions on Neural Networks";5686
+"J. Symb. Log.";5669
+"Computers & Chemical Engineering";5590
+"IEEE Trans. Vis. Comput. Graph.";5414
+"Future Generation Comp. Syst.";5300
+"Biological Cybernetics";5159
+"IEEE/ACM Trans. Netw.";5110
+"IEEE Transactions on Systems; Man; and Cybernetics; Part B";5035
+"Robotics and Autonomous Systems";5003
+"Fundam. Inform.";4980
+"Computer Methods and Programs in Biomedicine";4870
+"J. Comput. Syst. Sci.";4861
+"Environmental Modelling and Software";4858
+"Neural Computation";4775
+"Speech Communication";4760
+"IEEE Software";4732
+"J. ACM";4725
+"J. Comput. Sci. Technol.";4722
+"Advanced Robotics";4692
+"Electronic Notes in Discrete Mathematics";4675
+Algorithmica;4673
+"J. Comput. Physics";4668
+"Artif. Intell.";4660
+"J. UCS";4570
+"EURASIP J. Wireless Comm. and Networking";4565
+"IEEE Transactions on Information Technology in Biomedicine";4544
+JASIST;4496
+"Mathematics and Computers in Simulation";4444
+"Systems and Computers in Japan";4410
+"Inf. Process. Manage.";4396
+"Computers & Education";4349
+"Electronic Colloquium on Computational Complexity (ECCC)";4312
+"The Visual Computer";4260
+"Med. Biol. Engineering and Computing";4168
+"IEEE Transactions on Systems; Man; and Cybernetics; Part A";4162
+"Concurrency and Computation: Practice and Experience";4128
+JAMIA;4106
+"IBM Systems Journal";4103
+"Computers in Human Behavior";4087
+"Inf. Comput.";4024
+"Appl. Soft Comput.";4009
+"Int. J. Comput. Math.";3981
+"Procedia CS";3978
+"I. J. Medical Informatics";3973
+"Annals OR";3959
+"Computer Vision and Image Understanding";3953
+"J. Inf. Sci. Eng.";3950
+"J. Comb. Theory; Ser. B";3938
+"Eur. J. Comb.";3933
+"International Journal of Computer Vision";3886
+"Journal of Intelligent and Robotic Systems";3879
+"Information & Software Technology";3825
+"Decision Support Systems";3818
+"IEEE Transactions on Multimedia";3796
+"J. Computational Applied Mathematics";3762
+"Computers & Geosciences";3760
+"I. J. Robotic Res.";3724
+"IEEE Transactions on Robotics";3719
+"J. Solid-State Circuits";3685
+"IEEE Transactions on Audio; Speech & Language Processing";3679
+IJPRAI;3632
+"Multimedia Tools Appl.";3625
+"J. Symb. Comput.";3620
+"Math. Comput.";3611
+"Math. Program.";3585
+"Perform. Eval.";3577
+"AI Magazine";3575
+"Electr. J. Comb.";3568
+"SIAM J. Discrete Math.";3555
+"J. Electronic Imaging";3529
+"Data Knowl. Eng.";3523
+"Int. J. Systems Science";3508
+JACIII;3508
+"Artificial Intelligence in Medicine";3488
+"Information & Management";3486
+JCP;3481
+"Knowl.-Based Syst.";3471
+"Discrete & Computational Geometry";3424
+"Soft Comput.";3420
+"Journal of Computer-Aided Molecular Design";3408
+"Medical Image Analysis";3400
+"SIGMOD Record";3396
+Scientometrics;3312
+"J. Digital Imaging";3312
+"Comp. in Bio. and Med.";3307
+"IEEE Design & Test of Computers";3303
+"IEEE Computer Graphics and Applications";3289
+"The Journal of Supercomputing";3156
+"IEEE Internet Computing";3150
+"Wireless Communications and Mobile Computing";3143
+"IEEE Intelligent Systems";3135
+"Journal of Biomedical Informatics";3123
+"Inf. Syst.";3082
+"Wireless Networks";3064
+"Des. Codes Cryptography";2991
+"J. Electronic Testing";2976
+"SIAM J. Scientific Computing";2965
+"Int. J. Hum.-Comput. Stud.";2945
+"VLSI Signal Processing";2940
+"SIAM J. Control and Optimization";2918
+"SIAM Journal of Applied Mathematics";2908
+KI;2899
+"SIAM J. Numerical Analysis";2892
+"Computers & Security";2862
+"Operating Systems Review";2852
+PVLDB;2851
+"IEEE Trans. Mob. Comput.";2835
+"Oper. Res. Lett.";2809
+"ACM SIGSOFT Software Engineering Notes";2800
+"Int. J. Approx. Reasoning";2797
+"International Journal of Geographical Information Science";2790
+"Management Science";2789
+"Telecommunication Systems";2788
+"Human Factors";2786
+"Computers & Chemistry";2771
+Wirtschaftsinformatik;2745
+Presence;2731
+"Educational Technology & Society";2724
+"Ars Comb.";2710
+JSW;2690
+"Int. J. Found. Comput. Sci.";2667
+"Simulation Modelling Practice and Theory";2635
+"Ann. Pure Appl. Logic";2630
+Robotica;2622
+"ACM Trans. Math. Softw.";2621
+"Eng. Appl. of AI";2615
+"J. Medical Systems";2603
+"Int. J. Computer Integrated Manufacturing";2596
+"Neural Computing and Applications";2586
+"Annales des Télécommunications";2585
+"Sci. Comput. Program.";2573
+"Computer Aided Geometric Design";2570
+"J. Algorithms";2570
+"Graphs and Combinatorics";2558
+Interactions;2556
+"Datenschutz und Datensicherheit";2549
+"Machine Learning";2541
+"Queueing Syst.";2537
+"Journal of Chemical Information and Modeling";2527
+"Journal of Computational Biology";2524
+MONET;2521
+"Informatik Spektrum";2502
+"J. of Management Information Systems";2497
+"Acta Inf.";2490
+"IEEE Micro";2482
+"Rel. Eng. & Sys. Safety";2469
+JNW;2450
+"Bell Labs Technical Journal";2448
+"Comput. Geom.";2442
+"J. Economic Theory";2439
+"Journal of Machine Learning Research";2431
+"Advances in Engineering Software";2425
+"Information and Control";2403
+"SIGPLAN Notices";2382
+"International Journal of Man-Machine Studies";2376
+"European Transactions on Telecommunications";2368
+"Computers & Industrial Engineering";2366
+"Games and Economic Behavior";2358
+"Computer Applications in the Biosciences";2353
+"Auton. Robots";2349
+"J. Network and Computer Applications";2349
+"Journal of Circuits; Systems; and Computers";2348
+"IEEE Data Eng. Bull.";2342
+"IEEE Transactions on Speech and Audio Processing";2309
+"Mach. Vis. Appl.";2305
+Combinatorica;2305
+"International Journal of Parallel Programming";2300
+"Journal of Machine Learning Research - Proceedings Track";2293
+"IEEE Transactions on Systems; Man; and Cybernetics; Part C";2282
+Networks;2274
+"IEEE MultiMedia";2263
+Computing;2252
+"Sig. Proc.: Image Comm.";2251
+"IEEE Transactions on Intelligent Transportation Systems";2248
+IJCAT;2237
+"SCIENCE CHINA Information Sciences";2237
+"Int. J. Neural Syst.";2235
+"Systems & Control Letters";2227
+"Applied Artificial Intelligence";2221
+"Personal and Ubiquitous Computing";2201
+"International Journal of Software Engineering and Knowledge Engineering";2199
+"HMD - Praxis Wirtschaftsinform.";2189
+"Science in China Series F: Information Sciences";2189
+"Operations Research";2180
+"Digital Signal Processing";2160
+"Int. J. Communication Systems";2153
+"ACM Comput. Surv.";2151
+"Computer Communication Review";2146
+"IEEE Communications Magazine";2146
+"ACM Trans. Program. Lang. Syst.";2145
+"SIGMETRICS Performance Evaluation Review";2113
+"IEEE T. Fuzzy Systems";2108
+"Interacting with Computers";2102
+JASIS;2099
+Simulation;2089
+"Appl. Intell.";2081
+"Journal of Computational Neuroscience";2067
+"INFORMS Journal on Computing";2063
+"Ann. Math. Artif. Intell.";2062
+"Journal of Approximation Theory";2062
+"J. Sci. Comput.";2057
+"Industrial Management and Data Systems";2051
+"J. Field Robotics";2045
+Biosystems;2044
+"Int. J. Math. Mathematical Sciences";2041
+"Int. J. Computer Assisted Radiology and Surgery";2026
+"First Monday";2017
+"SIAM Journal on Optimization";2015
+"Parallel Processing Letters";2015
+"Journal of Visualization and Computer Animation";2004
+"Int. J. Intell. Syst.";1994
+"Computer Standards & Interfaces";1981
+"IEEE/ACM Trans. Comput. Biology Bioinform.";1964
+"Ad Hoc Networks";1961
+"Concurrency - Practice and Experience";1951
+"J. Bioinformatics and Computational Biology";1950
+"Journal of Systems Architecture";1942
+"ACM Trans. Database Syst.";1942
+"Random Struct. Algorithms";1929
+"Comp. Med. Imag. and Graph.";1925
+"IEEE Pervasive Computing";1917
+"Int. J. Hum. Comput. Interaction";1916
+"Informatica (Slovenia)";1908
+"IEEE Security & Privacy";1900
+"Journal of Mathematical Imaging and Vision";1899
+"Knowl. Inf. Syst.";1890
+"D-Lib Magazine";1886
+"International Journal of Uncertainty; Fuzziness and Knowledge-Based Systems";1860
+"IEEE Trans. Evolutionary Computation";1846
+"Signal Processing Systems";1825
+"Cognitive Science";1823
+"ACM Trans. Design Autom. Electr. Syst.";1821
+"Multimedia Syst.";1820
+"SIAM J. Math. Analysis";1815
+"Theory Comput. Syst.";1812
+"J. Comb. Optim.";1795
+"ERCIM News";1787
+"VLDB J.";1768
+"J. Log. Comput.";1759
+"Numerical Algorithms";1745
+"IEEE Transactions on Information Forensics and Security";1740
+"Computational Biology and Chemistry";1735
+"Neural Processing Letters";1708
+"J. Complexity";1699
+"International Journal on Artificial Intelligence Tools";1692
+"SIAM J. Matrix Analysis Applications";1688
+"Computers in Industry";1679
+"IEEE T. Automation Science and Engineering";1678
+"SIGCSE Bulletin";1673
+"Briefings in Bioinformatics";1670
+JORS;1656
+"J. Global Optimization";1645
+"IEEE Transactions on Reliability";1630
+"DATA BASE";1619
+"J. Artif. Intell. Res. (JAIR)";1618
+IJMTM;1616
+"J. Visual Communication and Image Representation";1616
+"Math. Log. Q.";1608
+"J. Autom. Reasoning";1599
+"Combinatorics; Probability & Computing";1595
+"Studia Logica";1585
+"Computers & Electrical Engineering";1580
+"J. Comp. Assisted Learning";1576
+"Computer Networks and ISDN Systems";1570
+"Int. J. Comput. Geometry Appl.";1568
+ITA;1566
+ECEASST;1566
+Automatisierungstechnik;1561
+Integration;1560
+"J. Vis. Lang. Comput.";1539
+"J. Network Syst. Manage.";1502
+"Real-Time Systems";1496
+IJHPCA;1484
+"IEEE Geosci. Remote Sensing Lett.";1476
+"MIS Quarterly";1474
+"Intell. Data Anal.";1473
+"Cluster Computing";1472
+"Journal of Object Technology";1471
+"Journal of Graph Theory";1466
+"Adv. Comput. Math.";1466
+"Computing in Science and Engineering";1464
+"Technique et Science Informatiques";1464
+Kybernetes;1458
+JCM;1454
+"New Generation Comput.";1449
+"Cybernetics and Systems";1447
+"J. Intell. Inf. Syst.";1439
+"Elektronische Informationsverarbeitung und Kybernetik";1436
+"Quantum Information & Computation";1432
+"AI Soc.";1425
+"Praxis der Informationsverarbeitung und Kommunikation";1418
+"Elektrotechnik und Informationstechnik";1405
+"Computational Intelligence";1404
+"Scalable Computing: Practice and Experience";1402
+"ACM Trans. Inf. Syst.";1397
+"J. Artificial Societies and Social Simulation";1389
+"Bulletin of the EATCS";1382
+"Transportation Science";1378
+"Information Systems Frontiers";1371
+"Formal Asp. Comput.";1368
+"Social Choice and Welfare";1350
+"Communications in Statistics - Simulation and Computation";1349
+"Behaviour & IT";1332
+"Electronic Markets";1328
+"AI EDAM";1324
+"J. Grid Comput.";1322
+"Internet Research";1318
+"Int. Journal of Network Management";1317
+"SIGIR Forum";1309
+"Artif. Intell. Rev.";1307
+"Mobile Computing and Communications Review";1292
+"T. GIS";1290
+"Information Systems Research";1288
+"Scientific Programming";1283
+"IEEE Network";1277
+"The Electronic Library";1275
+"J. Multivariate Analysis";1274
+"J. Knowledge Management";1273
+"IEEE Trans. Automat. Contr.";1273
+Synthese;1269
+"Logic Journal of the IGPL";1265
+EJIS;1245
+"IS Management";1245
+"Computational Linguistics";1245
+"J. Computer-Mediated Communication";1244
+"Advanced Engineering Informatics";1240
+STTT;1237
+"Math. Oper. Res.";1231
+"IEEE Trans. Biomed. Engineering";1228
+"Pattern Anal. Appl.";1216
+"ACM Trans. Embedded Comput. Syst.";1213
+"Formal Methods in System Design";1208
+Interfaces;1202
+"Inf. Soc.";1197
+IJAC;1197
+"Computer and Information Science";1196
+"IEEE Expert";1181
+TiiS;1179
+"it - Information Technology";1178
+"Microprocessing and Microprogramming";1177
+"SIGACT News";1175
+"Int. J. Image Graphics";1172
+"Acta Cybern.";1170
+"Journal of Intelligent and Fuzzy Systems";1164
+"Inteligencia Artificial; Revista Iberoamericana de Inteligencia Artificial";1164
+"Mathematical Structures in Computer Science";1159
+"Online Information Review";1148
+"Mathematical Systems Theory";1146
+"SIGKDD Explorations";1145
+"J. Low Power Electronics";1141
+"International Journal of Information Technology and Decision Making";1139
+"Computers; Environment and Urban Systems";1139
+"ACM Trans. Comput. Syst.";1137
+JDIM;1135
+"Eng. Comput. (Lond.)";1119
+"Informatica; Lith. Acad. Sci.";1117
+"Computer Speech & Language";1116
+"Real-Time Imaging";1112
+Neuroinformatics;1111
+"Computer Vision; Graphics; and Image Processing";1110
+"Distributed Computing";1109
+"Data Min. Knowl. Discov.";1107
+"Virtual Reality";1106
+"J. Exp. Theor. Artif. Intell.";1096
+"Journal of Multimedia";1095
+"Int. J. Biomedical Imaging";1095
+"J. Funct. Program.";1091
+"Int. Arab J. Inf. Technol.";1089
+"Appl. Algebra Eng. Commun. Comput.";1087
+"J. Discrete Algorithms";1073
+"IEEE Trans. Education";1062
+"Ecological Informatics";1062
+"Inf. Manag. Comput. Security";1061
+"Electronic Commerce Research and Applications";1061
+"Journal of Computer Security";1059
+IJWIN;1059
+"IEEE Trans. Industrial Informatics";1057
+"Microprocessors and Microsystems";1056
+"J. Heuristics";1055
+"AI Commun.";1054
+JCIT;1052
+"Int. J. Cooperative Inf. Syst.";1051
+IJCNS;1043
+"Empirical Software Engineering";1041
+Scholarpedia;1032
+"Natural Computing";1030
+"Arch. Math. Log.";1030
+"Statistics and Computing";1026
+"Information Fusion";1024
+"IEEE Trans. Biomed. Circuits and Systems";1022
+"Autonomous Agents and Multi-Agent Systems";1020
+"I. J. Network Security";1018
+"Data Science Journal";1016
+"Advances in Computers";1009
+"Software Quality Journal";1005
+"Artificial Life";1004
+"IT Professional";1002
+"Pervasive and Mobile Computing";993
+"Notre Dame Journal of Formal Logic";991
+"Australian Computer Journal";989
+"J. Scheduling";984
+"J. Log. Program.";982
+RASI;972
+"Ingénierie des Systèmes d'Information";970
+"Universal Access in the Information Society";968
+"Inform.; Forsch. Entwickl.";964
+"Distributed and Parallel Databases";964
+"ACM Transactions on Algorithms";962
+"Int. J. Applied Earth Observation and Geoinformation";958
+"Security and Communication Networks";950
+"LOG IN";945
+"IEEE Distributed Systems Online";945
+IJDAR;943
+IJSTM;937
+"J. Information Science";931
+"AI in Engineering";931
+"Quality and Reliability Eng. Int.";930
+"ACM Trans. Model. Comput. Simul.";930
+"IEEE Trans. Dependable Sec. Comput.";928
+"Angewandte Informatik";927
+"IEEE Annals of the History of Computing";927
+"SIGARCH Computer Architecture News";927
+"Evolutionary Computation";924
+"World Wide Web";920
+"Computer Supported Cooperative Work";918
+"Inf. Retr.";918
+"IET Computers & Digital Techniques";918
+"J. Web Sem.";914
+"Elektronische Rechenanlagen";914
+"J. Cryptology";914
+JDCTA;913
+"ACM Trans. Comput.-Hum. Interact.";907
+"Computers in Entertainment";902
+"Australasian J. of Inf. Systems";900
+"Software Process: Improvement and Practice";898
+"ACM Queue";895
+"Applied Categorical Structures";890
+"Parallel Algorithms Appl.";888
+iJET;886
+"Machine Translation";884
+"Journal of Systems Architecture - Embedded Systems Design";882
+"International Journal of Computational Engineering Science";881
+"Finite Fields and Their Applications";873
+"Journal of Zhejiang University - Science C";870
+"Frontiers of Computer Science in China";869
+"Programming and Computer Software";868
+"Journal of Software Maintenance";863
+"Comp.-Aided Civil and Infrastruct. Engineering";862
+iJOE;858
+"Computers and Artificial Intelligence";858
+"J. Braz. Comp. Soc.";856
+"Cognition; Technology & Work";855
+GeoInformatica;854
+IJMC;852
+"Concurrent Engineering: R&A";851
+"Int. J. on Digital Libraries";847
+IJBRA;845
+"I. J. Humanoid Robotics";845
+"Proceedings of the IEEE";843
+IJISTA;838
+"Advances in Complex Systems";838
+IJDSN;825
+"IEEE Communications Surveys and Tutorials";816
+"ACM Trans. Inf. Syst. Secur.";815
+"J. Integrative Bioinformatics";815
+"J. Log. Algebr. Program.";814
+"Reliable Computing";813
+i-com;806
+"Journal of Interconnection Networks";805
+"Design Autom. for Emb. Sys.";794
+"J. Sel. Topics Signal Processing";789
+"J. Visualization";787
+"EURASIP J. Emb. Sys.";787
+"Requir. Eng.";785
+IJSNet;783
+"Information Visualization";775
+"Autom. Softw. Eng.";770
+Constraints;769
+"Softw. Test.; Verif. Reliab.";767
+"Inf. Syst. J.";764
+"Computers and the Humanities";763
+"ACM Trans. Softw. Eng. Methodol.";759
+"Graphical Models";757
+"Software and System Modeling";756
+JSEA;755
+TPLP;754
+IJWMIP;754
+"Mathematical Social Sciences";752
+"J. AIS";752
+"IEEE Trans. Contr. Sys. Techn.";745
+"J. Enterprise Inf. Management";738
+"IEEE Signal Process. Lett.";736
+Complexity;734
+TOSN;734
+"Comput. Lang.";734
+"Discussiones Mathematicae Graph Theory";731
+"ACM Trans. Comput. Log.";731
+IGTR;731
+"Cognitive Processing";730
+"International Journal of Computational Intelligence and Applications";729
+"Optimization Letters";729
+"Optical Switching and Networking";726
+JOOP;724
+"User Model. User-Adapt. Interact.";721
+"Telematics and Informatics";719
+"I. J. Information Acquisition";716
+"Cognitive Systems Research";712
+TAP;712
+"Comput. Sci. Inf. Syst.";710
+"Computational Complexity";710
+"Microprocessors and Microsystems - Embedded Hardware Design";708
+"Revue d'Intelligence Artificielle";703
+IJEB;703
+"In Silico Biology";703
+TACO;701
+"Discrete Optimization";700
+"Natural Language Engineering";697
+"Nord. J. Comput.";694
+"Journal of Logic; Language and Information";693
+"Discrete Mathematics & Theoretical Computer Science";690
+"Marketing Science";689
+"Int. J. Game Theory";685
+"Comput. Syst. Sci. Eng.";685
+"Genetic Programming and Evolvable Machines";681
+"Logical Methods in Computer Science";679
+"J. Graph Algorithms Appl.";679
+"Genomics; Proteomics & Bioinformatics";675
+"Int. J. Inf. Sec.";674
+"CVGIP: Graphical Model and Image Processing";673
+"Multiscale Modeling & Simulation";671
+"Connect. Sci.";670
+"Health Informatics Journal";666
+"Discrete Event Dynamic Systems";663
+IJAHUC;663
+"OOPS Messenger";662
+"J. Math. Model. Algorithms";660
+"I. J. Comput. Appl.";658
+"Applied Mathematics and Computer Science";655
+"Int. J. Comp. Sci. Sport";653
+LLC;653
+"Journal of Geographical Systems";650
+Order;649
+"SIAM J. Applied Dynamical Systems";648
+"J. Digit. Inf.";648
+IJDET;648
+APJOR;642
+"Simul. Pr. Theory";641
+JIKM;640
+"Inf. Res.";639
+"EURASIP J. Image and Video Processing";638
+"J. Informetrics";638
+JIPS;635
+"Engineering Letters";633
+"Operational Research";632
+"Web Intelligence and Agent Systems";631
+"IT & People";629
+IJNVO;628
+TOMCCAP;628
+"Information Economics and Policy";625
+"Wireless Sensor Network";622
+"IEEE Trans. Neural Netw. Learning Syst.";620
+"J. Database Manag.";619
+CIT;619
+"IEEE Trans. Smart Grid";619
+IJBIS;617
+"Computational & Mathematical Organization Theory";614
+IJHPCN;614
+"J. Optimization Theory and Applications";604
+"Multiagent and Grid Systems";603
+"J. High Speed Networks";600
+"KES Journal";598
+"IEEE Systems Journal";597
+"Int. J. Pervasive Computing and Communications";596
+"Journal of Quantitative Linguistics";596
+"Library Trends";595
+"Expert Systems";587
+"Organization Science";587
+"Int. J. Comput. Proc. Oriental Lang.";586
+"Journal of Automata; Languages and Combinatorics";586
+ISSE;580
+"RAIRO - Operations Research";578
+L'OBJET;577
+"ACM Trans. Asian Lang. Inf. Process.";576
+"Journal of Applied Non-Classical Logics";575
+"IET Software";570
+"Ad Hoc & Sensor Wireless Networks";570
+IJWBC;568
+IJDMB;567
+"IEICE Electronic Express";566
+"Electronic Commerce Research";565
+"Signal; Image and Video Processing";564
+IRMJ;563
+"Artif. Intell. Law";563
+"J. Web Eng.";563
+"ACM Trans. Internet Techn.";559
+"ACM Journal of Experimental Algorithmics";556
+"Annals of GIS";554
+"J. of IT & Tourism";553
+"Computing and Informatics";551
+"OCLC Systems & Services";550
+"International Journal of High Speed Computing";549
+IJITM;544
+"J. Real-Time Image Processing";542
+"T. Edutainment";542
+"Inf. Syst. E-Business Management";541
+"J. Applied Mathematics";540
+"Int. J. Satellite Communications Networking";536
+"Universität Trier; Mathematik/Informatik; Forschungsbericht";535
+"Language Resources and Evaluation";533
+Datenbank-Spektrum;532
+"J. Applied Logic";529
+"Int. Syst. in Accounting; Finance and Management";528
+IJCSA;528
+"Journal of Information; Law and Technology";527
+4OR;527
+BIT;526
+"The New Review of Hypermedia and Multimedia";525
+JGIM;521
+"Int. J. Reconfig. Comp.";520
+"MIS Quarterly Executive";517
+"Automatic Control and Computer Sciences";517
+"Journal of Communications and Networks";517
+EG;513
+"Int. J. Digital Multimedia Broadcasting";513
+"J. Community Informatics";513
+IJPEDS;512
+"Int. J. Web Service Res.";512
+"Knowledge Eng. Review";511
+IJWGS;506
+"South African Computer Journal";504
+"Transactions on Computational Science";504
+IJMR;503
+"ACM Crossroads";503
+"Information Systems Security";497
+"J. Mobile Multimedia";494
+"IEEE Transactions on Network and Service Management";493
+"IEE Proceedings - Software";489
+"IEEE Signal Process. Mag.";488
+"Foundations of Computational Mathematics";487
+IJKL;482
+"Datenbank Rundbrief";480
+IJCIS;479
+"CLEI Electron. J.";479
+"SIAM J. Imaging Sciences";475
+JAMDS;475
+"J. Philosophical Logic";475
+JIP;474
+"IEEE Database Eng. Bull.";473
+"Computer Science - R&D";471
+Robotersysteme;464
+"Multiple-Valued Logic and Soft Computing";464
+"J. Electrical and Computer Engineering";462
+JIT;460
+"Int. J. Digital Earth";458
+"Manufacturing & Service Operations Management";457
+"Statistical Analysis and Data Mining";457
+"Int. J. Hybrid Intell. Syst.";455
+JITE;455
+"Statistical Methods and Applications";455
+"SIGecom Exchanges";453
+"Business & Information Systems Engineering";451
+"Higher-Order and Symbolic Computation";450
+TLT;448
+NHM;448
+"Ann. Software Eng.";443
+"Interact. Techn. Smart Edu.";442
+"IEEE Transactions on Systems; Man; and Cybernetics";442
+IJIPT;441
+TRETS;439
+"EURASIP J. Audio; Speech and Music Processing";436
+IJEH;435
+"Digital Investigation";432
+"Egyptian Computer Science Journal";429
+TOS;427
+"I. J. Social Robotics";427
+"Mathematics in Computer Science";426
+IJSS;425
+"Journal of Decision Systems";425
+"Computer Music Journal";424
+"Mobile Information Systems";423
+IJICTE;423
+"Computer Architecture Letters";423
+"Comp. Int. and Neurosc.";422
+"Production Engineering";420
+JOEUC;417
+IJIIDS;416
+RITA;415
+"J. Classification";415
+IJWMC;415
+IJWIS;414
+IJMSO;413
+"Internet Mathematics";412
+"IMA J. Math. Control & Information";412
+"I. J.  Computational Biology and Drug Design";408
+IJSN;407
+JTAER;407
+TAAS;406
+"Language and Linguistics Compass";402
+"I. J. Robotics and Automation";401
+"Science and Engineering Ethics";400
+"PsychNology Journal";399
+"Zeitschrift für Medienpsychologie";397
+"IEEE T. Haptics";394
+iJIM;393
+IJBIDM;390
+"Journal in Computer Virology";389
+"Journal of Systems Integration";388
+"IEEE Comp. Int. Mag.";387
+"Information Storage and Retrieval";386
+JECO;386
+Algorithms;386
+IJDWM;383
+"Int. J. Semantic Computing";383
+"Decision Analysis";380
+"Earth Science Informatics";375
+"J. Comput. Inf. Sci. Eng.";375
+BIAA;375
+JETC;374
+"I. J. Computer-Supported Collaborative Learning";374
+IJLT;371
+"Int. J. Web Eng. Technol.";370
+Cryptologia;369
+"Revista Colombiana de Computación";368
+"VLSI Design";367
+Cartographica;367
+"J. Cases on Inf. Techn.";367
+IJHISI;365
+"Comp. Math. Methods in Medicine";365
+"IEEE T. Services Computing";364
+"Peer-to-Peer Networking and Applications";362
+JIDM;359
+IJEBR;356
+"LDV Forum";356
+"Revue Internationale de Géomatique";356
+"Distributed Systems Engineering";353
+"International Journal of Internet and Enterprise Management";352
+"Computer Languages; Systems & Structures";351
+IJEGR;350
+TKDD;350
+"J. Embedded Computing";350
+"EURASIP J. Bioinformatics and Systems Biology";348
+"Intelligent Decision Technologies";347
+"Optimization Methods and Software";346
+"I. J. Artificial Intelligence in Education";345
+"it+ti - Informationstechnik und Technische Informatik";340
+"Service Oriented Computing and Applications";334
+"IEEE Wireless Commun.";333
+IJBDCN;333
+"Intelligent Information Management";328
+"ACM TIST";327
+IJEIS;326
+"FO & DM";324
+TWEB;324
+"IEEE Trans. Systems Science and Cybernetics";323
+"Bulletin of Symbolic Logic";321
+"Journal of Research and Practice in Information Technology";319
+JAISE;316
+IJES;315
+Symmetry;315
+"Neural Parallel & Scientific Comp.";314
+"Interactive Learning Environments";311
+"J. Nonlinear Science";309
+"Library Hi Tech";309
+"Computing Systems";308
+"T. Rough Sets";307
+IJCINI;306
+MCSS;306
+"J. Cellular Automata";305
+IJVR;304
+IJTHI;294
+"Int. J. Software and Informatics";294
+"Cognitive Computation";294
+"Bioinformatics [ISMB/ECCB]";293
+IJIIT;291
+"SIGART Bulletin";288
+"Enterprise IS";286
+"J. Strategic Inf. Sys.";285
+"Informatics in Education";285
+"Intelligenza Artificiale";284
+IJUC;283
+"Formalized Mathematics";282
+IJAMC;281
+"ACM Journal of Educational Resources in Computing";281
+"I. J. Functional Informatics and Personalised Medicine";277
+IJITWE;276
+IJWLTT;276
+"Electronic Publishing";275
+"J. Comput. Science";273
+Micromachines;272
+"Information Security Journal: A Global Perspective";271
+"EMISA Forum";271
+"Applied Ontology";271
+JCSE;271
+"J. Riga Technical University";269
+IJBIC;269
+"ICGA Journal";269
+IEEE-RITA;268
+IJISP;268
+"IEEE T. Autonomous Mental Development";268
+"Annual Reviews in Control";267
+"Int. J. Semantic Web Inf. Syst.";264
+"Minds and Machines";264
+"Sci. Ann. Cuza Univ.";263
+IJKM;261
+"Future Internet";260
+ITSSA;259
+"Advances in Adaptive Data Analysis";257
+IJISCM;256
+"IEEE Trans. Comput. Intellig. and AI in Games";255
+"T. HiPEAC";255
+"Stud. Inform. Univ.";252
+"Int. J. Computer Games Technology";251
+"International Journal of Shape Modeling";251
+"IEEE Concurrency";250
+"Digital Technical Journal";248
+IJeC;248
+"Lisp and Symbolic Computation";247
+"Adv. in MM";247
+"The Computer Science Journal of Moldova";245
+"I. J. Advanced Corporate Learning";244
+"SIAM Review";243
+"Adv. Bioinformatics";240
+"IWBS Report";236
+IJHPSA;236
+IJICT;235
+"Embedded Systems Letters";235
+IJGUC;234
+"Prague Bull. Math. Linguistics";233
+"J. Data Semantics";233
+"Journal Comp. Netw. and Communic.";230
+"Int. J. Systems Assurance Engineering and Management";229
+"Adv. Data Analysis and Classification";229
+"J. Ambient Intelligence and Humanized Computing";229
+TAPOS;228
+"Algorithms for Molecular Biology";227
+IJACI;226
+"Dagstuhl Reports";225
+"IEEE Robot. Automat. Mag.";222
+"J. Location Based Services";221
+"J. Systems and IT";221
+"J. Geographic Information System";221
+"International Journal of Geographical Information Systems";220
+"I. J. Law and Information Technology";218
+JSAT;218
+"Int. J. Comput. Syst. Signal";218
+IJSSCI;216
+"Swarm Intelligence";215
+TAL;214
+"Memetic Computing";212
+"Adv. Human-Computer Interaction";211
+"Int. J. Adv. Comp. Techn.";211
+"Scandinavian J. Inf. Systems";209
+IJCNIS;208
+IJAOSE;208
+"SIAM J. Financial Math.";207
+TOCE;205
+"Systems Engineering";204
+"J. Computing in Higher Education";203
+"J. Simulation";201
+JITR;199
+"Communications and Network";198
+"Algorithmic Operations Research";197
+"T. Comp. Sys. Biology";196
+"OR Insight";194
+"Bioinformatics [ISMB]";194
+"I. J. Wireless & Optical Communications";193
+"J. Org. Computing and E. Commerce";193
+"J. Graphics Tools";192
+IJGHPC;192
+ARIST;190
+IJISSCM;189
+IJMCMC;188
+IJRFITA;188
+Kognitionswissenschaft;188
+TSLP;188
+Webology;187
+"J. Internet Services and Applications";186
+IJDMMM;186
+"Finance and Stochastics";186
+Softwaretechnik-Trends;186
+"Theory of Computing";184
+IJWA;184
+IJDST;184
+IJKESDP;181
+"T. Petri Nets and Other Models of Concurrency";180
+"Circuits and Systems";178
+IJSSOE;178
+JOCCH;177
+"Control and Intelligent Systems";177
+"Software - Concepts and Tools";176
+"Reports on Mathematical Logic";175
+"Information and Organization";172
+"Evolutionary Intelligence";172
+"Journal of Chinese Language and Computing";170
+"EURASIP J. Information Security";169
+"Research and Practice in Technology Enhanced Learning";169
+"Journal of Computer Research and Development";169
+IJEP;169
+IJGCMS;168
+"SIGSPATIAL Special";168
+"Int. J. IT Standards and Standardization Res.";168
+"IEEE Technol. Soc. Mag.";168
+"J. Digital Forensic Practice";166
+IJISSS;164
+IJIDS;164
+"Chicago J. Theor. Comput. Sci.";163
+"T. Large-Scale Data- and Knowledge-Centered Systems";162
+"Computer Science Review";162
+IJCOPI;162
+IJDSST;161
+IJISCRAM;160
+IJEHMC;159
+TACCESS;158
+"Int. Journal in Computer Simulation";157
+"Archive of Formal Proofs";156
+"Enterprise Modelling and Information Systems Architectures";156
+IJDCF;156
+"Logistics Research";154
+IJATS;153
+"Network Security";153
+AISS;152
+IJKSR;152
+IJAPUC;151
+"African J. of Inf. & Commun. Technology";150
+IJALR;148
+IJBPSCM;148
+IJMHCI;148

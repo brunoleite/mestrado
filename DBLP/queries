@@ -1,0 +1,48 @@
+insert into publication (publtype, mdate, `key`) values (199, '1985-11-19', 'abc ed');
+
+select * from publication ;
+select count(idpublication) from publication;
+
+select * from article where reviewid is not null or rating is not null;
+select count(idarticle) from article;
+
+select * from field ;
+select count(idfield) from field;
+
+insert into field (name, field_idfield) values ('E. F. Codd', 40151);
+
+
+select * from www;
+
+select * from field;
+
+select * from author;
+
+
+
+INSERT INTO `dblp`.`article` (`publication_idpublication`, `reviewid`, `rating`) VALUES (53307, null, null);
+
+
+select * from title;
+
+
+select * from publication 
+LIMIT 3069606, 3069606;
+
+select count(idpublication) from publication;
+
+select f.journal, count(p.idpublication) as num_publicacoes
+from publication p
+inner join article at on p.idpublication = at.publication_idpublication
+inner join field f on p.idpublication = f.publication_idpublication
+where f.journal is not null
+group by f.journal
+order by count(p.idpublication) desc
+LIMIT 0, 100;
+
+select *
+from field
+where journal like '%JIDM%';
+
+select count(distinct name)
+from author;

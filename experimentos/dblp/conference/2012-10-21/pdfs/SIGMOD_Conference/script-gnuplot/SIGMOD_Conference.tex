@@ -1,0 +1,329 @@
+\documentclass{article}
+\usepackage[brazil]{babel}      % se o documento for em português, OU
+%\usepackage[english]{babel}    % se o documento for em inglês
+\usepackage[latin1]{inputenc}   % Dá suporte para caracteres especiais como acentos e cedilha
+\usepackage[T1]{fontenc}        % Lê a codificação de fonte T1 (font encoding default é 0T1).
+\usepackage{subfigure}
+\usepackage{float} 
+\usepackage{graphicx}						% define o comando \includegraphics para a inclusão de figuras
+\usepackage[a4paper,
+  portuguese,
+  bookmarks=true,
+  bookmarksnumbered=true,
+  linktocpage,
+  colorlinks,
+  citecolor=black,
+  urlcolor=black,
+  linkcolor=black,
+  filecolor=black,
+  ]{hyperref}
+\usepackage[square]{natbib}    % permite citações naturalmente
+                               % integradas ao texto
+\usepackage{microtype}
+\DisableLigatures{encoding=*,family=*}
+
+\usepackage{multirow}	
+\oddsidemargin 0.0in 
+\evensidemargin 0.0in 
+\usepackage[margin=0.2in]{geometry}
+
+\begin{document}
+\chapter{\huge SIGMOD Conference - Caminho Mínimo Médio}
+
+% Inseri imagens separadas
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/caminho_minimo_medio/sigmod_conference_dados_continuous_caminho_minimo_medio} 
+    \caption{Evolução acumulada através dos anos - SIGMOD Conference.}
+    \label{fig:CaminhoMinimoContinuo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/caminho_minimo_medio/sigmod_conference_dados_janela_2_caminho_minimo_medio} 
+    \caption{Evolução utilizando janela temporal de 2 anos - SIGMOD Conference.}
+    \label{fig:CaminhoMinimo2anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/caminho_minimo_medio/sigmod_conference_dados_janela_3_caminho_minimo_medio} 
+    \caption{Evolução utilizando janela temporal de 3 anos - SIGMOD Conference.}
+    \label{fig:CaminhoMinimo3anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/caminho_minimo_medio/sigmod_conference_dados_janela_4_caminho_minimo_medio} 
+    \caption{Evolução utilizando janela temporal de 4 anos - SIGMOD Conference.}
+    \label{fig:CaminhoMinimo4anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/caminho_minimo_medio/sigmod_conference_dados_janela_5_caminho_minimo_medio} 
+    \caption{Evolução utilizando janela temporal de 5 anos - SIGMOD Conference.}
+    \label{fig:CaminhoMinimo5anos}
+\end{figure}
+
+
+\pagebreak
+
+\chapter{\huge SIGMOD Conference - Coeficiente de Agrupamento}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/coeficiente_agrupamento/sigmod_conference_dados_continuous_coeficiente_agrupamento} 
+    \caption{Evolução acumulada através dos anos - SIGMOD Conference.}
+    \label{fig:CoeficienteAgrupamentoContinuo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/coeficiente_agrupamento/sigmod_conference_dados_janela_2_coeficiente_agrupamento} 
+    \caption{Evolução utilizando janela temporal de 2 anos - SIGMOD Conference.}
+    \label{fig:CoeficienteAgrupamento2anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/coeficiente_agrupamento/sigmod_conference_dados_janela_3_coeficiente_agrupamento} 
+    \caption{Evolução utilizando janela temporal de 3 anos - SIGMOD Conference.}
+    \label{fig:CoeficienteAgrupamento3anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/coeficiente_agrupamento/sigmod_conference_dados_janela_4_coeficiente_agrupamento} 
+    \caption{Evolução utilizando janela temporal de 4 anos - SIGMOD Conference.}
+    \label{fig:CoeficienteAgrupamento4anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/coeficiente_agrupamento/sigmod_conference_dados_janela_5_coeficiente_agrupamento} 
+    \caption{Evolução utilizando janela temporal de 5 anos - SIGMOD Conference.}
+    \label{fig:CoeficienteAgrupamento5anos}
+\end{figure}
+
+\pagebreak
+
+\chapter{\huge SIGMOD Conference - Diametro}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/diametro/sigmod_conference_dados_continuous_diametro} 
+    \caption{Evolução acumulada através dos anos - SIGMOD Conference.}
+    \label{fig:DiametroContinuo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/diametro/sigmod_conference_dados_janela_2_diametro} 
+    \caption{Evolução utilizando janela temporal de 2 anos - SIGMOD Conference.}
+    \label{fig:Diametro2anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/diametro/sigmod_conference_dados_janela_3_diametro} 
+    \caption{Evolução utilizando janela temporal de 3 anos - SIGMOD Conference.}
+    \label{fig:Diametro3anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/diametro/sigmod_conference_dados_janela_4_diametro} 
+    \caption{Evolução utilizando janela temporal de 4 anos - SIGMOD Conference.}
+    \label{fig:Diametro4anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/diametro/sigmod_conference_dados_janela_5_diametro} 
+    \caption{Evolução utilizando janela temporal de 5 anos - SIGMOD Conference.}
+    \label{fig:Diametro5anos}
+\end{figure}
+
+\pagebreak
+
+\chapter{\huge SIGMOD Conference - Assortatividade}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/assortatividade/sigmod_conference_dados_continuous_assortatividade} 
+    \caption{Evolução acumulada através dos anos - SIGMOD Conference.}
+    \label{fig:AssortatividadeContinuo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/assortatividade/sigmod_conference_dados_janela_2_assortatividade} 
+    \caption{Evolução utilizando janela temporal de 2 anos - SIGMOD Conference.}
+    \label{fig:Assortatividade2anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/assortatividade/sigmod_conference_dados_janela_3_assortatividade} 
+    \caption{Evolução utilizando janela temporal de 3 anos - SIGMOD Conference.}
+    \label{fig:Assortatividade3anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/assortatividade/sigmod_conference_dados_janela_4_assortatividade} 
+    \caption{Evolução utilizando janela temporal de 4 anos - SIGMOD Conference.}
+    \label{fig:Assortatividade4anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/assortatividade/sigmod_conference_dados_janela_5_assortatividade} 
+    \caption{Evolução utilizando janela temporal de 5 anos - SIGMOD Conference.}
+    \label{fig:Assortatividade5anos}
+\end{figure}
+
+\pagebreak
+
+\chapter{\huge SIGMOD Conference - Autor}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/autor/sigmod_conference_dados_continuous_autor} 
+    \caption{Evolução acumulada através dos anos - SIGMOD Conference.}
+    \label{fig:AutorContinuo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/autor/sigmod_conference_dados_janela_2_autor} 
+    \caption{Evolução utilizando janela temporal de 2 anos - SIGMOD Conference.}
+    \label{fig:Autor2anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/autor/sigmod_conference_dados_janela_3_autor} 
+    \caption{Evolução utilizando janela temporal de 3 anos - SIGMOD Conference.}
+    \label{fig:Autor3anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/autor/sigmod_conference_dados_janela_4_autor} 
+    \caption{Evolução utilizando janela temporal de 4 anos - SIGMOD Conference.}
+    \label{fig:Autor4anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/autor/sigmod_conference_dados_janela_5_autor} 
+    \caption{Evolução utilizando janela temporal de 5 anos - SIGMOD Conference.}
+    \label{fig:Autor5anos}
+\end{figure}
+
+\pagebreak
+
+\chapter{\huge SIGMOD Conference - Publicacação}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/publicacao/sigmod_conference_dados_continuous_publicacao} 
+    \caption{Evolução acumulada através dos anos - SIGMOD Conference.}
+    \label{fig:PublicacaoContinuo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/publicacao/sigmod_conference_dados_janela_2_publicacao} 
+    \caption{Evolução utilizando janela temporal de 2 anos - SIGMOD Conference.}
+    \label{fig:Publicacao2anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/publicacao/sigmod_conference_dados_janela_3_publicacao} 
+    \caption{Evolução utilizando janela temporal de 3 anos - SIGMOD Conference.}
+    \label{fig:Publicacao3anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/publicacao/sigmod_conference_dados_janela_4_publicacao} 
+    \caption{Evolução utilizando janela temporal de 4 anos - SIGMOD Conference.}
+    \label{fig:Publicacao4anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/publicacao/sigmod_conference_dados_janela_5_publicacao} 
+    \caption{Evolução utilizando janela temporal de 5 anos - SIGMOD Conference.}
+    \label{fig:Publicacao5anos}
+\end{figure}
+
+\pagebreak
+
+\chapter{\huge SIGMOD Conference - Resemblance Link}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/resemblance_link/sigmod_conference_dados_janela_2_resemblance_link} 
+    \caption{Evolução utilizando janela temporal de 2 anos - SIGMOD Conference.}
+    \label{fig:ResemblanceLink2anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/resemblance_link/sigmod_conference_dados_janela_3_resemblance_link} 
+    \caption{Evolução utilizando janela temporal de 3 anos - SIGMOD Conference.}
+    \label{fig:ResemblanceLink3anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/resemblance_link/sigmod_conference_dados_janela_4_resemblance_link} 
+    \caption{Evolução utilizando janela temporal de 4 anos - SIGMOD Conference.}
+    \label{fig:ResemblanceLink4anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/resemblance_link/sigmod_conference_dados_janela_5_resemblance_link} 
+    \caption{Evolução utilizando janela temporal de 5 anos - SIGMOD Conference.}
+    \label{fig:ResemblanceLink5anos}
+\end{figure}
+
+\pagebreak
+
+\chapter{\huge SIGMOD Conference - Resemblance Author}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/resemblance_author/sigmod_conference_dados_janela_2_resemblance_author} 
+    \caption{Evolução utilizando janela temporal de 2 anos - SIGMOD Conference.}
+    \label{fig:ResemblanceAuthor2anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/resemblance_author/sigmod_conference_dados_janela_3_resemblance_author} 
+    \caption{Evolução utilizando janela temporal de 3 anos - SIGMOD Conference.}
+    \label{fig:ResemblanceAuthor3anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/resemblance_author/sigmod_conference_dados_janela_4_resemblance_author} 
+    \caption{Evolução utilizando janela temporal de 4 anos - SIGMOD Conference.}
+    \label{fig:ResemblanceAuthor4anos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{/home/bruno/workspace/Dissertacao/output/dblp/conference/SIGMOD_Conference/script-gnuplot/resemblance_author/sigmod_conference_dados_janela_5_resemblance_author} 
+    \caption{Evolução utilizando janela temporal de 5 anos - SIGMOD Conference.}
+    \label{fig:ResemblanceAuthor5anos}
+\end{figure}
+
+\end{document}

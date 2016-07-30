@@ -1,0 +1,569 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Vestibule 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130406
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>The Role of Research Leaders on the Evolution of Scientific Communities</title>
+<link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="menu-wrapper">
+		<div id="menu" class="container">
+			<ul>
+				<li class="current_page_item"><a href="#">Home</a></li>
+				<li><a href="#community_score">Community Score</a></li>
+				<li><a href="#scientific_communities">Scientific Communities Considered</a></li>
+				<li><a href="#reference">Reference</a></li>
+				<li><a href="#visualization">Visualization</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="logo" class="container">
+		<h1><a href="#">The Role of Research Leaders on the Evolution of Scientific Communities</a></h1>
+		<!--<p>In posuere eleifend odio quisque semper augue.</p>-->
+	</div>
+	<div id="page" class="container">
+		<div>
+			<div class="entry">
+				<p>Since its beginning, society has been organizing itself into communities, which are 
+				   groups of individuals with common interests. Communities exhibit a wide range of 
+				   characteristics and serve a variety of purposes, from small groups engaged in tightly 
+				   niche topics such as a very specific scientific community, to millions of users
+				   linked by an interest such as a community related to a sport team or fans of a celebrity.
+				</p>
+				<p>
+				   Recent efforts have focused on identifying a group of influential individuals with 
+				   the power to a affect not only the underlying network structure of a community, but
+				   also to interfere on the spread and flow of information within a community.
+				</p>
+				<p>
+				   In this work, we take a different perspective and study a complementary problem. Here, 
+				   we focus on studying the roles that influential individuals from a scientific community 
+				   play on evolving properties of such communities. To identify those individuals within 
+				   a scientific community, we have proposed a metric, called Community Score (CoScore), 
+				   that aims to quantify the the involvement of a researcher in a scientific community during a
+				   certain period of time. Intuitively, this metric should be able to capture:
+				   (i) the prolificness of the researcher and (ii) the frequency of her involvement with 
+				   that specific community in a certain period of time.
+				</p>
+			</div>
+			<div class="entry" id="community_score">
+				<h2>Community Score</h2>
+				<p>The CoScore estimates a researcher’s importance within a community. The CoScore of a researcher r
+				   with an h-index h into a community c in a period of time t is given by:
+				</p>
+				<div id="formula">CoScore<sub>p,c,t</sub> = <i>h</i><sub>p,t</sub> × #publications<sub>p,c,t</sub></div>
+			</div>
+			<div class="entry" id="scientific_communities">
+				<h2>Scientific Communities Considered</h2>
+				<ul>
+					<li>
+					    24 flagship conferences of major ACM SIGs, each conference being considered
+					    as a scientific community
+					</li>
+					<li>
+					    2.2 million publications from 1.2 million authors taken from DBLP
+					</li>
+				</ul>		
+			</div>
+			<div class="entry" id="reference">
+				<h2>Reference</h2>
+				<p>
+				   Alves, B.L., Benevenuto, F., Laender, A.H.F. The Role of Research Leaders
+				   on the Evolution of Scientific Communities. Proceedings of the 22nd
+				   International World Wide Web Conference (Companion Volume), Rio de
+				   Janeiro, Brazil, 2013, pp. 649-656.
+				   <br/>
+				   <a href="http://dl.acm.org/citation.cfm?id=2488016" target="_blank">[ACM DL]</a>
+				   <a href="alves2013.bib" target="_blank">[BibTex]</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="visualization"></div>
+	<div id="three-column" class="container">
+		<div class="tbox1">
+			<div class="box-style box-style01">
+				<div class="content">
+					<div class="image"><img src="images/stoc.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/sigs#001" target="_blank" 
+					       title="Algorithms and Computation Theory">
+						SIGACT
+					    </a>
+					     - STOC</h2>
+					<p>
+						Period Considered: 1969-2012 <b>(44 Editions)</b><br/>
+						Number of Authors: 2159 <br/>
+						Number of Publications: 2685 <br/>
+					</p>
+					<!--p>
+						Period: 1969-2012 <br/>
+						Authors: 2159 <br/>
+						Publications: 2685 <br/>
+						Editions: 44 <br/>
+						Authors per Editions: 49.07 <br/>
+						Publications per Editions: 61.02 <br/>
+						Authors per Publications: 0.80
+					</p-->
+					<a href="graphs/index.html#stoc.gexf?sig=SIGACT&conf=STOC" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox2">
+			<div class="box-style box-style02">
+				<div class="content">
+					<div class="image"><img src="images/sac.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#042" target="_blank" 
+					       title="Applied Computing">
+						SIGAPP
+					    </a>
+					     - SAC</h2>
+					<p>
+						Period Considered: 1993-2011 <b>(19 Editions)</b><br/>
+						Number of Authors: 9146<br/>
+						Number of Publications: 4500<br/>
+					</p>
+					<a href="graphs/index.html#sac.gexf?sig=SIGAPP&conf=SAC" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox3">
+			<div class="box-style box-style03">
+				<div class="content">
+					<div class="image"><img src="images/isca.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#002" target="_blank" 
+					       title="Computer Architecture">
+						SIGARCH
+					    </a>
+					     - ISCA</h2>
+					<p>
+						Period Considered: 1976-2011 <b>(36 Editions)</b><br/>
+						Number of Authors: 2461<br/>
+						Number of Publications: 1352<br/>
+					</p>
+					<a href="graphs/index.html#isca.gexf?sig=SIGARCH&conf=ISCA" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="three-column" class="container">
+		<div class="tbox1">
+			<div class="box-style box-style01">
+				<div class="content">
+					<div class="image"><img src="images/hscc.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#051" target="_blank" 
+					       title="Embedded Systems">
+						SIGBED
+					    </a>
+					     - HSCC</h2>
+					<p>
+						Period Considered: 1998-2012 <b>(15 Editions)</b><br/>
+						Number of Authors: 846<br/>
+						Number of Publications: 617<br/>
+					</p>
+					<a href="graphs/index.html#hscc.gexf?sig=SIGBED&conf=HSCC" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox2">
+			<div class="box-style box-style02">
+				<div class="content">
+					<div class="image"><img src="images/chi.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#026" target="_blank" 
+					       title="Computer-Human Interaction">
+						SIGCHI
+					    </a>
+					     - CHI</h2>
+					<p>
+						Period Considered: 1994-2012 <b>(19 Editions)</b><br/>
+						Number of Authors: 5095<br/>
+						Number of Publications: 2819<br/>
+					</p>
+					<a href="graphs/index.html#chi.gexf?sig=SIGCHI&conf=CHI" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox3">
+			<div class="box-style box-style03">
+				<div class="content">
+					<div class="image"><img src="images/sigcomm.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#008" target="_blank" 
+					       title="Data Communication">
+						SIGCOMM
+					    </a>
+					     - SIGCOMM</h2>
+					<p>
+						Period Considered: 1988-2011 <b>(24 Editions)</b><br/>
+						Number of Authors: 1593<br/>
+						Number of Publications: 796<br/>
+					</p>
+					<a href="graphs/index.html#sigcomm.gexf?sig=SIGCOMM&conf=SIGCOMM" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="three-column" class="container">
+		<div class="tbox1">
+			<div class="box-style box-style01">
+				<div class="content">
+					<div class="image"><img src="images/sigcse.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#011" target="_blank" 
+					       title="Computer Science Education">
+						SIGCSE
+					    </a>
+					     - SIGCSE</h2>
+					<p>
+						Period Considered: 1986-2012 <b>(27 Editions)</b><br/>
+						Number of Authors: 3923<br/>
+						Number of Publications: 2801<br/>
+					</p>
+					<a href="graphs/index.html#sigcse.gexf?sig=SIGCSE&conf=SIGCSE" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox2">
+			<div class="box-style box-style02">
+				<div class="content">
+					<div class="image"><img src="images/dac.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#013" target="_blank" 
+					       title="Design Automation">
+						SIGDA
+					    </a>
+					     - DAC</h2>
+					<p>
+						Period Considered: 1964-2011 <b>(48 Editions)</b><br/>
+						Number of Authors: 8876<br/>
+						Number of Publications: 5693<br/>
+					</p>
+					<a href="graphs/index.html#dac.gexf?sig=SIGDA&conf=DAC" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox3">
+			<div class="box-style box-style03">
+				<div class="content">
+					<div class="image"><img src="images/sigdoc.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#033" target="_blank" 
+					       title="Design of Communication">
+						SIGDOC
+					    </a>
+					     - SIGDOC</h2>
+					<p>
+						Period Considered: 1989-2010 <b>(22 Editions)</b><br/>
+						Number of Authors: 1071<br/>
+						Number of Publications: 810<br/>
+					</p>
+					<a href="graphs/index.html#sigdoc.gexf?sig=SIGDOC&conf=SIGDOC" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="three-column" class="container">
+		<div class="tbox1">
+			<div class="box-style box-style01">
+				<div class="content">
+					<div class="image"><img src="images/siggraph.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#415" target="_blank" 
+					       title="Computer Graphics and Interactive Techniques">
+						SIGGRAPH
+					    </a>
+					     - SIGGRAPH</h2>
+					<p>
+						Period Considered: 1985-2003 <b>(19 Editions)</b><br/>
+						Number of Authors: 1920<br/>
+						Number of Publications: 1108<br/>
+					</p>
+					<a href="graphs/index.html#siggraph.gexf?sig=SIGGRAPH&conf=SIGGRAPH" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox2">
+			<div class="box-style box-style02">
+				<div class="content">
+					<div class="image"><img src="images/sigir.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#016" target="_blank" 
+					       title="Information Retrieval">
+						SIGIR
+					    </a>
+					     - SIGIR</h2>
+					<p>
+						Period Considered: 1978-2011 <b>(34 Editions)</b><br/>
+						Number of Authors: 3624<br/>
+						Number of Publications: 2687<br/>
+					</p>
+					<a href="graphs/index.html#sigir.gexf?sig=SIGIR&conf=SIGIR" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox3">
+			<div class="box-style box-style03">
+				<div class="content">
+					<div class="image"><img src="images/kdd.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#048" target="_blank" 
+					       title="Knowledge Discovery in Data">
+						SIGKDD
+					    </a>
+					     - KDD</h2>
+					<p>
+						Period Considered: 1995-2011 <b>(17 Editions)</b><br/>
+						Number of Authors: 3078<br/>
+						Number of Publications: 1699<br/>
+					</p>
+					<a href="graphs/index.html#kdd.gexf?sig=SIGKDD&conf=KDD" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="three-column" class="container">
+		<div class="tbox1">
+			<div class="box-style box-style01">
+				<div class="content">
+					<div class="image"><img src="images/sigmetrics.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#019" target="_blank" 
+					       title="Measurement and Evaluation">
+						SIGMETRICS
+					    </a>
+					     - SIGMETRICS</h2>
+					<p>
+						Period Considered: 1981-2011 <b>(31 Editions)</b><br/>
+						Number of Authors: 2083<br/>
+						Number of Publications: 1174<br/>
+					</p>
+					<a href="graphs/index.html#sigmetrics.gexf?sig=SIGMETRICS&conf=SIGMETRICS" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox2">
+			<div class="box-style box-style02">
+				<div class="content">
+					<div class="image"><img src="images/micro.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#020" target="_blank" 
+					       title="Microarchitecture">
+						SIGMICRO
+					    </a>
+					     - MICRO</h2>
+					<p>
+						Period Considered: 1987-2011 <b>(25 Editions)</b><br/>
+						Number of Authors: 1557<br/>
+						Number of Publications: 855<br/>
+					</p>
+					<a href="graphs/index.html#micro.gexf?sig=SIGMICRO&conf=MICRO" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox3">
+			<div class="box-style box-style03">
+				<div class="content">
+					<div class="image"><img src="images/mm.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#044" target="_blank" 
+					       title="Multimedia">
+						SIGMM
+					    </a>
+					     - MM</h2>
+					<p>
+						Period Considered: 1993-2011 <b>(19 Editions)</b><br/>
+						Number of Authors: 5400<br/>
+						Number of Publications: 2928<br/>
+					</p>
+					<a href="graphs/index.html#mm.gexf?sig=SIGMM&conf=MM" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="three-column" class="container">
+		<div class="tbox1">
+			<div class="box-style box-style01">
+				<div class="content">
+					<div class="image"><img src="images/mobicom.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#047" target="_blank" 
+					       title="Mobility of Systems, Users, Data and Computing">
+						SIGMOBILE
+					    </a>
+				             - MOBICOM</h2>
+					<p>
+						Period Considered: 1995-2011 <b>(17 Editions)</b><br/>
+						Number of Authors: 1151<br/>
+						Number of Publications: 480<br/>
+					</p>
+					<a href="graphs/index.html#mobicom.gexf?sig=SIGMOBILE&conf=MOBICOM" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox2">
+			<div class="box-style box-style02">
+				<div class="content">
+					<div class="image"><img src="images/sigmod.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#014" target="_blank" 
+					       title="Management of Data">
+						SIGMOD
+					    </a>
+					     - SIGMOD</h2>
+					<p>
+						Period Considered: 1975-2012 <b>(38 Editions)</b><br/>
+						Number of Authors: 4202<br/>
+						Number of Publications: 2669<br/>
+					</p>
+					<a href="graphs/index.html#sigmod.gexf?sig=SIGMOD&conf=SIGMOD" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox3">
+			<div class="box-style box-style03">
+				<div class="content">
+					<div class="image"><img src="images/podc.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#022" target="_blank" 
+					       title="Operating Systems">
+						SIGOPS
+					    </a>
+					     - PODC</h2>
+					<p>
+						Period Considered: 1982-2011 <b>(30 Editions)</b><br/>
+						Number of Authors: 1685<br/>
+						Number of Publications: 1403<br/>
+					</p>
+					<a href="graphs/index.html#podc.gexf?sig=SIGOPS&conf=PODC" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="three-column" class="container">
+		<div class="tbox1">
+			<div class="box-style box-style01">
+				<div class="content">
+					<div class="image"><img src="images/popl.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#023" target="_blank" 
+					       title="Programming Languages">
+						SIGPLAN
+					    </a>
+					     - POPL</h2>
+					<p>
+						Period Considered: 1975-2012 <b>(38 Editions)</b><br/>
+						Number of Authors: 1527<br/>
+						Number of Publications: 1217<br/>
+					</p>
+					<a href="graphs/index.html#popl.gexf?sig=SIGPLAN&conf=POPL" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox2">
+			<div class="box-style box-style02">
+				<div class="content">
+					<div class="image"><img src="images/ccs.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#036" target="_blank" 
+					       title="Security, Audit and Control">
+						SIGSAC
+					    </a>
+					     - CCS</h2>
+					<p>
+						Period Considered: 1996-2011 <b>(16 Editions)</b><br/>
+						Number of Authors: 1354<br/>
+						Number of Publications: 676<br/>
+					</p>
+					<a href="graphs/index.html#ccs.gexf?sig=SIGSAC&conf=CCS" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox3">
+			<div class="box-style box-style03">
+				<div class="content">
+					<div class="image"><img src="images/issac.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#024" target="_blank" 
+					       title="Symbolic and Algebraic Manipulation">
+						SIGSAM
+					    </a>
+					    - ISSAC</h2>
+					<p>
+						Period Considered: 1988-2011 <b>(24 Editions)</b><br/>
+						Number of Authors: 1100<br/>
+						Number of Publications: 1177<br/>
+					</p>
+					<a href="graphs/index.html#issac.gexf?sig=SIGSAM&conf=ISSAC" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="three-column" class="container">
+		<div class="tbox1">
+			<div class="box-style box-style01">
+				<div class="content">
+					<div class="image"><img src="images/icse.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#034" target="_blank" 
+					       title="Software Engineering">
+						SIGSOFT
+					    </a>
+					     - ICSE</h2>
+					<p>
+						Period Considered: 1987-2011 <b>(25 Editions)</b><br/>
+						Number of Authors: 3502<br/>
+						Number of Publications: 2248<br/>
+					</p>
+					<a href="graphs/index.html#icse.gexf?sig=SIGSOFT&conf=ICSE" class="button">Explore</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox2">
+			<div class="box-style box-style02">
+				<div class="content">
+					<div class="image"><img src="images/siguccs.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#028" target="_blank" 
+					       title="University and College Computing Services">
+						SIGUCCS
+					    </a>
+					     - SIGUCCS</h2>
+					<p>
+						Period Considered: 1989-2011 <b>(23 Editions)</b><br/>
+						Number of Authors: 1771<br/>
+						Number of Publications: 1593<br/>
+					</p>
+					<a href="graphs/index.html#siguccs.gexf?sig=SIGUCCS&conf=SIGUCCS" class="button">Explore</a>
+				</div>
+                        </div>
+		</div>
+		<div class="tbox3">
+			<div class="box-style box-style03">
+				<div class="content">
+					<div class="image"><img src="images/cikm.png" width="324" height="324" alt="" /></div>
+					<h2><a href="http://www.acm.org/sigs/#043" target="_blank" 
+					       title="Hypertext and the Web">
+						SIGWEB
+					    </a>
+					     - CIKM</h2>
+					<p>
+						Period Considered: 1992-2011 <b>(20 Editions)</b><br/>
+						Number of Authors: 4978<br/>
+						Number of Publications: 2623<br/>
+					</p>
+					<a href="graphs/index.html#cikm.gexf?sig=SIGWEB&conf=CIKM" class="button">Explore</a>
+				</div>
+                        </div>
+		</div>
+	</div>	
+</div>
+<div id="footer">
+	<div class="container">
+		<div class="footer-logo">
+			<a href="http://www.lbd.dcc.ufmg.br" target="_blank">
+				<img src="images/logo_lbd_gray.png" alt="LBD" align="middle" border="0">
+			</a>
+		</div>
+	</div>
+
+</div>
+<!-- end #footer -->
+</body>
+</html>

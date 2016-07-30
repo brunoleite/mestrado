@@ -1,0 +1,314 @@
+-----------------------------------------------------------
+Journal
+-----------------------------------------------------------
+select j.journal, count(p.idpublication) as num_publicacoes, 
+(select count(idauthor)
+from journal ji
+inner join detail_has_journal dji on ji.idjournal = dji.journal_idjournal
+inner join detail di on di.iddetail = dji.detail_iddetail
+inner join author_has_detail adi on di.iddetail = adi.detail_iddetail
+inner join author ai on ai.idauthor = adi.author_idauthor
+where ji.idjournal = j.idjournal
+) as num_autores
+from publication p
+inner join detail d on d.publication_idpublication = p.idpublication
+inner join detail_has_journal dj on dj.detail_iddetail = d.iddetail
+inner join journal j on dj.journal_idjournal = j.idjournal
+group by j.journal
+order by count(p.idpublication) desc;
+
+select count(idauthor)
+from journal j
+inner join detail_has_journal dj on j.idjournal = dj.journal_idjournal
+inner join detail d on d.iddetail = dj.detail_iddetail
+inner join author_has_detail ad on d.iddetail = ad.detail_iddetail
+inner join author a on a.idauthor = ad.author_idauthor
+where idjournal = 842;
+
+
+select journal, count(idauthor) as num_autores
+from journal j
+inner join detail_has_journal dj on j.idjournal = dj.journal_idjournal
+inner join detail d on d.iddetail = dj.detail_iddetail
+inner join author_has_detail ad on d.iddetail = ad.detail_iddetail
+inner join author a on a.idauthor = ad.author_idauthor
+group by j.idjournal
+order by count(idauthor) desc;
+
+
+select distinct(year) from date_ym
+order by year;
+
+select concat('count(if(dy.year=', year, ',idauthor,null)) as `', year, '` ,')
+from date_ym
+group by year
+order by year;
+
+
+select journal, count(if(dy.year=2001,idauthor,null)) as `2001`
+from journal j
+inner join detail_has_journal dj on j.idjournal = dj.journal_idjournal
+inner join detail d on d.iddetail = dj.detail_iddetail
+inner join author_has_detail ad on d.iddetail = ad.detail_iddetail
+inner join author a on a.idauthor = ad.author_idauthor
+inner join date_ym dy on d.iddetail = dy.detail_iddetail
+group by j.idjournal
+order by count(idauthor) desc;
+
+select count(idauthor)
+from journal j
+inner join detail_has_journal dj on j.idjournal = dj.journal_idjournal
+inner join detail d on d.iddetail = dj.detail_iddetail
+inner join author_has_detail ad on d.iddetail = ad.detail_iddetail
+inner join author a on a.idauthor = ad.author_idauthor
+inner join date_ym dy on d.iddetail = dy.detail_iddetail
+where idjournal = 842
+and year = 2001;
+
+1289;
+
+select journal, 
+count(idauthor) as Total_Autores,
+count(if(dy.year=1936,idauthor,null)) as `1936` ,
+count(if(dy.year=1937,idauthor,null)) as `1937` ,
+count(if(dy.year=1938,idauthor,null)) as `1938` ,
+count(if(dy.year=1939,idauthor,null)) as `1939` ,
+count(if(dy.year=1940,idauthor,null)) as `1940` ,
+count(if(dy.year=1941,idauthor,null)) as `1941` ,
+count(if(dy.year=1942,idauthor,null)) as `1942` ,
+count(if(dy.year=1943,idauthor,null)) as `1943` ,
+count(if(dy.year=1944,idauthor,null)) as `1944` ,
+count(if(dy.year=1945,idauthor,null)) as `1945` ,
+count(if(dy.year=1946,idauthor,null)) as `1946` ,
+count(if(dy.year=1947,idauthor,null)) as `1947` ,
+count(if(dy.year=1948,idauthor,null)) as `1948` ,
+count(if(dy.year=1949,idauthor,null)) as `1949` ,
+count(if(dy.year=1950,idauthor,null)) as `1950` ,
+count(if(dy.year=1951,idauthor,null)) as `1951` ,
+count(if(dy.year=1952,idauthor,null)) as `1952` ,
+count(if(dy.year=1953,idauthor,null)) as `1953` ,
+count(if(dy.year=1954,idauthor,null)) as `1954` ,
+count(if(dy.year=1955,idauthor,null)) as `1955` ,
+count(if(dy.year=1956,idauthor,null)) as `1956` ,
+count(if(dy.year=1957,idauthor,null)) as `1957` ,
+count(if(dy.year=1958,idauthor,null)) as `1958` ,
+count(if(dy.year=1959,idauthor,null)) as `1959` ,
+count(if(dy.year=1960,idauthor,null)) as `1960` ,
+count(if(dy.year=1961,idauthor,null)) as `1961` ,
+count(if(dy.year=1962,idauthor,null)) as `1962` ,
+count(if(dy.year=1963,idauthor,null)) as `1963` ,
+count(if(dy.year=1964,idauthor,null)) as `1964` ,
+count(if(dy.year=1965,idauthor,null)) as `1965` ,
+count(if(dy.year=1966,idauthor,null)) as `1966` ,
+count(if(dy.year=1967,idauthor,null)) as `1967` ,
+count(if(dy.year=1968,idauthor,null)) as `1968` ,
+count(if(dy.year=1969,idauthor,null)) as `1969` ,
+count(if(dy.year=1970,idauthor,null)) as `1970` ,
+count(if(dy.year=1971,idauthor,null)) as `1971` ,
+count(if(dy.year=1972,idauthor,null)) as `1972` ,
+count(if(dy.year=1973,idauthor,null)) as `1973` ,
+count(if(dy.year=1974,idauthor,null)) as `1974` ,
+count(if(dy.year=1975,idauthor,null)) as `1975` ,
+count(if(dy.year=1976,idauthor,null)) as `1976` ,
+count(if(dy.year=1977,idauthor,null)) as `1977` ,
+count(if(dy.year=1978,idauthor,null)) as `1978` ,
+count(if(dy.year=1979,idauthor,null)) as `1979` ,
+count(if(dy.year=1980,idauthor,null)) as `1980` ,
+count(if(dy.year=1981,idauthor,null)) as `1981` ,
+count(if(dy.year=1982,idauthor,null)) as `1982` ,
+count(if(dy.year=1983,idauthor,null)) as `1983` ,
+count(if(dy.year=1984,idauthor,null)) as `1984` ,
+count(if(dy.year=1985,idauthor,null)) as `1985` ,
+count(if(dy.year=1986,idauthor,null)) as `1986` ,
+count(if(dy.year=1987,idauthor,null)) as `1987` ,
+count(if(dy.year=1988,idauthor,null)) as `1988` ,
+count(if(dy.year=1989,idauthor,null)) as `1989` ,
+count(if(dy.year=1990,idauthor,null)) as `1990` ,
+count(if(dy.year=1991,idauthor,null)) as `1991` ,
+count(if(dy.year=1992,idauthor,null)) as `1992` ,
+count(if(dy.year=1993,idauthor,null)) as `1993` ,
+count(if(dy.year=1994,idauthor,null)) as `1994` ,
+count(if(dy.year=1995,idauthor,null)) as `1995` ,
+count(if(dy.year=1996,idauthor,null)) as `1996` ,
+count(if(dy.year=1997,idauthor,null)) as `1997` ,
+count(if(dy.year=1998,idauthor,null)) as `1998` ,
+count(if(dy.year=1999,idauthor,null)) as `1999` ,
+count(if(dy.year=2000,idauthor,null)) as `2000` ,
+count(if(dy.year=2001,idauthor,null)) as `2001` ,
+count(if(dy.year=2002,idauthor,null)) as `2002` ,
+count(if(dy.year=2003,idauthor,null)) as `2003` ,
+count(if(dy.year=2004,idauthor,null)) as `2004` ,
+count(if(dy.year=2005,idauthor,null)) as `2005` ,
+count(if(dy.year=2006,idauthor,null)) as `2006` ,
+count(if(dy.year=2007,idauthor,null)) as `2007` ,
+count(if(dy.year=2008,idauthor,null)) as `2008` ,
+count(if(dy.year=2009,idauthor,null)) as `2009` ,
+count(if(dy.year=2010,idauthor,null)) as `2010` ,
+count(if(dy.year=2011,idauthor,null)) as `2011` ,
+count(if(dy.year=2012,idauthor,null)) as `2012`
+from journal j
+inner join detail_has_journal dj on j.idjournal = dj.journal_idjournal
+inner join detail d on d.iddetail = dj.detail_iddetail
+inner join author_has_detail ad on d.iddetail = ad.detail_iddetail
+inner join author a on a.idauthor = ad.author_idauthor
+inner join date_ym dy on d.iddetail = dy.detail_iddetail
+group by j.idjournal
+order by count(idauthor) desc;
+
+-----------------------------------------------------------
+Conference
+-----------------------------------------------------------
+
+select b.booktitle as conference, count(p.idpublication) as num_publicacoes, 
+(select count(idauthor)
+from booktitle bk
+inner join detail_has_booktitle dhb on bk.idbooktitle = dhb.booktitle_idbooktitle
+inner join detail di on di.iddetail = dhb.detail_iddetail
+inner join author_has_detail adi on di.iddetail = adi.detail_iddetail
+inner join author ai on ai.idauthor = adi.author_idauthor
+where bk.idbooktitle = b.idbooktitle
+) as num_autores
+from publication p
+inner join detail d on d.publication_idpublication = p.idpublication
+inner join detail_has_booktitle dk on dk.detail_iddetail = d.iddetail
+inner join booktitle b on dk.booktitle_idbooktitle = b.idbooktitle
+group by b.booktitle
+order by count(p.idpublication) desc;
+
+select count(idauthor)
+from booktitle b
+inner join detail_has_booktitle db on b.idbooktitle = db.booktitle_idbooktitle
+inner join detail d on d.iddetail = db.detail_iddetail
+inner join author_has_detail ad on d.iddetail = ad.detail_iddetail
+inner join author a on a.idauthor = ad.author_idauthor
+where idbooktitle = 3061;
+
+select * from booktitle where booktitle like '%sigmod co%';
+
+
+select b.booktitle as conference, count(idauthor) as num_autores
+from booktitle b
+inner join detail_has_booktitle db on b.idbooktitle = db.booktitle_idbooktitle
+inner join detail d on d.iddetail = db.detail_iddetail
+inner join author_has_detail ad on d.iddetail = ad.detail_iddetail
+inner join author a on a.idauthor = ad.author_idauthor
+group by b.idbooktitle
+order by count(idauthor) desc;
+
+
+select distinct(year) from date_ym
+order by year;
+
+select concat('count(if(dy.year=', year, ',idauthor,null)) as `', year, '` ,')
+from date_ym
+group by year
+order by year;
+
+
+select b.booktitle, count(if(dy.year=2001,idauthor,null)) as `2001`
+from booktitle b
+inner join detail_has_booktitle db on b.idbooktitle = db.booktitle_idbooktitle
+inner join detail d on d.iddetail = db.detail_iddetail
+inner join author_has_detail ad on d.iddetail = ad.detail_iddetail
+inner join author a on a.idauthor = ad.author_idauthor
+inner join date_ym dy on d.iddetail = dy.detail_iddetail
+group by b.idbooktitle
+order by count(idauthor) desc;
+
+select count(idauthor)
+from booktitle b
+inner join detail_has_booktitle db on b.idbooktitle = db.booktitle_idbooktitle
+inner join detail d on d.iddetail = db.detail_iddetail
+inner join author_has_detail ad on d.iddetail = ad.detail_iddetail
+inner join author a on a.idauthor = ad.author_idauthor
+inner join date_ym dy on d.iddetail = dy.detail_iddetail
+where idbooktitle = 3061
+and year = 2001;
+
+select b.booktitle, 
+count(idauthor) as Total_Autores,
+count(if(dy.year=1936,idauthor,null)) as `1936` ,
+count(if(dy.year=1937,idauthor,null)) as `1937` ,
+count(if(dy.year=1938,idauthor,null)) as `1938` ,
+count(if(dy.year=1939,idauthor,null)) as `1939` ,
+count(if(dy.year=1940,idauthor,null)) as `1940` ,
+count(if(dy.year=1941,idauthor,null)) as `1941` ,
+count(if(dy.year=1942,idauthor,null)) as `1942` ,
+count(if(dy.year=1943,idauthor,null)) as `1943` ,
+count(if(dy.year=1944,idauthor,null)) as `1944` ,
+count(if(dy.year=1945,idauthor,null)) as `1945` ,
+count(if(dy.year=1946,idauthor,null)) as `1946` ,
+count(if(dy.year=1947,idauthor,null)) as `1947` ,
+count(if(dy.year=1948,idauthor,null)) as `1948` ,
+count(if(dy.year=1949,idauthor,null)) as `1949` ,
+count(if(dy.year=1950,idauthor,null)) as `1950` ,
+count(if(dy.year=1951,idauthor,null)) as `1951` ,
+count(if(dy.year=1952,idauthor,null)) as `1952` ,
+count(if(dy.year=1953,idauthor,null)) as `1953` ,
+count(if(dy.year=1954,idauthor,null)) as `1954` ,
+count(if(dy.year=1955,idauthor,null)) as `1955` ,
+count(if(dy.year=1956,idauthor,null)) as `1956` ,
+count(if(dy.year=1957,idauthor,null)) as `1957` ,
+count(if(dy.year=1958,idauthor,null)) as `1958` ,
+count(if(dy.year=1959,idauthor,null)) as `1959` ,
+count(if(dy.year=1960,idauthor,null)) as `1960` ,
+count(if(dy.year=1961,idauthor,null)) as `1961` ,
+count(if(dy.year=1962,idauthor,null)) as `1962` ,
+count(if(dy.year=1963,idauthor,null)) as `1963` ,
+count(if(dy.year=1964,idauthor,null)) as `1964` ,
+count(if(dy.year=1965,idauthor,null)) as `1965` ,
+count(if(dy.year=1966,idauthor,null)) as `1966` ,
+count(if(dy.year=1967,idauthor,null)) as `1967` ,
+count(if(dy.year=1968,idauthor,null)) as `1968` ,
+count(if(dy.year=1969,idauthor,null)) as `1969` ,
+count(if(dy.year=1970,idauthor,null)) as `1970` ,
+count(if(dy.year=1971,idauthor,null)) as `1971` ,
+count(if(dy.year=1972,idauthor,null)) as `1972` ,
+count(if(dy.year=1973,idauthor,null)) as `1973` ,
+count(if(dy.year=1974,idauthor,null)) as `1974` ,
+count(if(dy.year=1975,idauthor,null)) as `1975` ,
+count(if(dy.year=1976,idauthor,null)) as `1976` ,
+count(if(dy.year=1977,idauthor,null)) as `1977` ,
+count(if(dy.year=1978,idauthor,null)) as `1978` ,
+count(if(dy.year=1979,idauthor,null)) as `1979` ,
+count(if(dy.year=1980,idauthor,null)) as `1980` ,
+count(if(dy.year=1981,idauthor,null)) as `1981` ,
+count(if(dy.year=1982,idauthor,null)) as `1982` ,
+count(if(dy.year=1983,idauthor,null)) as `1983` ,
+count(if(dy.year=1984,idauthor,null)) as `1984` ,
+count(if(dy.year=1985,idauthor,null)) as `1985` ,
+count(if(dy.year=1986,idauthor,null)) as `1986` ,
+count(if(dy.year=1987,idauthor,null)) as `1987` ,
+count(if(dy.year=1988,idauthor,null)) as `1988` ,
+count(if(dy.year=1989,idauthor,null)) as `1989` ,
+count(if(dy.year=1990,idauthor,null)) as `1990` ,
+count(if(dy.year=1991,idauthor,null)) as `1991` ,
+count(if(dy.year=1992,idauthor,null)) as `1992` ,
+count(if(dy.year=1993,idauthor,null)) as `1993` ,
+count(if(dy.year=1994,idauthor,null)) as `1994` ,
+count(if(dy.year=1995,idauthor,null)) as `1995` ,
+count(if(dy.year=1996,idauthor,null)) as `1996` ,
+count(if(dy.year=1997,idauthor,null)) as `1997` ,
+count(if(dy.year=1998,idauthor,null)) as `1998` ,
+count(if(dy.year=1999,idauthor,null)) as `1999` ,
+count(if(dy.year=2000,idauthor,null)) as `2000` ,
+count(if(dy.year=2001,idauthor,null)) as `2001` ,
+count(if(dy.year=2002,idauthor,null)) as `2002` ,
+count(if(dy.year=2003,idauthor,null)) as `2003` ,
+count(if(dy.year=2004,idauthor,null)) as `2004` ,
+count(if(dy.year=2005,idauthor,null)) as `2005` ,
+count(if(dy.year=2006,idauthor,null)) as `2006` ,
+count(if(dy.year=2007,idauthor,null)) as `2007` ,
+count(if(dy.year=2008,idauthor,null)) as `2008` ,
+count(if(dy.year=2009,idauthor,null)) as `2009` ,
+count(if(dy.year=2010,idauthor,null)) as `2010` ,
+count(if(dy.year=2011,idauthor,null)) as `2011` ,
+count(if(dy.year=2012,idauthor,null)) as `2012`
+from booktitle b
+inner join detail_has_booktitle db on b.idbooktitle = db.booktitle_idbooktitle
+inner join detail d on d.iddetail = db.detail_iddetail
+inner join author_has_detail ad on d.iddetail = ad.detail_iddetail
+inner join author a on a.idauthor = ad.author_idauthor
+inner join date_ym dy on d.iddetail = dy.detail_iddetail
+group by b.idbooktitle
+order by count(idauthor) desc;

@@ -1,0 +1,23 @@
+--distribuição--
+Frutcherman Reingold
+area: 5000.0
+gravidade: 10.0
+velocidade: 100.0
+
+componenetes conectados
+
+--partição--
+refresh
+(random)
+aplicar
+
+--classificação--
+refesh
+tamanho/peso
+frequency_community_core
+min: 4 max: 70
+
+
+---Visualização---
+reescalonar peso (marcar)
+curvo (desmarcar)

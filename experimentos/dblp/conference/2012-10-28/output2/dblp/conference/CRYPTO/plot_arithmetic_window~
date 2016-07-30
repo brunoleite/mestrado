@@ -1,0 +1,13 @@
+set terminal postscript eps color enhanced "Helvetica" 15
+set encoding iso_8859_1
+set output 'cypto_arithmetic-window.eps'
+set title 'Media Resemblance'
+set grid
+set key left
+set ylabel "Resemblance"
+set yrange [0:1]
+set xlabel "Tamanho Janela" offset graph 0,-0.09,0
+set rmargin 10.5
+set bmargin 8.5
+set xtics border in scale 1,0.5 nomirror rotate by -45 offset character 0, 0, 0
+plot "arithmetic-slice-window.txt" using 2:xticlabels(1) t"Core Com. 10%" with linespoints lt 1 lw 2 ps 1 pt 4 lc rgb "red", "arithmetic-slice-window.txt" using 3:xticlabels(1) t"Core Com. 20%" with linespoints lt 1 lw 2 ps 1 pt 4 lc rgb "green", "arithmetic-slice-window.txt" using 3:xticlabels(1) t"Core Com. 30%" with linespoints lt 1 lw 2 ps 1 pt 4 lc rgb "blue", "arithmetic-slice-window.txt" using 4:xticlabels(1) t"Core Com. 40%" with linespoints lt 1 lw 2 ps 1 pt 4 lc rgb "purple", "arithmetic-slice-window.txt" using 5:xticlabels(1) t"Core Com. 50%" with linespoints lt 1 lw 2 ps 1 pt 4 lc rgb "orange"

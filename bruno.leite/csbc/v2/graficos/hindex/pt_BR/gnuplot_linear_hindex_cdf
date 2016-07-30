@@ -1,0 +1,17 @@
+set terminal postscript eps color enhanced "Helvetica" 30
+set encoding utf8
+set output 'linear_hindex_cdf.eps'
+#set key left
+set key at 0.75,0.8 width -5.5 spacing .95 font "Helvetica,30"
+set ylabel "CDF" offset 1.5
+set xlabel "R^2" offset 1.5
+set ytics font "Helvetica, 30"
+set xtics font "Helvetica, 30"
+set decimalsign ','
+set xrange[0.00:1.00]
+set yrange[0.00:1.00]
+plot "../constant_hindex_cdf" using 1:2 t"H-Index Constante" with linespoints lt 1 lw 2 ps 1 pt 3 lc rgb "red",\
+"../nature_cdf_1" using 1:2 t"Acuna et al. - 1 ano" with linespoints lt 1 lw 2 ps 1 pt 2 lc rgb "orange",\
+"../linear_hindex_cdf" using 1:2 t"H-Index Linear" with linespoints lt 1 lw 2 ps 1 pt 1 lc rgb "blue"
+
+#"../linear_hindex_cdf_round" using 1:2 t"H-Index inteiro - Linear " with linespoints lt 1 lw 2 ps 1 pt 2 lc rgb "red",\

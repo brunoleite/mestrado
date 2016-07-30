@@ -1,0 +1,172 @@
+\section{Defining Community Core}
+
+\subsection{Quantifying authors involvement}
+% {\bf Desirable:\\
+%      \sout{-Rank better prolific authors (h-index)} \\
+%      \sout{-Frequent involvement (numero de papers}) \\
+%      \sout{-Recent involvement (janela temporal)}}\\\\
+In the academic community, the researchers are always seeking to contribute for yours areas, such contributions occurs
+through publications, it is importants a mechanism to measures the impact of a researchers inside of the community. 
+For this, there is a measures called of h-index \cite{Hirsch:2005}, the h-index is based on the number of publications 
+and its references to a particular author has. This measure is widely accepted by the academic community.\\
+The h-index is a metric created to measure how prolific a researcher is, but it alone is not sufficient to quantify
+the importance of a researcher in a particular community, as a conference. To measure the impact of a
+researcher in a conference, we must consider your contributions to the community in general, in this case, h-index, 
+and your contributions to a specific community.
+It is important consider the contributions to a specific community, because two researcher can have the same h-index. That
+does not mean that both have the same importance for the conference, because one can have more publications at a conference 
+the other. We define the number of publications of a researcher in a given conference as the measure that quantifies 
+their involvement in a given communities.\\
+Here, we have two measure, the h-index measure the researcher importance in the academic community and the number of 
+publications that measure the importance of a researcher in a specific community. But without a temporal information,
+it is only possible define how importante the researcher was to the entire community, because we should use the data 
+accumulated over the years. So, we need aggregate the temporal information in our measure, we need consider the number 
+of publications of a researcher in a given time \textit{t}.\\
+After these definitions, it is possible to determine a measure to rank the researcher according to their importance
+to a community at a given time, where the can be a temporal window. We define this measure as core score and can be see
+in the Equation \ref{eq:core_score}.
+\begin{equation} 
+  \label{eq:core_score}
+  Core{ }Score[a] = h\textrm{-}index[a] * number\textrm{ }of\textrm{ }publication[a,t]
+\end{equation}
+where \textit{h-index[a]} represents the h-index of a given author and the \textit{number of publication[a,t]} represents 
+the number of publications of a given author in a given time.
+
+% The core score measures the author's importance of a given conference. The core score uses the publication number 
+% of an author in a conference in the time \textit{t} and their h-index \cite{Hirsch:2005}. The h-index, defined 
+% as the number of papers with citations number higher or equal to \textit{h}, it is a useful index to characterize 
+% the scientific output of a researcher. The core score is defined as:
+% \begin{equation}Core Score = h\textrm{-}index * number\textrm{ }of\textrm{ }publication[t]\end{equation}
+% where h-index is computed using the data of shine and the number of publication in the time \textit{t} is computed 
+% using the data of DBLP\cite{Ley:2009}.
+
+\subsection{Inferring authors h-index}
+% {\bf-Por que nao google citations ou MS? \\
+%      -Shine \\
+%      -Correlacao com h-index do google}\\\\
+As explained in the previous section, the h-index is measure accepts by the academic communities. The values of h-index 
+can be found out in many tools of academic area as Google Scholar Citations\footnote{http://scholar.google.com/citations}, 
+Microsoft Academic Search\footnote{http://academic.research.microsoft.com/} and others.\\
+The h-index allows determine how prolific a researcher is, thus this information is a important point for this work.
+At first we tried to use the data from Google Scholar Citations, but we had basically two problems which hampered this.
+This tool does not have a API to crawl the data, so this make the work hard, but what did we change
+the direction to use this data, it is because not all researchers have a profile. Despite the Google Scholar Citations 
+has values acceptable to h-index in the academic community, for it to calculate the researchers' h-index, they need create 
+a profile providing personal data. In our crawl, it only found out 30\% of researcher of DBLP in Google Scholar Citations,
+thus one amount as low could bias this work.\\
+We also try to use the Microsoft Academic Search, that differently of Google Scholar Citations, it creates the researcher 
+profile automatically, but it has lower values of h-index. The Microsoft Academic Search has an API to crawl the data, 
+but this API is basead on publications, which also hinders the crawl of researcher. When we send a query to the API, 
+based in researcher name, the API return all publications that have that researcher as author. It is possible change 
+the return to authors, but in this case, the API return all researchers that have at least one publication along 
+with the researcher name entered.\\
+Since the limitation of these tools, we decided to perform the calculation of the h-index using data from the 
+SHINE project\footnote{http://shine.icomp.ufam.edu.br/}. The project collected many publications along with their 
+references, they used this data to infer the h-index of academics conferences, as shown in the Table \ref{tab:sigs_conference_period}.
+They collected the main conferences of each area of academic ... {\bf falar mais do shine}.\\
+We crossed the data from the SHINE with DBLP and after this we have a number of citations of each publication, so we calculated
+the h-index of each researcher. To validate this calcule, we selected, randomly, 10 researcher of each conference into Table
+\ref{tab:sigs_conference_period} and crawled your profile in Google Scholar Citations. We obtain a value of 0.85 of 
+pearson coefficient which indicates a strongly positive correlation, as can be seen in Figure \ref{fig:hindex_scatter_plot}.
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=.5]{graficos/hindex/hindex_scatter_plot.eps}
+\caption{Correlation between H-Index infered and Google Scholar Citations }
+\label{fig:hindex_scatter_plot}
+\end{figure}
+
+\subsection{Setting core size and time thresholds}
+This work has a temporal focus, so to represent this issue we are using temporal sliding windows over the years. Several
+experiments were performed varying the window size. Initially we varied the size between 1 and 5 years, but along with the
+classic social network metrics and size variation of the Core Community, we would have many experiments in the study.
+So, we need to determine two values, the size of the sliding window and the size of the core community.\\
+To determine the size of the temporal window we calculate measure resemblance defined in \cite{Viswanath:2009} for all conferences.
+We vary the values of the size window, between 1 and 5 years, and the size of core community, between
+10\% and 60\%, so we plot the data where the x-axis represents the variation in the size of windows and the y-axis represents
+the average values of resemblance, each line the variation of the size of the core community. The 
+Figure \ref{fig:averange_values_resemblance} showns the behavior of the curves of conferences SIGMOD and SIGDOC. Again, due to lack 
+of space, we are showing only this conferences, we choose them because they are the conferences with the highest h-index 
+and the lowest, consecutively.
+\begin{figure}[!htb]
+  \begin{center}
+    \subfigure[SIGMOD]{%
+      \label{fig:sigmod_slide_window_top_list}
+      \includegraphics[scale=.33]{graficos/window_core_size/sigmod_slide_window_top_list.eps}
+    }%
+    \subfigure[SIGDOC]{%
+      \label{fig:sigdoc_slide_window_top_list}
+      \includegraphics[scale=.33]{graficos/window_core_size/sigdoc_slide_window_top_list.eps}
+    }%
+  \end{center}
+\caption{Average of the values of resemblance}
+ \label{fig:averange_values_resemblance}
+\end{figure}
+How we can see in the Figure \ref{fig:averange_values_resemblance}, the behavior of the curves are similar, so we use the
+angular coefficient to calculate the slope of the curves and after we compute the average of the value. The window size
+3 is, in most cases, where the curve stabilizes, so it is the value adopted in this work. As for the size of Core 
+Community, we adopted the value of 10\%, for the other experiments, due the proximity of the curves.
+
+
+% {\bf-Descrever que foi escolhido janela de tamanho 3 utilizando coeficiente angular e core community
+% de 10\% devido a proximidade das curvas.\\
+% -Colocar grafico de media de resemblance do sigmod\\
+% -Falar que as janelas foi feito o calculo da inclinacao da reta e a media das conferencias\\}
+
+\subsection{Validations}
+The measure defined as Core Score is important to shows the impact of the research in given community. We chosen two importants 
+researchers to exemplify the use of the meausre. In the Figure \ref{fig:cc_kleinberg} is showns the impact of Jon Kleinberg in
+conferences which he published. It is possible to see that he becomes relevant even in conferences that he is not part of
+Core Community, because he is always ranked well. Similarly, we can see in the Figure \ref{fig:cc_luis_von_ahn} the impact
+of Luis von Ahn, another important researcher in his area. This researcher is different from Jon Kleinberg, because he has a
+considerable impact, however, he become part of Core Community only a conference and a short period, getting close to the Core
+Community in subsequent periods. Importantly, we are showing only the conferences listed in Table \ref{tab:sigs_conference_period}.\\
+\begin{figure}[!htb]
+  \begin{center}
+    \subfigure[Jon Kleinberg]{%
+      \label{fig:cc_kleinberg}
+      \includegraphics[scale=.33]{graficos/validacao_core_community/cc_kleinberg.eps}
+    }%
+    \subfigure[Luis von Ahn]{%
+      \label{fig:cc_luis_von_ahn}
+      \includegraphics[scale=.33]{graficos/validacao_core_community/cc_luis_von_ahn.eps}
+    }%
+  \end{center}
+\caption{Ranking using Core Score}
+ \label{fig:rank_core_score_authors}
+\end{figure}
+This way, we showed the impact of the two research in the conferences, but who are the researchers who appear most often in the
+Core Community of each communities, or in this case, conferences? In the Table \ref{tab:authors_frequency_core_community} is 
+shown that main confereces linked the web area, it is possible to see the researchers known by the academic community.
+\begin{table*}[!htb]
+\centering
+\caption{The researchers who appear most often in the Core Community over the years.}
+\label{tab:authors_frequency_core_community}
+{\small
+\begin{tabular}{|c|l|l|l|l|} \hline
+ & CIKM & KDD & SIGIR & SIGMOD\\ \hline
+1\textsuperscript{st} & Philip S. Yu & Heikki Mannila & W. Bruce Croft & David J. DeWitt\\ \hline
+2\textsuperscript{nd} & Jiawei Han & Jiawei Han & Clement T. Yu & Michael Stonebraker\\ \hline
+3\textsuperscript{rd} & Ling Liu & Eamonn J. Keogh & Susan T. Dumais & H. V. Jagadish\\ \hline
+4\textsuperscript{th} & Clement T. Yu & Martin Ester & James Allan & Rakesh Agrawal\\ \hline
+5\textordmasculine & Christos Faloutsos & Bing Liu & Justin Zobel & Christos Faloutsos\\ \hline
+6\textordmasculine & James Allan & Padhraic Smyth & Alistair Moffat & Raghu Ramakrishnan\\ \hline
+7\textordmasculine & Elke A. Rundensteiner & Charu C. Aggarwal & Norbert Fuhr & Jiawei Han\\ \hline
+8\textordmasculine & Ke Wang & Philip S. Yu & James P. Callan & Gerhard Weikum\\ \hline
+9\textordmasculine & Amr El Abbadi & Ke Wang & Yiming Yang & Philip A. Bernstein\\ \hline
+10\textordmasculine & W. Bruce Croft & Hans-Peter Kriegel & Edward A. Fox & Jeffrey F. Naughton\\ \hline
+11\textordmasculine & Ming-Syan Chen & Rakesh Agrawal & Gerard Salton & Hector Garcia-Molina\\ \hline
+12\textordmasculine & Divyakant Agrawal & Jian Pei & Ricardo A. Baeza-Yates & Michael J. Carey\\ \hline
+13\textordmasculine & C. Lee Giles & Wynne Hsu & Jian-Yun Nie & Joseph M. Hellerstein\\ \hline
+14\textordmasculine & Weiyi Meng & Qiang Yang & Mark Sanderson & Philip S. Yu\\ \hline
+15\textordmasculine & Berthier A. Ribeiro-Neto & Christos Faloutsos & Charles L. A. Clarke & Divesh Srivastava\\ \hline
+16\textordmasculine & M. Tamer \"Ozsu & Huan Liu & Chris Buckley & Michael J. Franklin\\ \hline
+17\textordmasculine & ChengXiang Zhai & Mohammed Javeed Zaki & ChengXiang Zhai & Jennifer Widom\\ \hline
+18\textordmasculine & Javed A. Aslam & Pedro Domingos & Alan F. Smeaton & Hans-Peter Kriegel\\ \hline
+19\textordmasculine & Hans-Peter Kriegel & Jon M. Kleinberg & Zheng Chen & Hamid Pirahesh\\ \hline
+20\textordmasculine & Bing Liu & Vipin Kumar & Ophir Frieder & Surajit Chaudhuri\\ \hline
+\end{tabular}
+}
+\end{table*}
+
+
+

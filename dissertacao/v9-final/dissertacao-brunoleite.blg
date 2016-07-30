@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: dissertacao-brunoleite.aux
+The style file: ppgccufmg.bst
+A level-1 auxiliary file: apendice-media-valores-resemblance.aux
+A level-1 auxiliary file: apendice-analises.aux
+A level-1 auxiliary file: apendice-comparacao-nucleo.aux
+A level-1 auxiliary file: apendice-media-pontuacao-nucleo.aux
+A level-1 auxiliary file: apendice-redes.aux
+Database file #1: referencias.bib
+Warning--empty publisher in Benevenuto2012
+Warning--empty publisher in Figueiredo2011
+You've used 43 entries,
+            2043 wiz_defined-function locations,
+            807 strings with 12963 characters,
+and the built_in function-call counts, 19582 in all, are:
+= -- 1881
+> -- 749
+< -- 37
++ -- 252
+- -- 252
+* -- 1740
+:= -- 3173
+add.period$ -- 129
+call.type$ -- 43
+change.case$ -- 336
+chr.to.int$ -- 43
+cite$ -- 45
+duplicate$ -- 804
+empty$ -- 1432
+format.name$ -- 309
+if$ -- 4083
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 89
+newline$ -- 218
+num.names$ -- 129
+pop$ -- 376
+preamble$ -- 1
+purify$ -- 341
+quote$ -- 0
+skip$ -- 679
+stack$ -- 0
+substring$ -- 1298
+swap$ -- 164
+text.length$ -- 20
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 248
+warning$ -- 2
+while$ -- 137
+width$ -- 0
+write$ -- 571
+(There were 2 warnings)

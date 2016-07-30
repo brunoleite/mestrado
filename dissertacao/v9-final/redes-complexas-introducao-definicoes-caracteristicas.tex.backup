@@ -1,0 +1,191 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introdução a Redes Complexas}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+O interesse pela forma e complexidade de como as coisas estão conectadas na sociedade moderna tem ganho força na última 
+década. Em meio a este interesse existe a ideia de redes, que~\cite{Easley2010} definem como um padrão de interconexões 
+entre um conjunto de coisas. Essas redes podem aparecer em vários contextos e podem ser vistas sob várias perspectivas.
+
+As redes sociais, de acordo com~\cite{Easley2010}, são compostas por coleções de laços sociais entre amigos, e apresentam 
+grande crescimento de complexidade ao logo da história humana devido aos avanços tecnológicos que facilitaram o deslocamento 
+geográfico, a comunicação global e interação social. 
+% Esta evolução tecnológica enfraqueceu a natureza tradicional das estruturas de tais redes, no entanto, as enriqueceram em outras dimensões.
+
+\cite{Dunbar1992} mostra que indivíduos tendem a ser organizar em grupos e que tais indivíduos possuem uma capacidade 
+cognitiva de manter relações sociais estáveis com um número limitado de indivíduos (uma variação entre 100 e 230). Mais 
+tarde, \cite{Goncalves2011} mostraram que estas características se mantêm em redes sociais online (OSNs - \textit{Online Social 
+Networks}), mostrando que a complexidade entre as ligações de indivíduos tendem a se manter mesmo com a evolução tecnológica.
+
+Podemos identificar sistemas na sociedade atual que possuem estruturas semelhantes à de redes, i.e., possuem elementos 
+interconectados. Essas estruturas se tornaram tão complexas de modo que uma pequena alteração em um dado ponto pode refletir 
+por todo o sistema de forma catastrófica, como sistemas tecnológicos e econômicos, onde pequenas alterações podem causar falhas 
+em cascatas ou crises financeiras.
+
+Redes podem ser identificadas em vários outros contextos, como redes de fornecedores em operações de manufatura, sites com 
+redes de usuários ou redes de sites que se interligam através de \textit{hiperlinks}, e empresas de mídia com suas redes de 
+anunciantes. Em tais formulações, muitas vezes o foco acaba sendo mais na estrutura da própria rede do que na sua complexidade 
+como um todo, onde alterações em elementos centrais podem causar reações inesperadas.
+
+O estudo sobre redes e suas conexões, conhecido também como análise de redes complexas, é um tema interdisciplinar que 
+permeia áreas de conhecimento como a Ciência da Computação, Matemática, Física, Biologia e Sociologia. De acordo 
+com~\cite{Boccaletti2006}, uma rede complexa pode ser formalmente representada como um grafo, uma ferramenta da Matemática 
+originada dos estudos de Euler, que inicialmente utilizou esta ferramenta para formalizar o problema das pontes de Königsberg, 
+conhecido também como o problema das sete pontes.
+
+A análise de redes complexas e a teoria dos grafos são utilizadas em diversas outras áreas, dentre elas a sociometria, 
+que utiliza-se deste conceitos para realizar a modelagem dos atores e suas respectivas ligações, sendo os atores 
+representados por nodos e suas ligações representadas por arestas. Com a rede social gerada, ou sociograma como é chamado na 
+sociometria, é possível reconhecer: (i) os líderes aceitos, (ii) identificar atores que por algum motivo estão marginalizados, 
+(iii) identificar também os grupos que se fecharam com algum interesse em comum, (iv) atores responsáveis por unir um ou mais 
+grupos sem serem membros de tais grupos, também chamados de estrelas, (v) atores pontes, que são responsáveis por unirem um ou 
+mais grupos dos quais fazem parte, e por fim, (vi) atores isolados, que não fazem parte de qualquer grupo~\citep{Moreno19531978}.
+
+Com o surgimento e popularização das redes sociais online, tais estudos se intensificaram devido ao grande número de pessoas
+nestas redes e também pelo conteúdo gerado, podendo estes conteúdos serem desde simples mensagens de textos ou até mesmo conteúdo
+multimídia, como fotos e vídeos. De acordo com~\cite{Benevenuto2012}, OSNs são ambientes ricos para o estudo de várias áreas 
+da Ciência da Computação, incluindo sistemas distribuídos, padrões de tráfegos na Internet, mineração de dados, sistemas 
+multimídia e interação humano-computador.
+
+
+% % Durante a última década tem havido uma crescente fascinação do público com a "conexão" complexo da sociedade moderna. No coração deste fascínio é a idéia de uma rede - um padrão de interconexões entre um conjunto de coisas - e encontra-se redes que aparecem em discussão e comentários sobre uma enorme gama de tópicos. A diversidade de contextos em que as redes são chamadas é de fato tão grande que vale a pena adiar definições precisas para um momento enquanto primeiro recontagem alguns dos exemplos mais salientes.
+% % Over the past decade there has been a growing public fascination with the complex “connectedness” of modern society. At the heart of this fascination is the idea of a network — a pattern of interconnections among a set of things — and one finds networks appearing in discussion and commentary on an enormous range of topics. The diversity of contexts in which networks are invoked is in fact so vast that it’s worth deferring precise definitions for a moment while we first recount a few of the more salient examples.
+% % 
+% % Para começar, as redes sociais que habitam-as coleções de laços sociais entre amigos - têm crescido em complexidade ao longo da história humana, devido aos avanços tecnológicos que facilitam viagens distantes, a comunicação global ea interação digital. O último meio século tem visto essas redes sociais partem muito mais radicalmente de suas bases geográficas, um efeito que enfraqueceu a natureza tradicionalmente locais de tais estruturas, mas os enriqueceram em outras dimensões.
+% % To begin with, the social networks we inhabit—the collections of social ties among friends — have grown steadily in complexity over the course of human history, due to technological advances facilitating distant travel, global communication, and digital interaction. The past half-century has seen these social networks depart even more radically from their geographic underpinnings, an effect that has weakened the traditionally local nature of such structures but enriched them in other dimensions. 
+% % 
+% % A informação que consumimos tem uma estrutura semelhante em rede: essas estruturas também têm crescido em complexidade, como uma paisagem com um pouco de fornecedores de alta qualidade infor-mações (editores, organizações de notícias, a Academia) tornou-se cheia de uma variedade de fontes de informação descontroladamente de diferentes perspectivas, confiabilidade e intenções de motivação. Compreender qualquer pedaço de informação neste ambiente depende da compreensão da forma como é endossado por e refere-se a outras peças de informação dentro de uma grande rede de links.
+% % The information we consume has a similarly networked structure: these structures too have grown in complexity, as a landscape with a few purveyors of high-quality information (publishers, news organizations, the academy) has become crowded with an array of information sources of wildly varying perspectives, reliabilities, and motivating intentions. Understanding any one piece of information in this environment depends on understanding the way it is endorsed by and refers to other pieces of information within a large network of links.
+% % 
+% % Nossos sistemas tecnológicos e econômicos também se tornaram dependentes de redes de enorme complexidade. Isso fez com que o seu comportamento cada vez mais difícil argumentar sobre, e cada vez mais arriscado mexer. Tornou-os suscetíveis a perturbações que se propagam através das estruturas subjacentes da rede, às vezes transformando repartições localizadas em falhas em cascata ou crises financeiras.
+% % Our technological and economic systems have also become dependent on networks of enormous complexity. This has made their behavior increasingly difficult to reason about, and increasingly risky to tinker with. It has made them susceptible to disruptions that spread through the underlying network structures, sometimes turning localized breakdowns into cascading failures or financial crises.
+% % 
+% % As imagens das redes tem feito o seu caminho em muitas outras linhas de discussão também: operações de manufatura global agora têm redes de fornecedores, os sites têm redes de usuários, e as empresas de mídia têm redes de anunciantes. Em tais formulações, a ênfase é muitas vezes menor na estrutura da própria rede do que em sua complexidade, como uma grande população difusa, que reage de maneiras inesperadas para as acções das autoridades centrais. A terminologia de conflito internacional começou a refletir isso também: por exemplo, a imagem de dois adversários, apoiados pelo estado exércitos gradualmente morphs, nos discursos presidenciais americanas, em imagens de uma nação enfrenta "uma rede ampla e adaptável terrorista" [296 ], ou "em guerra contra uma rede de longo alcance de violência e ódio" [328]
+% % The imagery of networks has made its way into many other lines of discussion as well: Global manufacturing operations now have networks of suppliers, Web sites have networks of users, and media companies have networks of advertisers. In such formulations, the emphasis is often less on the structure of the network itself than on its complexity as a large, diffuse population that reacts in unexpected ways to the actions of central authorities. The terminology of international conflict has come to reflect this as well: for example, the picture of two opposing, state-supported armies gradually morphs, in U.S. Presidential speeches, into images of a nation facing “a broad and adaptive terrorist network” [296], or “at war against a far-reaching network of violence and hatred” [328]
+
+% 
+% A interação entre os indivíduos vem crescendo ao longo dos anos. Cada vez mais enxergamos tais interações como redes, 
+% ou seja, pessoas ou coisas interligadas com um propósito. Exemplos de redes incluem redes sociais, redes de computadores 
+% ou redes biológicas. Essas redes de interações podem ser definidas como redes complexas, sendo possível serem modeladas 
+% utilizando uma poderosa ferramenta conhecida como grafos.
+% 
+% Grafos são conjuntos de vértices conectados por arestas. Em redes complexas, podemos representar pessoas ou coisas através 
+% de vértices e a relação que os une pode ser representada como arestas. Redes sociais são um tipo de redes complexas, em que as
+% pessoas podem ser representadas através de vértices e seus relacionamentos através de arestas.
+% 
+% Redes sociais são compostas por pessoas que se relacionam, podendo tal relacionamento ser por meio direto, por algum tipo de 
+% interesse em comum ou através de comunidades. Nos últimos anos as redes sociais ganharam força na Internet, este crescimento 
+% permitiu que vários serviços se destacassem, por exemplo, Wikipédia~\footnote{http://www.wikipedia.org/}, 
+% Flickr~\footnote{http://www.flickr.com/}, Facebook~\footnote{http://www.facebook.com}, Twitter~\footnote{http://www.twitter.com/},
+% Linkedin~\footnote{http://www.linkedin.com/}, dentre outros.
+% 
+% Tais serviços têm se tornado cada vez mais populares nos últimos anos, isto acontece porque as pessoas estão compartilhando 
+% mais informações, pessoais e profissionais, na web. Por exemplo, amantes de filmes podem ir ao cinema ou realizar compras 
+% baseados em recomendações da IMBD~\footnote{http://www.imdb.com/} ou Netflix~\footnote{http://www.netflix.com/}. O Facebook 
+% pode conectar pessoas em comunidades que compartilham um mesmo interesse. O Flickr é uma plataforma web que permite que os usuários 
+% compartilharem suas fotos favoritas com outros usuários. O Linkedin é uma grande rede coorporativa que permite que os usuários 
+% divulguem seus currículos profissionais e também que as empresas realizarem divulgação de vagas e seleções de candidatos.
+% As pessoas também podem obter e compartilhar conhecimentos através da plataforma Wikipédia. Quando as pessoas se juntam dessa 
+% forma para compartilharem conhecimentos ou experiências na Web, as plataformas e serviços usados acabam sendo beneficiados pela 
+% massa de informação de que lá circulam. Desta forma, existe a possibilidade de capturar tais informações e a cada dia esta tarefa tem se 
+% tornado mais importante. Além das redes sociais citadas, temos também sistemas biológicos e de informação que também podem ser 
+% descritos como redes, onde os nodos representam indivíduos e as arestas ou links representam a relação ou interação entre os nodos.
+% Grandes esforços têm sido desprendidos para entender a evolução dessas redes~\citep{Reka2002,Dorogovtsev2002}, a relação entre as 
+% topologias e funções~\citep{Newman2003a, Boccaletti2006} e a caracterização destas redes~\citep{Luciano2006}.
+% 
+% Redes de coautoria são formadas por pesquisadores que publicam trabalhos em fóruns científicos. Podemos modelar essas redes 
+% de coautoria como cada nodo correspondendo a um pesquisador na rede e uma aresta entre dois nodos indicando que os pesquisadores 
+% publicaram pelo menos um trabalho em conjunto. Os dados mantidos pelas bibliotecas digitais DBLP~\footnote{http://www.informatik.uni-trier.de/~ley/db/}
+% e BDBComp~\footnote{http://www.lbd.dcc.ufmg.br/bdbcomp/}, por exemplo, possibilitam este tipo de modelagem.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Definições e Características}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cite{Newman2003a} define uma rede como é um conjunto de itens conectados entre si. Em uma rede, um elemento de um dado sistema
+possui ligações com outros elementos do mesmo sistema, i.e., dado um grupo de elementos de um sistema qualquer, devemos 
+determinar alguma regra que interligue tais elementos. A natureza do problema a ser modelado pode variar entre diversas áreas, 
+podendo estes serem pessoas, neurônios, computadores, dentre outros. A semântica desta ligação varia de acordo com
+o problema, e.g., pessoas podem estar ligadas por um laço de amizade ou profissinal, neurônios podem estar ligados através
+de sinápses e computadores podem estar interligados através de uma rede \textit{ad hoc}.
+
+Uma rede pode ser modelada como um grafo que possui um conjunto de nodos $N$ e um conjunto de arestas $E$ que conectam esses 
+nodos, sendo o número de nodos da rede definido como $n = |N|$. Uma aresta, direcionada ou não, existe entre dois nodos, de acordo com o 
+problema modelado. Em um grafo com arestas direcionadas (digrafo), cada aresta que conecta um nodo origem a um nodo destino 
+possui uma direção. Em geral, as arestas das redes sociais online não possuem direção, pois o laço de amizade é bilateral. No 
+Facebook\footnote{http://www.facebook.com}, por exemplo, um usuário precisa enviar uma solicitação de amizade para 
+uma determinada pessoa, sendo este pedido sujeito a aprovação, após a aprovação ambos se tornam amigos na rede sem 
+qualquer distinção entre o laço de amizade. No entanto, existem redes onde 
+o relacionamento possui direção, e.g., na rede de \textit{microblogging} Twitter\footnote{http://www.twitter.com/}, os 
+usuários seguem outros usuários, sendo que a recíproca não precisa necessariamente existir, i.e., uma entidade famosa 
+no mundo real não precisa seguir seus fãs, mas provavelmente todos os seus fãs estarão seguindo esta entidade.
+
+Redes sociais online possuem características que nos permitem modelá-las como redes, pois possuem elementos que se 
+relacionam, consequentemente podemos mapear esta modelagem para um grafo. Na Tabela \ref{tab:redes_sociais_destaque} 
+listamos várias redes sociais online populares atualmente, conforme apresentado por \cite{Benevenuto2012}.
+
+\begin{table}[!htb]
+\centering
+\caption{Redes sociais online populares}
+\label{tab:redes_sociais_destaque}
+{\begin{tabular}{|l|l|l|} \hline
+\textbf{Nome} & \textbf{Propósito} & \textbf{URL}\\ \hline
+Google$+$ & Amizades & http://plus.google.com \\ \hline
+Facebook & Amizades & http://www.facebook.com \\ \hline
+MySpace & Amizades & http://www.myspace.com \\ \hline
+Hi5 & Amizades & http://www.hi5.com \\ \hline
+LinkedIn & Professionais & http://www.linkedin.com \\ \hline
+YouTube & Compartilhamento de vídeos & http://www.youtube.com \\ \hline
+Flickr & Compartilhamento de fotos & http://www.flickr.com \\ \hline
+LiveJournal & Blogs e diários & http://www.livejournal.com \\ \hline
+Digg & Compartilhamento de \textit{bookmarks} & http://digg.com \\ \hline
+Twitter & Troca de mensagens curtas & http://twitter.com \\ \hline
+LastFM & Compartilhamento de rádio/músicas & http://www.last.fm \\ \hline
+\end{tabular}
+}
+\end{table}
+
+% Redes sociais online possuem características que nos permitem modelá-las como redes, pois possuem elementos que se 
+% relacionam, consequentemente podemos mapear esta modelagem para um grafo. \redcomment{As OSNs vem ganhando força na Internet cada 
+% vez mais, devido a este crescimento vários serviços se destacaram, como: Wikipédia~\footnote{http://www.wikipedia.org/}, 
+% Flickr~\footnote{http://www.flickr.com/}, Facebook, Twitter, Linkedin~\footnote{http://www.linkedin.com/}, dentre outros.}
+% 
+% \redcomment{Tais serviços têm se tornado cada vez mais populares nos últimos anos}, isto acontece porque as pessoas estão compartilhando 
+% mais informações, pessoais e profissionais, na web. Por exemplo, amantes de filmes podem ir ao cinema ou realizar compras 
+% baseados em recomendações da IMBD~\footnote{http://www.imdb.com/} ou Netflix~\footnote{http://www.netflix.com/}. O Facebook 
+% pode conectar pessoas em comunidades que compartilham um mesmo interesse. O Flickr é uma plataforma web que permite que os usuários 
+% compartilharem suas fotos favoritas com outros usuários. O Linkedin é uma grande rede coorporativa que permite que os usuários 
+% divulguem seus currículos profissionais e também que as empresas realizem divulgação de vagas e seleções de candidatos.
+% As pessoas também podem obter e compartilhar conhecimentos através da plataforma Wikipédia. Quando as pessoas se juntam dessa 
+% forma para compartilharem conhecimentos ou experiências na Web, as plataformas e serviços usados acabam sendo beneficiados pela 
+% massa de informação de que lá circulam. Desta forma, existe a possibilidade de capturar tais informações e a cada dia esta tarefa tem se 
+% tornado mais importante. Além das redes sociais citadas, temos também sistemas biológicos e de informação que também podem ser 
+% descritos como redes, onde os nodos representam indivíduos e as arestas ou links representam a relação ou interação entre os nodos.
+% Grandes esforços têm sido desprendidos para entender a evolução dessas redes~\citep{Reka2002,Dorogovtsev2002}, a relação entre as 
+% topologias e funções~\citep{Newman2003a, Boccaletti2006} e a caracterização destas redes~\citep{Luciano2006}.
+
+Além das redes sociais online, temos também as redes de coautoria, que são formadas por pesquisadores que publicam trabalhos 
+em fóruns científicos. Essas redes também podem ser modeladas como um grafo, onde cada nodo corresponde a um pesquisador na 
+rede e uma aresta entre dois nodos indica que os pesquisadores publicaram pelo menos um trabalho em conjunto. Os dados 
+mantidos pelas bibliotecas digitais DBLP\footnote{http://www.informatik.uni-trier.de/~ley/db/} e 
+BDBComp\footnote{http://www.lbd.dcc.ufmg.br/bdbcomp/}, por exemplo, possibilitam este tipo de modelagem.
+
+% Além disso, redes complexas vêm sendo usadas para realizar estudos em várias áreas, \redcomment{como redes biológicas e até mesmo a 
+% própria Web}. Estudos abordam vários tipos redes utilizando técnicas de redes complexas~\citep{Brin1998, Liben-Nowell2003,
+% Benevenuto2008, Benevenuto2012}. Trabalhos de identificação de grupos nas redes também vêm sendo realizados 
+% com o intuito de identificar como os nodos se relacionam e como eles se agrupam em forma de 
+% comunidades~\citep{Chakrabarti2006, Backstrom2006, Ducheneaut2007, Barbosa2011, Patil2012, Sachan2012, Seifi2012, Zhang2012}.
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \section{Teoria de Redes Complexas}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% As redes complexas permitem o estudo de vários fenômenos ou sistemas encontrados na natureza. Esses sistemas apresentam 
+% características que nos permitem modelá-los como um grafo. Grafos são compostos por vértices e arestas que representam ligações entre os
+% elementos do sistema. Redes sociais ou redes de coautoria podem ser modeladas dessa forma, de modo que os vértices representem 
+% as pessoas e as arestas representem a interação entre eles, seja através de amizades ou coautorias em trabalhos.
+% 
+% Redes complexas vêm sendo usadas para realizar estudos em várias áreas, como redes biológicas e até mesmo a própria Web. Vários 
+% estudos compararam redes sociais utilizando técnicas de redes complexas [7, 10, 11, 12, 13]. Trabalhos de identificação de
+% agrupamentos nas redes também vêm sendo realizados com o intuito de identificar como os nodos se relacionam e como eles se 
+% agrupam em forma de comunidades [15, 16].

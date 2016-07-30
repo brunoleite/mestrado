@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: resumo-csbc.aux
+The style file: sbc.bst
+Database file #1: resumo-csbc.bib
+You've used 17 entries,
+            1935 wiz_defined-function locations,
+            594 strings with 7213 characters,
+and the built_in function-call counts, 7856 in all, are:
+= -- 782
+> -- 256
+< -- 18
++ -- 84
+- -- 84
+* -- 595
+:= -- 1250
+add.period$ -- 51
+call.type$ -- 17
+change.case$ -- 126
+chr.to.int$ -- 17
+cite$ -- 17
+duplicate$ -- 364
+empty$ -- 611
+format.name$ -- 107
+if$ -- 1688
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 18
+newline$ -- 88
+num.names$ -- 51
+pop$ -- 143
+preamble$ -- 1
+purify$ -- 127
+quote$ -- 0
+skip$ -- 281
+stack$ -- 0
+substring$ -- 576
+swap$ -- 103
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 100
+warning$ -- 0
+while$ -- 59
+width$ -- 0
+write$ -- 231

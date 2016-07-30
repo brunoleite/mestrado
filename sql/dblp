@@ -1,0 +1,69 @@
+select p.source, 
+(select name from author a where a.idauthor = p.source) source_name,
+(select sum(tp.value)
+from totalpublication tp
+where tp.idauthor = p.source
+and tp.year >= 2000 and tp.year <= 2010) as sum_source,
+p.target, 
+(select name from author a where a.idauthor = p.target) target_name,
+(select sum(tp.value)
+from totalpublication tp
+where tp.idauthor = p.target
+and tp.year >= 2000 and tp.year <= 2010) as sum_target,
+p.title, p.year, p.idpublicationdblp
+from publication p
+where p.idconference = 3688
+and p.year >= 2000
+and p.year <= 2010;
+
+8943;
+
+select count(distinct(a.idauthor)) 
+from
+(select s.idauthor as idauthor
+from publication p
+inner join author s on s.idauthor = p.source
+where p.idconference = 3061
+and p.year >= 1975
+and p.year <= 2010
+union 
+select t.idauthor as idauthor
+from publication p
+inner join author t on t.idauthor = p.target
+where p.idconference = 3061
+and p.year >= 1975
+and p.year <= 2010) a;
+
+select count(*)
+from publication p
+where p.idconference = 3061
+and p.year >= 1975
+and p.year <= 2010;
+
+
+select sum(t.value)
+from totalpublication t
+inner join author a on t.idauthor = a.idauthor
+where a.idauthor = 103;
+
+
+select idconference
+from conference;
+
+select *
+from publication
+where target is null;
+
+
+select * from author where name like '%Laender%';
+42712;
+
+select * 
+from publication
+where (target = 42712 or source = 42712);
+
+
+select * from conference where idconference = 3061;
+
+
+delete from publication;

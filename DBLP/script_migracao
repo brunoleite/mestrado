@@ -1,0 +1,322 @@
+-----------------------------------------------------------
+Considerando article
+-----------------------------------------------------------
+insert into dblp_tratada.publication
+select p.*  from dblp.publication p
+inner join dblp.article a on p.idpublication = a.publication_idpublication;
+
+insert into dblp_tratada.article
+select * from dblp.article;
+
+insert into dblp_tratada.mastersthesis
+select * from dblp.mastersthesis;
+
+insert into dblp_tratada.www
+select * from dblp.www;
+
+insert into dblp_tratada.incollection
+select * from dblp.incollection;
+
+insert into dblp_tratada.inproceedings
+select * from dblp.inproceedings;
+
+insert into dblp_tratada.proceedings
+select * from dblp.proceedings;
+
+insert into dblp_tratada.phdthesis
+select * from dblp.phdthesis;
+
+insert into dblp_tratada.book
+select * from dblp.book;
+
+insert into dblp_tratada.author (name)
+select distinct(name) from dblp.author at
+inner join dblp.field f on at.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.article a on a.publication_idpublication = p.idpublication;
+
+update dblp_tratada.author dta
+inner join (
+select name, bibtex from dblp.author da where da.bibtex is not null
+) dae on dae.name = dta.name
+set dta.bibtex = dae.bibtex;
+
+insert into dblp_tratada.detail (iddetail, publication_idpublication, editor, address, booktitle, pages, number, url, ee, school, cdrom, crossref, isbn, chapter)
+select f.idfield, f.publication_idpublication, f.editor, f.address, f.booktitle, f.pages, f.number, f.url, f.ee, f.school, f.cdrom, f.crossref, f.isbn, f.chapter 
+from dblp.`field` f
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.article a on a.publication_idpublication = p.idpublication;
+
+insert into dblp_tratada.journal (journal)
+select distinct(journal) from dblp.`field` f
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.article a on a.publication_idpublication = p.idpublication
+where journal is not null;
+
+CREATE INDEX name_author ON dblp.author(name);
+CREATE INDEX name_author ON dblp_tratada.author(name);
+
+insert into dblp_tratada.author_has_detail (detail_iddetail, author_idauthor)
+select b.idfield, a.idauthor from dblp_tratada.author a, (
+select f.idfield, a.name
+from dblp.author a
+inner join dblp.`field` f on a.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.article at on at.publication_idpublication = p.idpublication) b
+where a.name = b.name;
+
+CREATE INDEX journal_field ON dblp.`field`(journal);
+CREATE INDEX journal_field ON dblp_tratada.journal(journal);
+
+insert into dblp_tratada.detail_has_journal (detail_iddetail, journal_idjournal)
+select b.idfield, j.idjournal from dblp_tratada.journal j, (
+select f.journal, f.idfield
+from dblp.`field` f
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.article at on at.publication_idpublication = p.idpublication) b
+where j.journal = b.journal;
+
+insert into dblp_tratada.title (idtitle, content, bibtex, detail_iddetail)
+select idtitle, content, bibtex, field_idfield 
+from dblp.title t
+inner join dblp.field f on t.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.article a on a.publication_idpublication = p.idpublication;
+
+insert into dblp_tratada.note (idnote, note, type, detail_iddetail)
+select idnote, note, type, field_idfield
+from dblp.note n
+inner join dblp.field f on n.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.article a on a.publication_idpublication = p.idpublication;
+
+insert into dblp_tratada.publisher (idpublisher, name, href, detail_iddetail)
+select idpublisher, name, href, field_idfield
+from dblp.publisher pu
+inner join dblp.field f on pu.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.article a on a.publication_idpublication = p.idpublication;
+
+insert into dblp_tratada.ref (idref, ref, href, detail_iddetail)
+select idref, ref, href, field_idfield
+from dblp.ref r
+inner join dblp.field f on r.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.article a on a.publication_idpublication = p.idpublication;
+
+insert into dblp_tratada.cite (idcite, cite, `label`, detail_iddetail)
+select idcite, cite, `label`, field_idfield
+from dblp.cite c
+inner join dblp.field f on c.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.article a on a.publication_idpublication = p.idpublication;
+
+insert into dblp_tratada.date_ym (iddate_ym, month, year, detail_iddetail)
+select iddate_ym, month, year, field_idfield
+from dblp.date_ym d
+inner join dblp.field f on d.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.article a on a.publication_idpublication = p.idpublication;
+
+insert into dblp_tratada.series (idseries, series, href, detail_iddetail)
+select idseries, series, href, field_idfield
+from dblp.series s
+inner join dblp.field f on s.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.article a on a.publication_idpublication = p.idpublication;
+
+insert into dblp_tratada.layout (idlayout, layout, logo, detail_iddetail)
+select idlayout, layout, logo, field_idfield
+from dblp.layout l
+inner join dblp.field f on l.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.article a on a.publication_idpublication = p.idpublication;
+
+-----------------------------------------------------------
+Considerando inproceedings
+-----------------------------------------------------------
+insert into dblp_tratada.publication
+select p.*  from dblp.publication p
+inner join dblp.inproceedings i on p.idpublication = i.publication_idpublication;
+
+insert into dblp_tratada.inproceedings
+select * from dblp.inproceedings;
+
+insert into dblp_tratada.booktitle (booktitle)
+select distinct(booktitle) from dblp.field f
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.inproceedings i on i.publication_idpublication = p.idpublication
+where booktitle is not null;
+
+insert into dblp_tratada.booktitle (booktitle)
+select distinct(f.booktitle) from dblp.field f
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.article a on a.publication_idpublication = p.idpublication
+where f.booktitle is not null
+and not exists (
+select *
+from dblp_tratada.booktitle bi
+where bi.booktitle = f.booktitle
+);
+
+select booktitle, count(*)
+from dblp_tratada.booktitle
+group by booktitle
+having count(*) > 1;
+
+insert into dblp_tratada.detail (iddetail, publication_idpublication, editor, address, booktitle, pages, number, url, ee, school, cdrom, crossref, isbn, chapter)
+select f.idfield, f.publication_idpublication, f.editor, f.address, f.booktitle, f.pages, f.number, f.url, f.ee, f.school, f.cdrom, f.crossref, f.isbn, f.chapter 
+from dblp.`field` f
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.inproceedings i on i.publication_idpublication = p.idpublication;
+
+CREATE INDEX booktitle_booktitle ON dblp.`field`(booktitle);
+CREATE INDEX booktitle_booktitle ON dblp_tratada.booktitle(booktitle);
+
+insert into dblp_tratada.publication
+select p.*  from dblp.publication p
+inner join dblp.inproceedings i on p.idpublication = i.publication_idpublication;
+
+insert into dblp_tratada.inproceedings
+select * from dblp.inproceedings;
+
+select * from dblp_tratada.inproceedings;
+
+insert into dblp_tratada.booktitle (booktitle)
+select distinct(booktitle) from dblp.field f
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.inproceedings i on i.publication_idpublication = p.idpublication
+where booktitle is not null;
+
+insert into dblp_tratada.booktitle (booktitle)
+select distinct(f.booktitle) from dblp.field f
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.article a on a.publication_idpublication = p.idpublication
+where f.booktitle is not null
+and not exists (
+select *
+from dblp_tratada.booktitle bi
+where bi.booktitle = f.booktitle
+);
+
+select booktitle, count(*)
+from dblp_tratada.booktitle
+group by booktitle
+having count(*) > 1;
+
+insert into dblp_tratada.detail (iddetail, publication_idpublication, editor, address, booktitle, pages, number, url, ee, school, cdrom, crossref, isbn, chapter)
+select f.idfield, f.publication_idpublication, f.editor, f.address, f.booktitle, f.pages, f.number, f.url, f.ee, f.school, f.cdrom, f.crossref, f.isbn, f.chapter 
+from dblp.`field` f
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.inproceedings i on i.publication_idpublication = p.idpublication;
+
+CREATE INDEX booktitle_booktitle ON dblp.`field`(booktitle);
+CREATE INDEX booktitle_booktitle ON dblp_tratada.booktitle(booktitle);
+
+insert into dblp_tratada.detail_has_booktitle (detail_iddetail, booktitle_idbooktitle)
+select b.idfield, a.idbooktitle from dblp_tratada.booktitle a, (
+select f.idfield, f.booktitle
+from dblp.`field` f
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.inproceedings ipc on ipc.publication_idpublication = p.idpublication) b
+where a.booktitle = b.booktitle;
+
+select * from dblp_tratada.detail_has_booktitle;
+
+insert into dblp_tratada.title (idtitle, content, bibtex, detail_iddetail)
+select idtitle, content, bibtex, field_idfield 
+from dblp.title t
+inner join dblp.field f on t.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.inproceedings ipc on ipc.publication_idpublication = p.idpublication;
+
+insert into dblp_tratada.note (idnote, note, type, detail_iddetail)
+select idnote, note, type, field_idfield
+from dblp.note n
+inner join dblp.field f on n.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.inproceedings ipc on ipc.publication_idpublication = p.idpublication;
+
+insert into dblp_tratada.publisher (idpublisher, name, href, detail_iddetail)
+select idpublisher, name, href, field_idfield
+from dblp.publisher pu
+inner join dblp.field f on pu.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.inproceedings ipc on ipc.publication_idpublication = p.idpublication;
+
+insert into dblp_tratada.ref (idref, ref, href, detail_iddetail)
+select idref, ref, href, field_idfield
+from dblp.ref r
+inner join dblp.field f on r.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.inproceedings ipc on ipc.publication_idpublication = p.idpublication;
+
+insert into dblp_tratada.cite (idcite, cite, `label`, detail_iddetail)
+select idcite, cite, `label`, field_idfield
+from dblp.cite c
+inner join dblp.field f on c.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.inproceedings ipc on ipc.publication_idpublication = p.idpublication;
+
+insert into dblp_tratada.date_ym (iddate_ym, month, year, detail_iddetail)
+select iddate_ym, month, year, field_idfield
+from dblp.date_ym d
+inner join dblp.field f on d.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.inproceedings ipc on ipc.publication_idpublication = p.idpublication;
+
+insert into dblp_tratada.series (idseries, series, href, detail_iddetail)
+select idseries, series, href, field_idfield
+from dblp.series s
+inner join dblp.field f on s.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.inproceedings ipc on ipc.publication_idpublication = p.idpublication;
+
+insert into dblp_tratada.layout (idlayout, layout, logo, detail_iddetail)
+select idlayout, layout, logo, field_idfield
+from dblp.layout l
+inner join dblp.field f on l.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.inproceedings ipc on ipc.publication_idpublication = p.idpublication;
+
+insert into dblp_tratada.author (name)
+select distinct(name) from dblp.author at
+inner join dblp.field f on at.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.inproceedings ipc on ipc.publication_idpublication = p.idpublication
+where at.name is not null
+and not exists (
+select *
+from dblp_tratada.author at_dt
+where at_dt.name = at.name
+);
+
+update dblp_tratada.author dta
+inner join (
+select name, bibtex from dblp.author da where da.bibtex is not null
+) dae on dae.name = dta.name
+set dta.bibtex = dae.bibtex;
+
+insert into dblp_tratada.author_has_detail (detail_iddetail, author_idauthor)
+select b.idfield, a.idauthor from dblp_tratada.author a, (
+select f.idfield, a.name
+from dblp.author a
+inner join dblp.`field` f on a.field_idfield = f.idfield
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.inproceedings ipc on ipc.publication_idpublication = p.idpublication) b
+where a.name = b.name;
+
+insert into dblp_tratada.journal (journal)
+select distinct(journal) from dblp.`field` f
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.inproceedings ipc on ipc.publication_idpublication = p.idpublication
+where journal is not null;
+
+insert into dblp_tratada.detail_has_journal (detail_iddetail, journal_idjournal)
+select b.idfield, j.idjournal from dblp_tratada.journal j, (
+select f.journal, f.idfield
+from dblp.`field` f
+inner join dblp.publication p on p.idpublication = f.publication_idpublication
+inner join dblp.inproceedings ipc on ipc.publication_idpublication = p.idpublication) b
+where j.journal = b.journal;
+

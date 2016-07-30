@@ -1,0 +1,678 @@
+% This file was created with JabRef 2.9.2.
+% Encoding: UTF-8
+
+@ARTICLE{Acuna2012,
+  author = {Acuna, Daniel E. and Allesina, Stefano and Kording, Konrad P.},
+  title = {{Future impact: Predicting scientific success}},
+  journal = {Nature},
+  year = {2012},
+  volume = {489},
+  pages = {201-202},
+  number = {7415},
+  month = sep,
+  day = {12}
+}
+
+@INPROCEEDINGS{Ahn2007,
+  author = {Ahn, Yong-Yeol and Han, Seungyeop and Kwak, Haewoon and Moon, Sue
+	and Jeong, Hawoong},
+  title = {{Analysis of Topological Characteristics of Huge Online Social Networking
+	Services}},
+  booktitle = {Proceedings of the 16\textsuperscript{th} International Conference
+	on World Wide Web},
+  year = {2007},
+  pages = {835-844},
+  address = {Banff, Alberta, Canada},
+  numpages = {10}
+}
+
+@INPROCEEDINGS{Alves2013,
+  author = {Alves, Bruno Leite and Benevenuto, Fabr\'{\i}cio and Laender, Alberto
+	H.F.},
+  title = {{The Role of Research Leaders on the Evolution of Scientific Communities}},
+  booktitle = {Proceedings of the 22\textsuperscript{nd} International Conference
+	on World Wide Web (Companion Volume)},
+  year = {2013},
+  pages = {649-656},
+  address = {Rio de Janeiro, Brazil},
+  keywords = {community evolution, core community, scientific communities},
+  numpages = {8}
+}
+
+@INPROCEEDINGS{Anagnostopoulos2008,
+  author = {Aris Anagnostopoulos and Ravi Kumar and Mohammad Mahdian},
+  title = {{Influence and Correlation in Social Networks}},
+  booktitle = {Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and
+	Data Mining},
+  year = {2008},
+  pages = {7-15}
+}
+
+@INPROCEEDINGS{Backstrom2012,
+  author = {Backstrom, Lars and Boldi, Paolo and Rosa, Marco and Ugander, Johan
+	and Vigna, Sebastiano},
+  title = {{Four Degrees of Separation}},
+  booktitle = {Proceedings of the 3\textsuperscript{rd} Annual ACM Web Science Conference},
+  year = {2012},
+  pages = {33-42},
+  address = {Evanston, Illinois},
+  numpages = {10}
+}
+
+@INPROCEEDINGS{Backstrom2006,
+  author = {Backstrom, Lars and Huttenlocher, Dan and Kleinberg, Jon and Lan,
+	Xiangyang},
+  title = {{Group Formation in Large Social Networks: Membership, Growth, and
+	Evolution}},
+  booktitle = {Proceedings of the 12\textsuperscript{th} ACM SIGKDD International
+	Conference on Knowledge Discovery and Data Mining},
+  year = {2006},
+  pages = {44-54},
+  address = {Philadelphia, PA, USA},
+  numpages = {11}
+}
+
+@ARTICLE{Barabasi1999,
+  author = {Barab\'{a}si, Albert-L\'{a}szl\'{o} and Albert, R\'{e}ka},
+  title = {{Emergence of Scaling in Random Networks}},
+  journal = {Science},
+  year = {1999},
+  volume = {286},
+  pages = {509-512},
+  number = {5439},
+  month = oct,
+  day = {15}
+}
+
+@INPROCEEDINGS{Barbosa2011,
+  author = {Gl\'{\i}via A.R. Barbosa and Ismael S. Silva and Glauber Gon\c{c}alves
+	and Raquel O. Prates and Fabr\'{\i}cio Benevenuto and Virg\'{\i}lio
+	Almeida},
+  title = {{Characterizing Interactions among Members of Deaf Communities in
+	Orkut}},
+  booktitle = {Proceedings of the 13\textsuperscript{th} IFIP TC 13 International
+	Conference on Human-computer Interaction},
+  year = {2011},
+  volume = {6948},
+  pages = {280-287},
+  address = {Lisbon, Portugal}
+}
+
+@INCOLLECTION{Benevenuto2012,
+  author = {F. Benevenuto and J. Almeida and A. Silva},
+  title = {{Coleta e Análise de Grandes Bases de Dados de Redes Sociais Online}},
+  booktitle = {Jornada de Atualizações em Informática 2012},
+  year = {2012}
+}
+
+@INPROCEEDINGS{Benevenuto2008,
+  author = {Benevenuto, Fabricio and Duarte, Fernando and Rodrigues, Tiago and
+	Almeida, Virgilio A.F. and Almeida, Jussara M. and Ross, Keith W.},
+  title = {{Understanding Video Interactions in Youtube}},
+  booktitle = {Proceedings of the 16\textsuperscript{th} ACM International Conference
+	on Multimedia},
+  year = {2008},
+  pages = {761-764},
+  address = {Vancouver, Canada},
+  numpages = {4}
+}
+
+@ARTICLE{Boccaletti2006,
+  author = {Boccaletti, S. and Latora, V. and Moreno, Y. and Chavez, M. and Hwang,
+	D.},
+  title = {{Complex Networks: Structure and Dynamics}},
+  journal = {Physics Reports},
+  year = {2006},
+  volume = {424},
+  pages = {175-308},
+  number = {4-5},
+  month = feb
+}
+
+@BOOK{Braitenberg1998,
+  title = {{Cortex: Statistics and Geometry of Neuronal Connectivity}},
+  publisher = {Springer},
+  year = {1998},
+  author = {Braitenberg, V and Sch{\"u}z, A},
+  pages = {249}
+}
+
+@INPROCEEDINGS{Brin1998,
+  author = {Brin, Sergey and Page, Lawrence},
+  title = {{The Anatomy of a Large-Scale Hypertextual Web Search Engine}},
+  booktitle = {Proceedings of the 7\textsuperscript{th} International Conference
+	on World Wide Web},
+  year = {1998},
+  pages = {107-117},
+  address = {Brisbane, Australia},
+  numpages = {11}
+}
+
+@ARTICLE{Broder2000,
+  author = {Broder, Andrei and Kumar, Ravi and Maghoul, Farzin and Raghavan,
+	Prabhakar and Rajagopalan, Sridhar and Stata, Raymie and Tomkins,
+	Andrew and Wiener, Janet},
+  title = {{Graph Structure in the Web}},
+  journal = {Computer Networks},
+  year = {2000},
+  volume = {33},
+  pages = {309-320},
+  number = {1-6},
+  month = jun,
+  numpages = {12}
+}
+
+@INPROCEEDINGS{Cha2010,
+  author = {Meeyoung Cha and Hamed Haddadi and Fabricio Benevenuto and Krishna
+	P. Gummadi},
+  title = {{Measuring User Influence in Twitter: The Million Follower Fallacy}},
+  booktitle = {In Proceedings of the 4\textsuperscript{th} International AAAI Conference
+	on Weblogs and Social Media},
+  year = {2010},
+  address = {Washington DC, USA},
+  month = may
+}
+
+@INPROCEEDINGS{Chakrabarti2006,
+  author = {Chakrabarti, Deepayan and Kumar, Ravi and Tomkins, Andrew},
+  title = {{Evolutionary Clustering}},
+  booktitle = {Proceedings of the 12\textsuperscript{th} ACM SIGKDD International
+	Conference on Knowledge Discovery and Data Mining},
+  year = {2006},
+  pages = {554-560},
+  address = {Philadelphia, PA, USA},
+  numpages = {7}
+}
+
+@INPROCEEDINGS{Crandall2008,
+  author = {David Crandall and Dan Cosley and Daniel Huttenlocher and Jon Kleinberg
+	and Siddharth Suri},
+  title = {{Feedback Effects between Similarity and Social Influence in Online
+	Communities}},
+  booktitle = {Proceedings of the 14\textsuperscript{th} ACM SIGKDD International
+	Conference on Knowledge Discovery and Data Mining},
+  year = {2008},
+  pages = {160-168},
+  address = {Las Vegas, Nevada, USA},
+  numpages = {9}
+}
+
+@INPROCEEDINGS{Dorogovtsev2002,
+  author = {S. N. Dorogovtsev and J. F. F. Mendes},
+  title = {{Evolution of networks}},
+  booktitle = {Adv. Phys},
+  year = {2002},
+  pages = {1079-1187}
+}
+
+@INPROCEEDINGS{Ducheneaut2007,
+  author = {Ducheneaut, Nicolas and Yee, Nicholas and Nickell, Eric and Moore,
+	Robert J.},
+  title = {{The Life and Death of Online Gaming Communities: A Look at Guilds
+	in World of Warcraft}},
+  booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing
+	Systems},
+  year = {2007},
+  pages = {839-848},
+  address = {San Jose, California, USA},
+  numpages = {10}
+}
+
+@ARTICLE{Dunbar1992,
+  author = {Dunbar, R. I. M.},
+  title = {{Neocortex Size as a Constraint on Group Size in Primates}},
+  journal = {Journal of Human Evolution},
+  year = {1992},
+  volume = {22},
+  pages = {469-493},
+  number = {6},
+  month = jun
+}
+
+@BOOK{Easley2010,
+  title = {{Networks, Crowds, and Markets: Reasoning About a Highly Connected
+	World}},
+  publisher = {Cambridge University Press},
+  year = {2010},
+  author = {Easley, David and Kleinberg, Jon}
+}
+
+@ARTICLE{Ebel2002,
+  author = {Ebel, Holger and Mielsch, Lutz-Ingo and Bornholdt, Stefan},
+  title = {{Scale-free topology of e-mail networks}},
+  journal = {Physical Review E},
+  year = {2002},
+  volume = {66},
+  number = {3},
+  month = sep
+}
+
+@ARTICLE{Egghe2006,
+  author = {Egghe, L.},
+  title = {{An Improvement of the H-index: The G-index}},
+  journal = {ISSI Newsletter},
+  year = {2006},
+  pages = {8-9}
+}
+
+@BOOK{Euler1956,
+  title = {{The Seven Bridges of Konigsberg}},
+  publisher = {Wm. Benton},
+  year = {1956},
+  author = {Euler, Leonhard}
+}
+
+@INPROCEEDINGS{Faloutsos1999,
+  author = {Faloutsos, Michalis and Faloutsos, Petros and Faloutsos, Christos},
+  title = {{On Power-Law Relationships of the Internet Topology}},
+  booktitle = {Proceedings of the Conference on Applications, Technologies, Architectures,
+	and Protocols for Computer Communication},
+  year = {1999},
+  pages = {251-262},
+  address = {Cambridge, Massachusetts, USA},
+  numpages = {12}
+}
+
+@INCOLLECTION{Figueiredo2011,
+  author = {Figueiredo, Daniel Ratton},
+  title = {{Introdução a Redes Complexas}},
+  booktitle = {Atualizações em Informática 2011},
+  year = {2011},
+  chapter = {7},
+  pages = {303-358}
+}
+
+@INPROCEEDINGS{Garg2009,
+  author = {Garg, Sanchit and Gupta, Trinabh and Carlsson, Niklas and Mahanti,
+	Anirban},
+  title = {{Evolution of an Online Social Aggregation Network: An Empirical
+	Study}},
+  booktitle = {Proceedings of the 9\textsuperscript{th} ACM SIGCOMM Conference on
+	Internet Measurement Conference},
+  year = {2009},
+  pages = {315-321},
+  address = {Chicago, Illinois, USA},
+  numpages = {7}
+}
+
+@ARTICLE{Getoor2005,
+  author = {Getoor, Lise and Diehl, Christopher P.},
+  title = {{Link Mining: A Survey}},
+  journal = {ACM SIGKDD Explorations Newsletter},
+  year = {2005},
+  volume = {7},
+  pages = {3-12},
+  number = {2},
+  month = dec,
+  numpages = {10}
+}
+
+@ARTICLE{Goncalves2011,
+  author = {Gon\c{c}alves, Bruno and Perra, Nicola and Vespignani, Alessandro},
+  title = {{Modeling Users' Activity on Twitter Networks: Validation of Dunbar's
+	Number}},
+  journal = {PLoS ONE},
+  year = {2011},
+  volume = {6},
+  number = {8},
+  month = aug
+}
+
+@ARTICLE{Hirsch2005,
+  author = {Hirsch, J. E.},
+  title = {{An Index to Quantify an Individual's Scientific Research Output}},
+  journal = {Proceedings of the National Academy of Sciences of the United States
+	of America},
+  year = {2005},
+  volume = {102},
+  pages = {16569-16572},
+  number = {46}
+}
+
+@ARTICLE{Hopcroft2004,
+  author = {Hopcroft, John and Khan, Omar and Kulis, Brian and Selman, Bart},
+  title = {{Tracking Evolving Communities in Large Linked Networks}},
+  journal = {Proceedings of the National Academy of Sciences},
+  year = {2004},
+  volume = {101},
+  pages = {5249-5253},
+  month = apr
+}
+
+@INPROCEEDINGS{Huang2008,
+  author = {Huang, Jian and Zhuang, Ziming and Li, Jia and Giles, C. Lee},
+  title = {{Collaboration Over Time: Characterizing and Modeling Network Evolution}},
+  booktitle = {Proceedings of the 2008 International Conference on Web Search and
+	Data Mining},
+  year = {2008},
+  pages = {107-116},
+  address = {Palo Alto, California, USA},
+  numpages = {10}
+}
+
+@INPROCEEDINGS{Kempe2005,
+  author = {Kempe, David and Kleinberg, Jon and Tardos, \'{E}va},
+  title = {{Influential Nodes in a Diffusion Model for Social Networks}},
+  booktitle = {Proceedings of the 32\textsuperscript{nd} International Conference
+	on Automata, Languages and Programming},
+  year = {2005},
+  pages = {1127-1138},
+  address = {Lisbon, Portugal},
+  numpages = {12}
+}
+
+@INPROCEEDINGS{Kempe2003,
+  author = {Kempe, David and Kleinberg, Jon and Tardos, \'{E}va},
+  title = {{Maximizing the Spread of Influence through a Social Network}},
+  booktitle = {Proceedings of the 9\textsuperscript{th} ACM SIGKDD International
+	Conference on Knowledge Discovery and Data Mining},
+  year = {2003},
+  pages = {137-146},
+  address = {Washington, D.C.},
+  numpages = {10}
+}
+
+@ARTICLE{Kleinberg2008,
+  author = {Kleinberg, Jon},
+  title = {{The Convergence of Social and Technological Networks}},
+  journal = {Communications of the ACM},
+  year = {2008},
+  volume = {51},
+  pages = {66-72},
+  number = {11},
+  month = nov
+}
+
+@INPROCEEDINGS{Kumar2006,
+  author = {Kumar, Ravi and Novak, Jasmine and Tomkins, Andrew},
+  title = {{Structure and Evolution of Online Social Networks}},
+  booktitle = {Proceedings of the 12\textsuperscript{th} ACM SIGKDD International
+	Conference on Knowledge Discovery and Data Mining},
+  year = {2006},
+  pages = {611-617},
+  address = {Philadelphia, PA, USA},
+  numpages = {7}
+}
+
+@ARTICLE{Laender2008,
+  author = {Laender, Alberto H. F. and de Lucena, Carlos J. P. and Maldonado,
+	Jos{\'e} Carlos and de Souza e Silva, Edmundo and Ziviani, Nivio},
+  title = {{Assessing the Research and Education Quality of the Top Brazilian
+	Computer Science Graduate Programs}},
+  journal = {SIGCSE Bull.},
+  year = {2008},
+  volume = {40},
+  pages = {135-145},
+  number = {2},
+  month = jun,
+  address = {New York, NY, USA},
+  numpages = {11}
+}
+
+@INPROCEEDINGS{Leskovec2008,
+  author = {Leskovec, Jure and Backstrom, Lars and Kumar, Ravi and Tomkins, Andrew},
+  title = {{Microscopic Evolution of Social Networks}},
+  booktitle = {Proceedings of the 14\textsuperscript{th} ACM SIGKDD International
+	Conference on Knowledge Discovery and Data Mining},
+  year = {2008},
+  pages = {462-470},
+  address = {Las Vegas, Nevada, USA},
+  numpages = {9}
+}
+
+@INPROCEEDINGS{Leskovec2005,
+  author = {Leskovec, Jure and Kleinberg, Jon and Faloutsos, Christos},
+  title = {{Graphs Over Time: Densification Laws, Shrinking Diameters and Possible
+	Explanations}},
+  booktitle = {Proceedings of the 11\textsuperscript{th} ACM SIGKDD International
+	Conference on Knowledge Discovery in Data Mining},
+  year = {2005},
+  pages = {177-187},
+  address = {Chicago, Illinois, USA},
+  numpages = {11}
+}
+
+@INPROCEEDINGS{Leskovec2010,
+  author = {Leskovec, Jure and Lang, Kevin J. and Mahoney, Michael},
+  title = {{Empirical Comparison of Algorithms for Network Community Detection}},
+  booktitle = {Proceedings of the 19\textsuperscript{th} International Conference
+	on World Wide Web},
+  year = {2010},
+  pages = {631-640},
+  address = {Raleigh, North Carolina, USA},
+  numpages = {10}
+}
+
+@ARTICLE{Ley2009,
+  author = {Ley, Michael},
+  title = {DBLP: Some Lessons Learned},
+  journal = {Proceedings of the VLDB Endowment},
+  year = {2009},
+  volume = {2},
+  pages = {1493-1500},
+  number = {2},
+  month = aug,
+  numpages = {8}
+}
+
+@INPROCEEDINGS{Liben-Nowell2003,
+  author = {Liben-Nowell, David and Kleinberg, Jon},
+  title = {{The Link Prediction Problem for Social Networks}},
+  booktitle = {Proceedings of the 12\textsuperscript{th} International Conference
+	on Information and Knowledge Management},
+  year = {2003},
+  pages = {556-559},
+  address = {New Orleans, LA, USA},
+  numpages = {4}
+}
+
+@INPROCEEDINGS{Lopes2011,
+  author = {Giseli R. Lopes and Mirella M. Moro and Jos{\'e} Palazzo M. de Oliveira},
+  title = {{Temporal Influence in Collaborators Recommendation in Social Networks}},
+  booktitle = {Proceedings of the IADIS International Conference on WWW Internet},
+  year = {2011},
+  pages = {179-186}
+}
+
+@ARTICLE{Luciano2006,
+  author = {Luciano and Rodrigues, Francisco A. and Travieso, Gonzalo and Boas,
+	Villas P. R.},
+  title = {{Characterization of Complex Networks: A Survey of measurements}},
+  journal = {Advances in Physics},
+  year = {2006},
+  volume = {56},
+  pages = {167-242},
+  number = {1},
+  month = aug,
+  day = {16}
+}
+
+@INPROCEEDINGS{Mislove2007,
+  author = {Alan Mislove and Massimiliano Marcon and Krishna P. Gummadi and Peter
+	Druschel and Bobby Bhattacharjee},
+  title = {{Measurement and Analysis of Online Social Networks}},
+  booktitle = {Proceedings of the 7\textsuperscript{th} ACM SIGCOMM Conference on
+	Internet Measurement},
+  year = {2007},
+  pages = {29-42},
+  address = {San Diego, California, USA},
+  numpages = {14}
+}
+
+@BOOK{Moreno19531978,
+  title = {{Who Shall Survive? Foundations of Sociometry, Group Psychotherapy
+	and Sociodrama.}},
+  publisher = {Beacon House},
+  year = {1953,1978},
+  author = {Moreno, Jacob L.}
+}
+
+@ARTICLE{Newman2003,
+  author = {M. Newman and J. Park},
+  title = {{Why Social Networks are Different from Other Types of Networks}},
+  journal = {Physical Review E},
+  year = {2003},
+  volume = {68}
+}
+
+@ARTICLE{Newman2003a,
+  author = {M. E. J. Newman},
+  title = {{The Structure and Function of Complex Networks}},
+  journal = {SIAM Review},
+  year = {2003},
+  volume = {45},
+  pages = {167-256}
+}
+
+@INPROCEEDINGS{Patil2012,
+  author = {Patil, Akshay and Liu, Juan and Price, Bob and Sharara, Hossam and
+	Brdiczka, Oliver},
+  title = {{Modeling Destructive Group Dynamics in On-Line Gaming Communities}},
+  booktitle = {Proceedings of the 6\textsuperscript{th} International AAAI Conference
+	on Weblogs and Social Media},
+  year = {2012}
+}
+
+@ARTICLE{Reka2002,
+  author = {Reka, Albert and Barab\'{a}si},
+  title = {{Statistical Mechanics of Complex Networks}},
+  journal = {Reviews of Modern Physics},
+  year = {2002},
+  volume = {74},
+  pages = {47-97},
+  month = jun
+}
+
+@BOOK{Rogers1962,
+  title = {{Diffusion of Innovations}},
+  publisher = {Free Press},
+  year = {1962},
+  author = {Everett M. Rogers}
+}
+
+@INPROCEEDINGS{Sachan2012,
+  author = {Sachan, Mrinmaya and Contractor, Danish and Faruquie, Tanveer A.
+	and Subramaniam, L. Venkata},
+  title = {{Using Content and Interactions for Discovering Communities in Social
+	Networks}},
+  booktitle = {Proceedings of the 21\textsuperscript{st} International Conference
+	on World Wide Web},
+  year = {2012},
+  pages = {331-340},
+  address = {Lyon, France},
+  numpages = {10}
+}
+
+@INPROCEEDINGS{SaezTrumper2012,
+  author = {Saez-Trumper, Diego and Comarela, Giovanni and Almeida, Virg\'{\i}lio
+	and Baeza-Yates, Ricardo and Benevenuto, Fabr\'{\i}cio},
+  title = {{Finding Trendsetters in Information Networks}},
+  booktitle = {Proceedings of the 18\textsuperscript{th} ACM SIGKDD International
+	Conference on Knowledge Discovery and Data Mining},
+  year = {2012},
+  pages = {1014-1022},
+  address = {Beijing, China},
+  numpages = {9}
+}
+
+@INPROCEEDINGS{Seifi2012,
+  author = {Seifi, Massoud and Guillaume, Jean-Loup},
+  title = {{Community Cores in Evolving Networks}},
+  booktitle = {Proceedings of the 21\textsuperscript{st} International Conference
+	on World Wide Web (Companion Volume)},
+  year = {2012},
+  pages = {1173-1180},
+  address = {Lyon, France},
+  numpages = {8}
+}
+
+@MISC{Sun2012,
+  author = {Sun, Xiaoling and Kaur, Jasleen and Milojevi\'{c}, Sta\v{s}a and
+	Flammini, Alessandro and Menczer, Filippo},
+  title = {{Social Dynamics of Science}},
+  month = sep,
+  year = {2012},
+  day = {22}
+}
+
+@INPROCEEDINGS{Viswanath2009,
+  author = {Viswanath, Bimal and Mislove, Alan and Cha, Meeyoung and Gummadi,
+	Krishna P.},
+  title = {{On the Evolution of User Interaction in Facebook}},
+  booktitle = {Proceedings of the 2\textsuperscript{nd} ACM Workshop on Online Social
+	Networks},
+  year = {2009},
+  pages = {37-42},
+  address = {Barcelona, Spain},
+  numpages = {6}
+}
+
+@ARTICLE{Watts2007,
+  author = {D.J. Watts and P.S. Dodds},
+  title = {{Influentials, Networks, and Public Opinion Formation}},
+  journal = {Journal of Consumer Research},
+  year = {2007},
+  volume = {34},
+  pages = {441-458},
+  number = {4}
+}
+
+@INPROCEEDINGS{Weng2010,
+  author = {Weng, Jianshu and Lim, Ee-Peng and Jiang, Jing and He, Qi},
+  title = {TwitterRank: Finding Topic-Sensitive Influential Twitterers},
+  booktitle = {Proceedings of the 3\textsuperscript{rd} ACM International Conference
+	on Web Search and Data Mining},
+  year = {2010},
+  pages = {261-270},
+  address = {New York, New York, USA},
+  numpages = {10}
+}
+
+@ARTICLE{Willinger2010,
+  author = {Willinger, Walter and Rejaie, Reza and Torkjazi, Mojtaba and Valafar,
+	Masoud and Maggioni, Mauro},
+  title = {Research on Online Social Networks: Time to Face the Real Challenges},
+  journal = {ACM SIGMETRICS Performance Evaluation Review},
+  year = {2010},
+  volume = {37},
+  pages = {49-54},
+  number = {3},
+  month = jan,
+  numpages = {6}
+}
+
+@INPROCEEDINGS{Wu2009,
+  author = {Wu, Bin and Zhao, Fengying and Yang, Shengqi and Suo, Lijun and Tian,
+	Hongqiao},
+  title = {{Characterizing the Evolution of Collaboration Network}},
+  booktitle = {Proceedings of the 2\textsuperscript{nd} ACM Workshop on Social Web
+	Search and Mining},
+  year = {2009},
+  pages = {33-40},
+  address = {Hong Kong, China},
+  numpages = {8}
+}
+
+@ARTICLE{Xu2010,
+  author = {Xu, Xiao-Ke and Zhang, Jie and Small, Michael},
+  title = {{Rich-Club Connectivity Dominates Assortativity and Transitivity
+	of Complex Networks}},
+  journal = {Physical Review E},
+  year = {2010},
+  volume = {82},
+  month = oct,
+  issue = {4},
+  numpages = {4}
+}
+
+@INPROCEEDINGS{Zhang2012,
+  author = {Zhang, Guo and Jacob, Elin K.},
+  title = {{Community: Issues, Definitions, and Operationalization on the Web}},
+  booktitle = {Proceedings of the 21\textsuperscript{st} International Conference
+	on World Wide Web (Companion Volume)},
+  year = {2012},
+  pages = {1121-1130},
+  address = {Lyon, France},
+  numpages = {10}
+}
+
